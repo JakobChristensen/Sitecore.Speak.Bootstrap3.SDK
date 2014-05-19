@@ -12,6 +12,9 @@ The library is being released as an SDK, since there as so many options and poss
 
 The library are first and foremost meant to inspire and guide how to build components and (big) component libraries - real components are the best documentation. My hope is that these libraries will be forked and improved over time by enthusiastic Sitecore developers.
 
+### Screenshot
+![Screenshot](https://raw.githubusercontent.com/JakobChristensen/Sitecore.Speak.Bootstrap3.SDK/master/Markdown/Image1.png "Sitecore SPEAK Bootstrap 3")
+
 ## Components
 
 * Bootstrap3-Abbreviation
