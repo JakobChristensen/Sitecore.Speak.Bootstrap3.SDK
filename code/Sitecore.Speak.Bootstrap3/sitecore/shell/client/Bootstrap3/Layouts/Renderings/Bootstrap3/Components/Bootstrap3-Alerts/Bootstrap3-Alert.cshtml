@@ -1,0 +1,32 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Alerts.Bootstrap3AlertRenderingModel
+@{                 
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text) && string.IsNullOrEmpty(Model.Subtext))
+  {
+    return;
+  }
+  
+  Model.Class = "alert";
+  Model.Class.AppendIf(Model.Type, string.Empty, "alert-info").
+    AppendIf(Model.Type, "Danger", "alert-danger").
+    AppendIf(Model.Type, "Success", "alert-success").
+    AppendIf(Model.Type, "Warning", "alert-warning").
+    AppendIf(Model.Type, "Info", "alert-info").
+    AppendIf(Model.HasCloseButton, "alert-dismissable");
+
+  Model.DataBind.IsVisible().
+    Css("alert-danger", "Type", "Danger").
+    Css("alert-warning", "Type", "Warning").
+    Css("alert-success", "Type", "Success").
+    Css("alert-info", "Type", "Info");
+}              
+<div @Model.HtmlAttributes>
+  @if (Model.HasCloseButton)
+  {
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  }  
+  <strong @Model.DataBindAttribute().Text().ToHtmlString()>@content@Html.Sitecore().Translate(Model.Text))</strong>
+  <span @Model.DataBindAttribute().Text("Subtext").ToHtmlString()>@Html.Sitecore().Translate(Model.Subtext)</span>
+</div>

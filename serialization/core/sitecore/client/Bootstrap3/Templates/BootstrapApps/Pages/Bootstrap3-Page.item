@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {4AA74B74-0741-4639-9E96-4BB49C43FBE2}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Pages/Bootstrap3-Page
+parent: {2BAFB569-2969-4ABB-BCE8-3F28E2BC29BE}
+name: Bootstrap3-Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 77
+
+{5F2C442F-2554-4C80-B1D9-2195FA6168B1}|{D730C547-DA2B-4B19-9D8B-C8EE8BDF6859}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{FA096394-0966-4F7F-BF95-075AD9DFAF67}
+----version----
+language: en
+version: 1
+revision: 1ec4b323-d7e2-4ff4-8900-3e1c9e3bced7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T105305
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ec4b323-d7e2-4ff4-8900-3e1c9e3bced7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140428T125815:635342866950690945
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

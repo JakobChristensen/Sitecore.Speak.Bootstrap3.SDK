@@ -1,0 +1,54 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Bootstrap
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3ListGroups.Bootstrap3ListGroupRenderingModel
+@{
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "list-group";
+  Model.DataBind.IsVisible();
+
+  var active = Model.Active;
+  if (string.IsNullOrEmpty(active))
+  {
+    active = Model.PageItem.ID.ToString();
+  }
+}      
+@if (string.IsNullOrEmpty(Model.LinkFieldName))
+{
+  <ul @Model.HtmlAttributes>
+    @{
+      foreach (var item in items)
+      {
+        var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+        var className = isSelected ? "list-group-item active" : "list-group-item";
+
+        <li @Html.Sitecore().ClassAttribute(className)>
+          @Html.Sitecore().Icon(item, Model.IconFieldName)
+          @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+        </li>
+      }
+    }
+  </ul>
+}
+else
+{
+  <div @Model.HtmlAttributes>
+    @{
+      foreach (var item in items)
+      {
+        var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+        var className = isSelected ? "list-group-item active" : "list-group-item";
+
+        <a @Html.Sitecore().ClassAttribute(className) @Html.Raw(Html.Sitecore().HrefAttribute(item, Model.LinkFieldName))>
+          @Html.Sitecore().Icon(item, Model.IconFieldName)
+          @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+        </a>
+      }
+    }
+  </div>
+}

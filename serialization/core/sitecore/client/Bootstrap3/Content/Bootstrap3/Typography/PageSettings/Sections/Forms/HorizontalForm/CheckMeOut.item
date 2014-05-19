@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {FFA6CF92-05B4-4AE7-A64E-A903A6BFD21D}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Forms/HorizontalForm/CheckMeOut
+parent: {99FF6A91-2010-49B3-823C-1BBE7636629E}
+name: CheckMeOut
+master: {00000000-0000-0000-0000-000000000000}
+template: {42D85C0E-4ABC-40E9-8096-89963663D2CD}
+templatekey: Bootstrap3-Checkbox-Parameters
+
+----field----
+field: {BC508BB9-EE5E-492C-9510-BE3997687D13}
+name: IsChecked
+key: ischecked
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 1d53e694-6f5a-4ce3-9727-4de4caf44e69
+
+----field----
+field: {966A644E-18DC-4B96-9319-C5C1B4056AA8}
+name: Text
+key: text
+content-length: 12
+
+Check me out
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T092221
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d53e694-6f5a-4ce3-9727-4de4caf44e69
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140114T122057:635252988576173723
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

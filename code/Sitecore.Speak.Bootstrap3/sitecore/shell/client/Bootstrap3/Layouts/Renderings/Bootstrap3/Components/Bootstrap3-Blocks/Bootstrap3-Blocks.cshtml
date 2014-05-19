@@ -1,0 +1,45 @@
+﻿@using Sitecore.Web.UI.Controls.Common.ChildRenderers
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Blocks.Bootstrap3BlocksRenderingModel
+@{  
+  var dataSource = Model.Rendering.DataSource;
+
+  if (!string.IsNullOrEmpty(dataSource))
+  {
+    if (!dataSource.StartsWith("/") && !dataSource.StartsWith("{"))
+    {
+      dataSource = Sitecore.Context.Item.Paths.Path + "/PageSettings/" + dataSource;
+    }
+  }
+
+  if (string.IsNullOrEmpty(dataSource))
+  {
+    var item = Sitecore.Context.Item.Database.GetItem(Sitecore.Context.Item.Paths.Path + "/PageSettings/" + Model.ControlId);
+    if (item != null)
+    {
+      dataSource = item.ID.ToString();
+    }
+  }
+
+  if (string.IsNullOrEmpty(dataSource))
+  {
+    var item = Sitecore.Context.Item.Database.GetItem(Sitecore.Context.Item.Paths.Path + "/PageSettings");
+    if (item != null)
+    {
+      dataSource = item.ID.ToString();
+    }                
+  }
+
+  if (string.IsNullOrEmpty(dataSource))
+  {
+    return;
+  }
+  
+  var childRenderer = new ChildRenderer
+  {
+    DataSource = dataSource,
+    UsePlaceholders = true
+  };
+
+  var content = new HtmlString(childRenderer.Render());
+}      
+@content

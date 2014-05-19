@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Badges.Bootstrap3BadgeRenderingModel
+@{          
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+  
+  Model.Class = "badge";
+  Model.DataBind.IsVisible().Text();
+}              
+<span @Model.HtmlAttributes>@content@Html.Sitecore().Translate(Model.Text)</span>

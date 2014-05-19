@@ -1,0 +1,18 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Labels.Bootstrap3LabelRenderingModel
+@{         
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+
+  Model.Class.AppendIf(Model.IsControlLabel, "control-label").
+    AppendIf(Model.IsScreenReaderOnly, "sr-only");
+ 
+    if (!string.IsNullOrEmpty(Model.For))
+  {
+    Model.Attributes[HtmlTextWriterAttribute.For] = Model.For;
+  }
+}              
+<label @Model.HtmlAttributes>@content@Html.Sitecore().Translate(Model.Text)</label>

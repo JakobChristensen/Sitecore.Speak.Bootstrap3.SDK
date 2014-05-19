@@ -1,0 +1,69 @@
+----item----
+version: 1
+id: {3E91FD27-A5E3-41AA-8E08-3629EBCA1463}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Blocks/Bootstrap3-DividerLine/__Standard Values
+parent: {9F12CF6A-13E3-49AA-8A46-94D853059598}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {9F12CF6A-13E3-49AA-8A46-94D853059598}
+templatekey: Bootstrap3-DividerLine
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 168
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{F8848721-F5E1-45D6-BE6F-24B47913A99C}" uid="{17A93B58-5BA9-4B13-9884-81FA85917A29}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 20f30748-958a-4700-9611-76ce37863cb9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140427T130501
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+20f30748-958a-4700-9611-76ce37863cb9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T130531:635342007310869331
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

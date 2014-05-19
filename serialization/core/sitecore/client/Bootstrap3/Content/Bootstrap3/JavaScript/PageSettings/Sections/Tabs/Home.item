@@ -1,0 +1,55 @@
+----item----
+version: 1
+id: {59E220F7-E5D2-49C5-80DA-186672EE699D}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/JavaScript/PageSettings/Sections/Tabs/Home
+parent: {7FF00A97-4BA7-451C-9C91-FDC69C889C87}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 608
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Raw+denim+you+probably+haven%27t+heard+of+them+jean+shorts+Austin.+Nesciunt+tofu+stumptown+aliqua%2c+retro+synth+master+cleanse.+Mustache+cliche+tempor%2c+williamsburg+carles+vegan+helvetica.+Reprehenderit+butcher+retro+keffiyeh+dreamcatcher+synth.+Cosby+sweater+eu+banh+mi%2c+qui+irure+terry+richardson+ex+squid.+Aliquip+placeat+salvia+cillum+iphone.+Seitan+aliquip+quis+cardigan+american+apparel%2c+butcher+voluptate+nisi+qui." uid="{30B0E10D-C016-4ADD-BA04-4308ADE68EEE}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: f38384cd-1ca4-47c8-a37a-511c1cf924d0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130822T151501
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f38384cd-1ca4-47c8-a37a-511c1cf924d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T134224:635343757442713419
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

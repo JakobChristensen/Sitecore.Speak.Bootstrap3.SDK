@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {0131E57B-2CC4-4DDE-A483-EEBF2169B614}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Components/Bootstrap3-Breadcrumb
+parent: {EB5CC824-2590-4C05-8C9C-A70A43875898}
+name: Bootstrap3-Breadcrumb
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 126
+
+/sitecore/shell/client/Bootstrap3/Layouts/Renderings/Bootstrap3/Components/Bootstrap3-Breadcrumbs/Bootstrap3-Breadcrumb.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 156
+
+Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Breadcrumbs.Bootstrap3BreadcrumbRenderingModel,Sitecore.Speak.Bootstrap3
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{DE599CBD-3349-4DB1-9226-0AE1E6419A7F}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 12
+
+PageSettings
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 38
+
+{DE599CBD-3349-4DB1-9226-0AE1E6419A7F}
+----version----
+language: en
+version: 1
+revision: 70acee62-5e15-43b6-814d-19d587ace7a7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140407T184901
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+70acee62-5e15-43b6-814d-19d587ace7a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140407T184950:635324933907167029
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

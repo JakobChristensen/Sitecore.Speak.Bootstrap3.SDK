@@ -1,0 +1,40 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Wells.Bootstrap3WellRenderingModel
+@{      
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+  
+  Model.Class = "well";
+  
+  Model.Class.AppendIf(Model.Size, "Large", "text-lg").
+    AppendIf(Model.Size, "Small", "text-sm");
+
+  Model.Class.AppendIf(Model.Alignment, "Left", "text-left").
+    AppendIf(Model.Alignment, "Center", "text-center").
+    AppendIf(Model.Alignment, "Right", "text-right");
+
+  Model.Class.AppendIf(Model.Emphasis, "Muted", "text-muted").
+    AppendIf(Model.Emphasis, "Warning", "text-warning").
+    AppendIf(Model.Emphasis, "Danger", "text-danger").
+    AppendIf(Model.Emphasis, "Info", "text-info").
+    AppendIf(Model.Emphasis, "Success", "text-success");
+  
+  Model.DataBind.IsVisible().Text().
+    Css("well-lg", "Size", "Large").
+    Css("well-sm", "Size", "Small").
+    Css("text-left", "Alignment", "Left").
+    Css("text-center", "Alignment", "Center").
+    Css("text-right", "Alignment", "Right").
+    Css("text-muted", "Emphasis", "Muted").
+    Css("text-warning", "Emphasis", "Warning").
+    Css("text-danger", "Emphasis", "Danger").
+    Css("text-info", "Emphasis", "Info").
+    Css("text-success", "Emphasis", "Success");
+}
+<div @Model.HtmlAttributes>
+  @Html.Sitecore().Translate(Model.Text)
+  @content
+</div>

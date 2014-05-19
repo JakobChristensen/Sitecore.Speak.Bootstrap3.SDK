@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {F1957E0F-FE5A-4490-A6F3-048850FFB835}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Forms/Bootstrap3-Help/Bootstrap3-Help-Parameters/Appearance/Text
+parent: {167A3443-3302-488F-BF42-51926E215307}
+name: Text
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----version----
+language: en
+version: 1
+revision: 1e462448-0070-4034-b8d4-98bc77b41c63
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T071954
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1e462448-0070-4034-b8d4-98bc77b41c63
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140407T130856:635324729361757280
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {5A306F0C-BBEA-4E7C-8CB2-E1EB1B0EEB60}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Forms/DefaultForm/Submit
+parent: {82D2BCF6-CF01-48E9-880B-11DE7DD014BA}
+name: Submit
+master: {00000000-0000-0000-0000-000000000000}
+template: {1BF0FD20-EECF-4002-BAA3-071E8691ED6B}
+templatekey: Bootstrap3-Button-Parameters
+
+----field----
+field: {4215831D-F891-4A5B-BAB7-1070A2CFA2C9}
+name: ButtonType
+key: buttontype
+content-length: 6
+
+Submit
+----field----
+field: {AC264D78-D730-4C59-8B10-2D8A67E76AE4}
+name: Id
+key: id
+content-length: 14
+
+SubmitButton23
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: ca891237-ecd3-45ec-9b07-7e9ac6060d0e
+
+----field----
+field: {8BC54017-AED2-49E9-816E-36713EA72763}
+name: Text
+key: text
+content-length: 6
+
+Submit
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T092301
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ca891237-ecd3-45ec-9b07-7e9ac6060d0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140109T140947:635248733874963981
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

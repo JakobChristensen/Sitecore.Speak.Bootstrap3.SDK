@@ -1,0 +1,75 @@
+﻿@using Sitecore.Bootstrap
+@using Sitecore.Data
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.JavaScript.Bootstrap3Tabs.Bootstrap3TabRenderingModel
+@{
+  Model.Class = "nav nav-tabs";
+  Model.DataBind.IsVisible();
+
+  var displayFieldName = Model.DisplayFieldName;
+  var renderItemAsContent = Model.RenderItemAsContent;
+  var active = Model.Active;
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}
+<ul @Model.HtmlAttributes>
+  @{
+    var tabIndex = 0;
+    foreach (var item in items)
+    {
+      if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+      {
+        continue;
+      }
+
+      var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+      var id = "#" + Model.ControlId + "_Tab" + tabIndex;
+        
+      <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+        <a href="@id" data-toggle="tab">@Html.Raw(item.GetField(displayFieldName, item.DisplayName))</a>
+      </li>      
+    
+      tabIndex++;
+    }
+  }
+</ul>  
+<div class="tab-content">
+  @{
+    var contentIndex = 0;
+    foreach (var item in items)
+    {
+      if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+      {
+        continue;
+      }
+
+      var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+      var className = isSelected ? "tab-pane active" : "tab-pane";
+      var id = Model.ControlId + "_Tab" + contentIndex;
+      
+      HtmlString content;
+      if (renderItemAsContent)
+      {
+        var itemRenderer = new Sitecore.Web.UI.Controls.Common.ItemRenderers.ItemRenderer
+        {
+          DataSource = item.ID.ToString(),
+          UsePlaceholders = true
+        };
+        
+        content = new HtmlString(itemRenderer.Render());
+      }
+      else
+      {
+        content = Html.Sitecore().Placeholder(Model.ControlId + ".Content" + contentIndex);
+      }
+      <div id="@id" class="@className">
+        @content
+      </div>
+
+      contentIndex++;
+    }
+  }
+</div>

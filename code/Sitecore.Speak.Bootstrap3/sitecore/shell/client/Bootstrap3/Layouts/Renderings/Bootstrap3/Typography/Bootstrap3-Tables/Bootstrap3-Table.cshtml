@@ -1,0 +1,19 @@
+﻿@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Tables.Bootstrap3TableRenderingModel
+@{
+  Model.Class = "table";
+  Model.Class.AppendIf(Model.IsStriped, "table-striped").
+    AppendIf(Model.IsBordered, "table-bordered").
+    AppendIf(Model.Hover, "table-hover").
+    AppendIf(Model.IsCondensed, "table-condensed");
+
+  Model.DataBind.IsVisible();
+
+  Model.Properties["Data"] = "[]";
+}              
+<table @Model.HtmlAttributes>
+  <tbody data-bind="foreach: Data">
+    <tr data-bind="foreach: $data">
+      <td data-bind="text: $data"></td>
+    </tr>  
+  </tbody>
+</table>

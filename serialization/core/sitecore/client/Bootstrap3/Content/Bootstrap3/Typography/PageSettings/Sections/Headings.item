@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {C03AA4AB-7DBF-4865-97C8-B37B12009881}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Headings
+parent: {C5D081B4-5362-4A43-A99B-6D206177D0ED}
+name: Headings
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-600
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2317
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
+    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Headings" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=HeadingsRow&amp;Large=*&amp;Medium=12&amp;Small=*" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Headings" ph="HeadingsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=All%20HTML%20headings%2C%20H1%20through%20H6%20are%20available." ph="HeadingsRow.Column1" />
+    <r id="{DF1A5162-EA54-462E-A157-76A0277A0D62}" par="Text=h1.%20Heading%201" ph="HeadingsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=h2.%20Heading%202" ph="HeadingsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=h3.%20Heading%203" ph="HeadingsRow.Column1" />
+    <r id="{682B5C14-6DCA-4747-AB25-391BAB392E40}" par="Text=h4.%20Heading%204" ph="HeadingsRow.Column1" />
+    <r id="{E0A78472-1B8D-406F-BA9E-9726C5946AFB}" par="Text=h5.%20Heading%205" ph="HeadingsRow.Column1" />
+    <r id="{201E02FA-DDB2-4042-9E62-E59E25672280}" par="Text=h6.%20Heading%206" ph="HeadingsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Create%20lighter%2C%20secondary%20text%20in%20any%20heading%20with%20a%20generic%20%3Csmall%3E%20tag%20or%20the%20.small%20class." ph="HeadingsRow.Column1" />
+    <r id="{DF1A5162-EA54-462E-A157-76A0277A0D62}" par="SecondaryText=Secondary%20Text&amp;Text=h1.%20Heading%201" ph="HeadingsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="SecondaryText=Secondary%20Text&amp;Text=h2.%20Heading%202" ph="HeadingsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="SecondaryText=Secondary%20Text&amp;Text=h3.%20Heading%203" ph="HeadingsRow.Column1" />
+    <r id="{682B5C14-6DCA-4747-AB25-391BAB392E40}" par="SecondaryText=Secondary%20Text&amp;Text=h4.%20Heading%204" ph="HeadingsRow.Column1" />
+    <r id="{E0A78472-1B8D-406F-BA9E-9726C5946AFB}" par="SecondaryText=Secondary%20Text&amp;Text=h5.%20Heading%205" ph="HeadingsRow.Column1" />
+    <r id="{201E02FA-DDB2-4042-9E62-E59E25672280}" par="SecondaryText=Secondary%20Text&amp;Text=h6.%20Heading%206" ph="HeadingsRow.Column1" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 2a4c16ef-0b3c-4ac2-af4e-cfb801702b65
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130819T181257
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2a4c16ef-0b3c-4ac2-af4e-cfb801702b65
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T131559:635343741599041527
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

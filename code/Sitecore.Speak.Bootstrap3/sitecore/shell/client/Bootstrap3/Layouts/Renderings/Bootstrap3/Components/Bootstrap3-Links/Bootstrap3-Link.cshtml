@@ -1,0 +1,85 @@
+﻿@using System.Xml.Linq
+@using Sitecore.Extensions.XElementExtensions
+@using Sitecore.Links
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Links.Bootstrap3LinkRenderingModel
+@{            
+  var text = Model.Text;
+
+  if (text.StartsWith("<link"))
+  {
+    var doc = XDocument.Parse(Model.Href);
+    var root = doc.Root;
+    text = root.GetAttributeValue("text");
+  }
+
+  HtmlString click;
+  if (!string.IsNullOrEmpty(Model.Href))
+  {
+    var url = Model.Href;
+    if (Model.Href.StartsWith("<link"))
+    {
+      var doc = XDocument.Parse(Model.Href);
+      var root = doc.Root;
+
+      url = root.GetAttributeValue("url");
+      if (string.IsNullOrEmpty(url))
+      {
+        var id = root.GetAttributeValue("id");
+        if (!string.IsNullOrEmpty(id))
+        {
+          var item = Model.Rendering.Item.Database.GetItem(id);
+          if (item != null)
+          {
+            url = LinkManager.GetItemUrl(item);
+          }
+        }
+      }
+      
+      if (string.IsNullOrEmpty(text))
+      {
+        text = root.GetAttributeValue("text");
+      }
+    }
+
+    click = new HtmlString("href=\"" + HttpUtility.HtmlAttributeEncode(url) + "\"");
+  }
+  else
+  {                           
+    click = Html.Sitecore().ClickAttribute(Model.Click);
+  }
+  
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(text))
+  {
+    return;
+  }
+
+  Model.Class = "btn";
+  Model.Class.AppendIf(Model.Type, string.Empty, "btn-default").
+    AppendIf(Model.Type, "Default", "btn-default").
+    AppendIf(Model.Type, "Primary", "btn-primary").
+    AppendIf(Model.Type, "Info", "btn-info").
+    AppendIf(Model.Type, "Success", "btn-success").
+    AppendIf(Model.Type, "Warning", "btn-warning").
+    AppendIf(Model.Type, "Danger", "btn-danger").
+    AppendIf(Model.Type, "Link", "btn-link").
+    AppendIf(Model.Size, "Large", "btn-lg").
+    AppendIf(Model.Size, "Small", "btn-sm").
+    AppendIf(Model.Size, "Mini", "btn-xs").
+    AppendIf(!Model.IsEnabled, "disabled").
+    AppendIf(Model.IsBlock, "btn-block");
+
+  Model.DataBind.IsVisible().IsEnabled().Text().Click().
+    Css("btn-lg", "Size", "Large").
+    Css("btn-sm", "Size", "Small").
+    Css("btn-xs", "Size", "Mini").
+    Css("btn-primary", "Type", "Primary").
+    Css("btn-info", "Type", "Info").
+    Css("btn-success", "Type", "Success").
+    Css("btn-warning", "Type", "Warning").
+    Css("btn-danger", "Type", "Danger").
+    Css("btn-link", "Type", "Link").
+    Css("btn-block", "IsBlock");
+}      
+<a @Model.HtmlAttributes @click>@content@(Html.Sitecore().Translate(text))</a>

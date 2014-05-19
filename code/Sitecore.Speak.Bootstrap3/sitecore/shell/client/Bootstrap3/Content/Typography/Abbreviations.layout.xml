@@ -1,0 +1,16 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{103D5F27-FB31-4C04-8EE1-E7CA50BDDEBE}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Anchor AnchorName="Abbreviations" />
+    
+    <Bootstrap3-Row ExtraSmall="*" Id="AbbreviationRow" Large="*" Medium="12" Small="*">
+      <Bootstrap3-Heading2 Id="Bootstrap3-Heading1" Text="Abbreviations" />
+
+      <Bootstrap3-Paragraph Id="Bootstrap3-Paragraph1"
+        Text="Stylized implementation of HTML's &lt;abbr> element for abbreviations and acronyms to show the expanded version on hover. Abbreviations with a title attribute have a light dotted bottom border and a help cursor on hover, providing additional context on hover." />
+      <Bootstrap3-Abbreviation Id="Bootstrap3Abbreviation1" Text="An abbreviation of the word attribute is attr." Tooltip="attribute" />
+
+      <Bootstrap3-Paragraph Id="Bootstrap3-Paragraph2" Text="Add .initialism to an abbreviation for a slightly smaller font-size." />
+      <Bootstrap3-Abbreviation Id="Bootstrap3Abbreviation2" Text="HTML is the best thing since sliced bread." Tooltip="HyperText Markup Language" Initialism="True" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

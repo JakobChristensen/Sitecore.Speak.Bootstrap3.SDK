@@ -1,0 +1,135 @@
+----item----
+version: 1
+id: {E7878627-4AA3-46CE-B21C-BBBB5C121A7D}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/PageSettings/TextTeasers
+parent: {95A82354-7276-4103-B05D-D77D368CFB75}
+name: TextTeasers
+master: {00000000-0000-0000-0000-000000000000}
+template: {B744CD1D-2CE9-4810-B133-F3ED78FC2D02}
+templatekey: Bootstrap3-Text-Teaser
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: en
+version: 1
+revision: d5096c01-5c66-4d62-ab48-cd6c1881b3d0
+
+----field----
+field: {013475D7-5BD1-4FF4-AE51-673E1092DF06}
+name: Heading1
+key: heading1
+content-length: 9
+
+Heading 1
+----field----
+field: {B47EEC7A-04F1-4632-BBA3-448B660201BE}
+name: Text1
+key: text1
+content-length: 106
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {745FBDE6-D0F7-4467-8B82-9C6AF8692A08}
+name: LinkText1
+key: linktext1
+content-length: 6
+
+Link 1
+----field----
+field: {A043168A-2773-4D9C-AAC0-F336FBDFBCBD}
+name: Heading2
+key: heading2
+content-length: 9
+
+Heading 2
+----field----
+field: {3A0F9714-A596-47B0-8BF4-46ACC017CFC5}
+name: Text2
+key: text2
+content-length: 106
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {42BE1F0B-B5B5-4780-9C82-79B9E3E92EF1}
+name: LinkText2
+key: linktext2
+content-length: 6
+
+Link 2
+----field----
+field: {B013EF9C-27E4-40F4-97DB-6749CD96E206}
+name: Heading3
+key: heading3
+content-length: 9
+
+Heading 3
+----field----
+field: {6B3E855F-F434-4EE1-9F3F-59245E7E5D2A}
+name: Text3
+key: text3
+content-length: 106
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {90F4E7FB-38C1-4310-A7EE-8985941725AE}
+name: LinkText3
+key: linktext3
+content-length: 6
+
+Link 3
+----field----
+field: {9520A09E-B8AB-4644-A94F-C452775311A9}
+name: Heading4
+key: heading4
+content-length: 9
+
+Heading 4
+----field----
+field: {ABB94DAB-C61C-4E6A-A14F-30A2B99995E2}
+name: Text4
+key: text4
+content-length: 106
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {9CA416FE-FA8E-4B19-9991-4AFBD3187A5A}
+name: LinkText4
+key: linktext4
+content-length: 6
+
+Link 3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140427T122838
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5096c01-5c66-4d62-ab48-cd6c1881b3d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T132352:635342018322108254
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

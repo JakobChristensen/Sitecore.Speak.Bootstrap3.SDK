@@ -1,0 +1,48 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Bootstrap
+@using Sitecore.Data
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Selects.Bootstrap3SelectRenderingModel
+@{
+  Model.Class = "form-control";
+  Model.Class.AppendIf(Model.RelativeSize, "Small", "input-sm").
+    AppendIf(Model.RelativeSize, "Large", "input-lg");
+
+  Model.DataBind.IsVisible().IsEnabled().
+    Options().
+    OptionsText("'DisplayName'").
+    OptionsValue("'Value'").
+    Value("SelectedItem").
+    Css("input-sm", "RelativeSize", "Small").
+    Css("input-lg", "RelativeSize", "Large");
+
+  if (Model.IsMultiple)
+  {
+    Model.Attributes[HtmlTextWriterAttribute.Multiple] = "multiple";
+  }
+
+  Model.Properties["Items"] = "[]";
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+}
+<div class="form-group">
+  @if (!string.IsNullOrEmpty(Model.Label))
+  {
+    var id = Model.ControlId + "input";
+    Model.Attributes[HtmlTextWriterAttribute.Id] = id;
+
+    <label class="control-label" for="@id">@Model.Label</label>
+  }
+  <select @Model.HtmlAttributes>
+    @{
+      foreach (var item in items)
+      {
+        var value = item.GetField(Model.ValueFieldName);
+        var isSelected = string.Compare(value, Model.SelectedItem, StringComparison.InvariantCultureIgnoreCase) == 0;
+
+    <option value="@value" @Html.Sitecore().AttributeIf(isSelected, "selected", "selected")>
+      @item.GetField(Model.DisplayFieldName, item.DisplayName)
+    </option>
+      }
+    }
+  </select>
+</div>

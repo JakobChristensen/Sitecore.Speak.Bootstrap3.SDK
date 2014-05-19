@@ -1,0 +1,10 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{7FF00A97-4BA7-451C-9C91-FDC69C889C87}">
+  <Device Name="Internet Explorer">
+    <Bootstrap3-Row Id="TabRow">
+      <Bootstrap3-PageHeader Subtext="bootstrap-tab.js" Text="Togglable tab" />
+      <Bootstrap3-Heading2 Text="Example tabs" />
+      <Bootstrap3-Paragraph Text="Add quick, dynamic tab functionality to transition through panes of local content, even via dropdown menus." />
+      <Bootstrap3-Tab Active="About" Id="Bootstrap3-Tab1" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/JavaScript/PageSettings/Sections/Tabs" RenderItemAsContent="True" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

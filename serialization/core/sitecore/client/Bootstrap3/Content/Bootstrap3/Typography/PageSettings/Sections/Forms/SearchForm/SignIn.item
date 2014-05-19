@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {D69552B9-75D5-4E3C-A4DB-813232BD879D}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Forms/SearchForm/SignIn
+parent: {29951F9E-C28E-47DD-8133-19D5AF9347BF}
+name: SignIn
+master: {00000000-0000-0000-0000-000000000000}
+template: {1BF0FD20-EECF-4002-BAA3-071E8691ED6B}
+templatekey: Bootstrap3-Button-Parameters
+
+----field----
+field: {4215831D-F891-4A5B-BAB7-1070A2CFA2C9}
+name: ButtonType
+key: buttontype
+content-length: 6
+
+Submit
+----version----
+language: en
+version: 1
+revision: 1f7a3719-1935-46c0-8461-2a6afd2de7a7
+
+----field----
+field: {8BC54017-AED2-49E9-816E-36713EA72763}
+name: Text
+key: text
+content-length: 7
+
+Sign in
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T103416
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f7a3719-1935-46c0-8461-2a6afd2de7a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140109T141114:635248734741960672
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

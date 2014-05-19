@@ -1,0 +1,62 @@
+----item----
+version: 1
+id: {8E41A815-1E71-42A2-BC0D-A65A8C9F8F3B}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/DataBinding/PageSettings/Sections/Buttons
+parent: {13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}
+name: Buttons
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1912
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Buttons" uid="{44C2F0E4-27F1-488B-ACF0-58E02FFC654E}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ButtonRow&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;Small=*%2c*" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Type=%7bBinding+BootstrapSelect1.SelectedItem%7d&amp;Id=BootstrapButton&amp;IsVisible=%7bBinding+ToggleIsVisible.isChecked%7d&amp;IsEnabled=%7bBinding+ToggleIsEnabled.isChecked%7d&amp;Size=%7bBinding+BootstrapSelect2.SelectedItem%7d&amp;Text=%7bBinding+ButtonInput1.Text%7d" ph="ButtonRow.Column1" uid="{15990B64-E8C4-434C-BE1E-0D114FA6E8CD}" />
+    <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=ButtonInput1&amp;Text=Button&amp;Label=Label" ph="ButtonRow.Column2" uid="{D606A5DA-9307-4EFA-9588-ECEE0CECA789}" />
+    <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="ItemsDataSource=%7b2EFC23A4-5701-46E3-B60C-6A5A21C58C77%7d&amp;Id=BootstrapSelect1&amp;Label=Type&amp;DisplayFieldName=%24itemName&amp;ValueFieldName=%24itemName" ph="ButtonRow.Column2" uid="{E5697319-C6F2-4C22-961F-6D5073217168}" />
+    <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="ItemsDataSource=%7b0EF5C4A3-7860-4C56-BDA5-0DC971C4109B%7d&amp;Id=BootstrapSelect2&amp;Label=Size&amp;DisplayFieldName=%24itemName&amp;ValueFieldName=%24itemName" ph="ButtonRow.Column2" uid="{E5697319-C6F2-4C22-961F-6D5073217168}" />
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=ToggleIsVisible&amp;IsChecked=True&amp;Text=Is+Visible" ph="ButtonRow.Column2" uid="{06141687-8921-4E93-9B00-748157AEBE05}" />
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=ToggleIsEnabled&amp;IsChecked=True&amp;Text=Is+Enabled" ph="ButtonRow.Column2" uid="{8FD37286-5951-470A-8A7E-51B945F20021}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: d334a7c0-5c6a-429b-a3ce-97a5edccbd95
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d334a7c0-5c6a-429b-a3ce-97a5edccbd95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T152653:635342092132329211
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

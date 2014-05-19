@@ -1,0 +1,59 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Bootstrap
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Resources.Media
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.JavaScript.Bootstrap3Carousel.Bootstrap3CarouselRenderingModel
+@{
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource).ToArray();
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "carousel slide";
+  Model.DataBind.IsVisible();
+  Model.Attributes[HtmlTextWriterAttribute.Id] = Model.ControlId;
+
+  var target = "#" + Model.ControlId;
+  var options = new MediaUrlOptions(Model.Rendering.Item.Database);
+}      
+<div @Model.HtmlAttributes data-ride="carousel">
+  <ol class="carousel-indicators">
+    @for (var n = 0; n < items.Length; n++)
+    {
+      <li data-target="@target" data-slide-to="@n" @Html.Sitecore().ClassAttributeIf(n == 0, "active")></li>
+    }
+  </ol>
+    
+  <div class="carousel-inner">
+    @for (var n = 0; n < items.Length; n++)
+    {
+      var item = items[n];
+      var mediaItem = new MediaItem(item);
+      var className = "item" + (n == 0 ? " active" : string.Empty);
+      var displayName = Html.Sitecore().DisplayName(item, Model.DisplayFieldName);
+      var url = MediaManager.GetMediaUrl(mediaItem, options);
+      
+      <div @Html.Sitecore().ClassAttribute(className)>
+        <img src="@url" alt="@displayName">  
+        @if (!string.IsNullOrEmpty(displayName.ToString()))
+        {
+          <div class="carousel-caption">
+            <h3>@displayName</h3>
+          </div>
+        }
+      </div>
+    }
+  </div>
+            
+  @if (Model.ShowControls)
+  {
+    <a class="left carousel-control" href="@target" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="@target" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  }
+</div>  

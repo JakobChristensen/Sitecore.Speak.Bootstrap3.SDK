@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {9A63372C-9DAF-4E96-8ADA-F1F1E2ACBD00}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Pages/Bootstrap3-Page-Text/__Standard Values
+parent: {DFE0957B-61FD-4A17-8470-56534F553D50}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DFE0957B-61FD-4A17-8470-56534F553D50}
+templatekey: Bootstrap3-Page-Text
+
+----field----
+field: {05BBCDC6-F5A8-458D-BEE4-2CD66252278D}
+name: NavIcon
+key: navicon
+content-length: 4
+
+file
+----field----
+field: {8BF6BFA1-3373-4BD9-958C-B8ED1930A294}
+name: HasFixedNavBar
+key: hasfixednavbar
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2118
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" ph="Page.Code" uid="{B3DAB0D6-A046-4752-A734-8763D202995A}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top" ph="Page.Body" uid="{5D10E193-1925-4627-83BD-F20C14F95A83}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" uid="{82EE5418-F86E-47D1-88D0-7FFE90DCA895}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row1&amp;Large=12&amp;ExtraSmall=12&amp;Medium=12&amp;EnableScript=0&amp;Small=12" ph="Container.Content" uid="{2E721303-B113-41E6-A5D5-EC24951C281C}" />
+    <r id="{DF1A5162-EA54-462E-A157-76A0277A0D62}" par="SecondaryText=%7b%40SecondaryText%7d&amp;EnableScript=0&amp;Text=%7b%40Heading%7d" ph="Row1.Column1" uid="{03FBE518-DE91-4266-A78B-6AD15D6EEEFC}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row2&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;PredefinedColumns=%7b%40Columns%7d&amp;Small=*%2c*" ph="Container.Content" uid="{0895058E-DC02-442A-9267-41A24A3FC21C}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="EnableScript=0" ph="Row2.Column1" uid="{86213E46-90A6-4FE6-85B2-97886E161D3F}" />
+    <r id="{23E62CD7-CA23-422C-A601-DE10292F78B7}" par="Source=%7b%40Image%7d&amp;EnableScript=0&amp;Shape=Rounded" ph="Row2.Column2" uid="{EEB77644-0DC7-4050-8CA5-950E388C55BA}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link1%7d&amp;Text=%7b%40LinkText1%7d&amp;EnableScript=0" ph="Row2.Column1" uid="{0A777023-283C-4B40-9E11-F2A3C8CD9EA3}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link2%7d&amp;Text=%7b%40LinkText2%7d&amp;EnableScript=0" ph="Row2.Column1" uid="{45DC58DC-7375-46E3-A2D5-896FBE8ECA5E}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link3%7d&amp;Text=%7b%40LinkText3%7d&amp;EnableScript=0" ph="Row2.Column1" uid="{362F82D4-D426-4D0D-963A-F0D092CA0840}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 9fd4fc0c-f455-4f0a-a9d5-c31e8475bec0
+
+----field----
+field: {388FBC88-F68C-4C12-B8DF-6CF320C3C6C6}
+name: Text
+key: text
+content-length: 1257
+
+<p>Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.</p>
+<p>Facer libris qui ea, mel ludus persius suscipiantur te. Eos soleat inimicus liberavisse at. Ex sit mazim soluta lobortis, ut nec bonorum splendide, mel tation erroribus principes eu. Cum ne vero albucius disputando. Et vidit movet sea. Falli appetere ut vix, eu offendit sapientem est. Postulant delicatissimi ex mea, ne modo nostrud salutandi usu, cu ignota dissentiunt his.</p>
+<p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum. Cum at eius reformidans. In vocent dolores eos, ea vel idque soluta similique.</p>
+<p>No wisi hendrerit per, ius ei stet oportere scribentur. Nam ex quando petentium, ei sea sonet timeam. Ex erat docendi urbanitas vix, equidem appetere vix an, mei legere offendit ponderum te. In per vidit dicta democritum, ut fuisset voluptua repudiandae eum.</p>
+----field----
+field: {DEE2F028-FE39-4A3F-BAE6-CBF48DF94887}
+name: NavDisplayName
+key: navdisplayname
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140428T130024
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9fd4fc0c-f455-4f0a-a9d5-c31e8475bec0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140428T132256:635342881767925864
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

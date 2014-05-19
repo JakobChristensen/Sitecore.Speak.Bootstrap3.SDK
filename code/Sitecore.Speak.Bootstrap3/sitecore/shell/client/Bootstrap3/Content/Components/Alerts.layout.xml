@@ -1,0 +1,27 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{71BB1A7F-ECAC-4B64-8119-331EFB208876}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Bootstrap3-Row Id="AlertRow">
+      <Bootstrap3-PageHeader Id="Bootstrap3-PageHeader1" Subtext=" Styles for success, warning, and error messages" Text="Alerts" />
+      
+      <Bootstrap3-Heading2 Id="Bootstrap3-Heading21" Text="Default alert" />
+      <Bootstrap3-Paragraph Id="Bootstrap3-Paragraph1" Text="Wrap any text and an optional dismiss button in .alert for a basic warning alert message." />
+      <Bootstrap3-Alert HasCloseButton="True" Id="Bootstrap3-Alert1" Subtext="Best check yo self, you're not looking too good." Text="Warning!" Type="Warning" />
+      
+      <Bootstrap3-Heading2 Id="Bootstrap3-Heading22" Text="Options" />
+      <Bootstrap3-Paragraph Id="Bootstrap3-Paragraph3" Text="For longer messages, increase the padding on the top and bottom of the alert wrapper by adding .alert-block." />
+      <Bootstrap3-Alert Id="Bootstrap3-Alert5" Subtext="Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et." Text="Warning!" Type="Warning" />
+      
+      <Bootstrap3-Heading2 Id="Bootstrap3-Heading23" Text="Contextual alternatives" />
+      <Bootstrap3-Paragraph Id="Bootstrap3-Paragraph2" Text="Add optional classes to change an alert's connotation." />
+      
+      <Bootstrap3-Heading3 Id="Bootstrap3-Heading31" Text="Error or danger" />
+      <Bootstrap3-Alert Id="Bootstrap3-Alert2" Subtext="Change a few things up and try submitting again." Text="Oh snap!" Type="Danger" />
+      
+      <Bootstrap3-Heading3 Id="Bootstrap3-Heading32" Text="Success" />
+      <Bootstrap3-Alert Id="Bootstrap3-Alert3" Subtext="You successfully read this important alert message." Text="Well done!" Type="Success" />
+      
+      <Bootstrap3-Heading3 Id="Bootstrap3-Heading33" Text="Information" />
+      <Bootstrap3-Alert Id="Bootstrap3-Alert4" Subtext=" This alert needs your attention, but it's not super important." Text="Heads up!" Type="Info" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

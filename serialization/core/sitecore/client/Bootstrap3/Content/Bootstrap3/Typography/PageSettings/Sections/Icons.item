@@ -1,0 +1,67 @@
+----item----
+version: 1
+id: {BA825F80-7777-4E90-B4FA-2294EA0B9934}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Icons
+parent: {C5D081B4-5362-4A43-A99B-6D206177D0ED}
+name: Icons
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+250
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1180
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=IconsRow&amp;Large=*&amp;ExtraSmall=*&amp;Medium=9&amp;Small=*" uid="{7B56C6FD-5D86-4B8D-BC0B-741A928479C4}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Icons&amp;Subtext=by+Glyphicons" ph="IconsRow.Column1" uid="{4EB0023A-B42F-42F9-9BF7-B3D223121805}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=140+icons+in+sprite+form%2c+available+in+dark+gray+(default)+and+white%2c+provided+by+Glyphicons.&amp;Id=Bootstrap3-Paragraph1" ph="IconsRow.Column1" uid="{F1480E88-9A3E-4B75-89BA-EFA48C5D52AB}" />
+    <r id="{6EE96F39-4337-45D8-A018-3F7037CA8A48}" par="Id=Bootstrap3-Icon1&amp;Icon=ok" ph="IconsRow.Column1" uid="{8F53EAA5-6A26-4BD1-A6F3-0269CEA472C8}" />
+    <r id="{6EE96F39-4337-45D8-A018-3F7037CA8A48}" par="Id=Bootstrap3-Icon2&amp;Icon=bell" ph="IconsRow.Column1" uid="{04D0A1CB-46EF-46C3-A5A3-2C9C70611CA0}" />
+    <r id="{6EE96F39-4337-45D8-A018-3F7037CA8A48}" par="Id=Bootstrap3-Icon3&amp;Icon=heart" ph="IconsRow.Column1" uid="{6B1145A9-DF02-42DB-BD31-384C222EF59E}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 1bf2c4ee-3241-4cd3-90dc-78231378ef35
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130819T183313
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bf2c4ee-3241-4cd3-90dc-78231378ef35
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140109T134948:635248721889955553
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

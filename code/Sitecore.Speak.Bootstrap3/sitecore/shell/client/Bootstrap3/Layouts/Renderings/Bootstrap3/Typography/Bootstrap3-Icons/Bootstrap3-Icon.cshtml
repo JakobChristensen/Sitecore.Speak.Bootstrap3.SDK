@@ -1,0 +1,11 @@
+﻿@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Icons.Bootstrap3IconRenderingModel
+@{
+  if (string.IsNullOrEmpty(Model.Icon))
+  {
+    return;
+  }
+  
+  Model.Class = "glyphicon glyphicon-" + Model.Icon;
+  Model.Class.AppendIf(Model.IsWhite, "glyphicon-white");
+}              
+<i @Model.HtmlAttributes></i>

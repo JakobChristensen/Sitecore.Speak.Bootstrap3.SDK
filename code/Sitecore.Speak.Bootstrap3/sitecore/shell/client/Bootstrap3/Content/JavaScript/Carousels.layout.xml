@@ -1,0 +1,10 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{FF693A55-1AF0-49F3-9354-1C3E35CB98A2}">
+  <Device Name="Internet Explorer">
+    <Bootstrap3-Row Id="CarouselRow">
+      <Bootstrap3-PageHeader Text="Carousels" />
+      <Bootstrap3-Heading2 Text="Examples" />
+      <Bootstrap3-Paragraph Text="The slideshow below shows a generic plugin and component for cycling through elements like a carousel." />
+      <Bootstrap3-Carousel Id="Carousel1" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/JavaScript/PageSettings/Sections/Carousels" ShowControls="True" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

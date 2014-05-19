@@ -1,0 +1,39 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Buttons.Bootstrap3ButtonRenderingModel
+@{
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+
+  Model.Class = "btn";
+  Model.Class.AppendIf(Model.Type, string.Empty, "btn-default").
+    AppendIf(Model.Type, "Default", "btn-default").
+    AppendIf(Model.Type, "Primary", "btn-primary").
+    AppendIf(Model.Type, "Info", "btn-info").
+    AppendIf(Model.Type, "Success", "btn-success").
+    AppendIf(Model.Type, "Warning", "btn-warning").
+    AppendIf(Model.Type, "Danger", "btn-danger").
+    AppendIf(Model.Type, "Link", "btn-link").
+    AppendIf(Model.Size, "Large", "btn-lg").
+    AppendIf(Model.Size, "Small", "btn-sm").
+    AppendIf(Model.Size, "Mini", "btn-xs").
+    AppendIf(!Model.IsEnabled, "disabled").
+    AppendIf(Model.IsBlock, "btn-block");
+    
+  Model.DataBind.IsVisible().IsEnabled().Text().Click().
+    Css("btn-lg", "Size", "Large").
+    Css("btn-sm", "Size", "Small").
+    Css("btn-xs", "Size", "Mini").
+    Css("btn-primary", "Type", "Primary").
+    Css("btn-info", "Type", "Info").
+    Css("btn-success", "Type", "Success").
+    Css("btn-warning", "Type", "Warning").
+    Css("btn-danger", "Type", "Danger").
+    Css("btn-link", "Type", "Link").
+    Css("btn-block", "IsBlock");
+
+  Model.Attributes[HtmlTextWriterAttribute.Type] = Model.ButtonType;
+}                               
+<button @Model.HtmlAttributes @Html.Sitecore().ClickAttribute(Model.Click)>@content@Html.Sitecore().Translate(Model.Text)</button>

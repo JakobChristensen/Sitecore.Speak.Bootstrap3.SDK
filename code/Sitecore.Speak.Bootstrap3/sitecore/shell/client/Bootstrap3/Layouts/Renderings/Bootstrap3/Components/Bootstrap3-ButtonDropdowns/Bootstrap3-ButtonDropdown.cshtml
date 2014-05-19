@@ -1,0 +1,51 @@
+﻿@using Sitecore.Bootstrap
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3ButtonDropdowns.Bootstrap3ButtonDropdownRenderingModel
+@{
+  Model.Class = "btn-group";
+  Model.Presenter = Presenters.Knockout;
+  
+  var buttonClass = new ClassBuilder("btn").
+    AppendIf(Model.Type, string.Empty, "btn-default").
+    AppendIf(Model.Type, "Default", "btn-default").
+    AppendIf(Model.Type, "Primary", "btn-primary").
+    AppendIf(Model.Type, "Info", "btn-info").
+    AppendIf(Model.Type, "Success", "btn-success").
+    AppendIf(Model.Type, "Warning", "btn-warning").
+    AppendIf(Model.Type, "Danger", "btn-danger").
+    AppendIf(Model.Type, "Inverse", "btn-inverse").
+    AppendIf(Model.Type, "Link", "btn-link").
+    AppendIf(Model.Size, "Large", "btn-lg").
+    AppendIf(Model.Size, "Small", "btn-sm").
+    AppendIf(Model.Size, "Mini", "btn-xs").
+    AppendIf(!Model.IsEnabled, "disabled");
+
+  buttonClass.Append("dropdown-toggle");
+  
+  var buttonDataBind = new DataBindBuilder().IsVisible().IsEnabled().
+    Css("btn-lg", "Size", "Large").
+    Css("btn-sm", "Size", "Small").
+    Css("btn-xs", "Size", "Mini").
+    Css("btn-primary", "Type", "Primary").
+    Css("btn-info", "Type", "Info").
+    Css("btn-success", "Type", "Success").
+    Css("btn-warning", "Type", "Warning").
+    Css("btn-danger", "Type", "Danger").
+    Css("btn-link", "Type", "Link");
+
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}              
+<div @Model.HtmlAttributes>
+  <button type="button" @Html.Sitecore().ClassAttribute(buttonClass) @Html.Raw(Model.DataBindAttribute(buttonDataBind)) data-toggle="dropdown">
+    <span @Html.Raw(Model.DataBindAttribute().Text())>@Html.Sitecore().Translate(Model.Text)</span>
+    <span class="caret"></span>
+  </button>             
+  <ul class="dropdown-menu" role="menu">
+    @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+  </ul>
+</div>

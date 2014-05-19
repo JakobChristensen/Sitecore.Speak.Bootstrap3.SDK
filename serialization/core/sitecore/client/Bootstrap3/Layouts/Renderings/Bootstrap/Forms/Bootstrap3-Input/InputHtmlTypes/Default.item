@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {063742E4-9EB2-489F-AB81-2F9F618D8457}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Forms/Bootstrap3-Input/InputHtmlTypes/Default
+parent: {CCC2E6B9-D841-475B-BC9A-FBE32110122C}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: d3075f1d-fcc1-486a-829a-fb5de555c84e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T084548
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3075f1d-fcc1-486a-829a-fb5de555c84e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130821T084819:635126716998444655
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

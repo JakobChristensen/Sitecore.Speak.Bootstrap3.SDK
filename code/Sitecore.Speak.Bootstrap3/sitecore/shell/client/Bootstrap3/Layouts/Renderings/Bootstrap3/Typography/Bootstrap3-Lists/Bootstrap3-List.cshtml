@@ -1,0 +1,70 @@
+﻿@using Sitecore
+@using Sitecore.Bootstrap
+@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Sitecore.Diagnostics
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Lists.BootstrapListRenderingModel
+@{
+  var renderingItem = Model.Rendering.RenderingItem.InnerItem;
+
+  var componentItem = renderingItem.Children.FirstOrDefault(i => i.Name == "List");
+  if (componentItem == null)
+  {
+    return;
+  }
+
+  Model.Class.Append(componentItem["Class"]);
+  Model.DataBind.IsVisible();
+
+  var maxDepth = Model.MaxDepth;
+  var tag = componentItem["Tag"];
+
+  var startTag = "<" + tag + " " + Model.HtmlAttributes + ">";
+  var endTag = "</" + tag + ">";
+
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}              
+@Html.Raw(startTag)
+@Html.Raw(RenderItems(tag, items, Model.DisplayFieldName, maxDepth, 0))
+@Html.Raw(endTag) 
+@functions {
+  [NotNull]
+  private string RenderItems([NotNull] string tag, [NotNull] IEnumerable<Item> children, [NotNull] string displayFieldName, int maxDepth, int depth)
+  {
+    Debug.ArgumentNotNull(displayFieldName, "displayFieldName");
+    Debug.ArgumentNotNull(children, "children");
+    Debug.ArgumentNotNull(tag, "tag");
+
+    var result = string.Empty;
+
+    foreach (var item in children)
+    {
+      if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+      {
+        continue;
+      }
+
+      var displayName = item.GetField(displayFieldName, item.DisplayName);
+      result += "<li>";
+      result += displayName;
+
+      if (item.HasChildren && (maxDepth <= 0 || depth < maxDepth - 1))
+      {
+        var startTag = "<" + tag + ">";
+        var endTag = "</" + tag + ">";
+
+        result += startTag;
+        result += RenderItems(tag, item.Children, displayFieldName, maxDepth, depth + 1);
+        result += endTag;
+      }
+      result += "</li>";
+    }
+
+    return result;
+  }
+}

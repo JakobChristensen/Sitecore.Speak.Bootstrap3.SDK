@@ -1,0 +1,41 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Paragraphs.Bootstrap3ParagraphRenderingModel
+@{
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+
+  Model.Class.AppendIf(Model.Alignment, "Left", "text-left").
+    AppendIf(Model.Alignment, "Center", "text-center").
+    AppendIf(Model.Alignment, "Right", "text-right").
+    AppendIf(Model.Alignment, "Justify", "text-justify").
+    AppendIf(Model.Emphasis, "Muted", "text-muted").
+    AppendIf(Model.Emphasis, "Warning", "text-warning").
+    AppendIf(Model.Emphasis, "Danger", "text-danger").
+    AppendIf(Model.Emphasis, "Info", "text-info").
+    AppendIf(Model.Emphasis, "Success", "text-success").
+    AppendIf(Model.Background, "Primary", "bg-primary").
+    AppendIf(Model.Background, "Warning", "bg-warning").
+    AppendIf(Model.Background, "Danger", "bg-danger").
+    AppendIf(Model.Background, "Info", "bg-info").
+    AppendIf(Model.Background, "Success", "bg-success");
+
+  Model.DataBind.IsVisible().Text().
+    Css("text-left", "Alignment", "Left").
+    Css("text-center", "Alignment", "Center").
+    Css("text-right", "Alignment", "Right").
+    Css("text-justify", "Alignment", "Justify").
+    Css("text-muted", "Emphasis", "Muted").
+    Css("text-warning", "Emphasis", "Warning").
+    Css("text-danger", "Emphasis", "Danger").
+    Css("text-info", "Emphasis", "Info").
+    Css("text-success", "Emphasis", "Success").
+    Css("bg-primary", "Background", "Muted").
+    Css("bg-warning", "Background", "Warning").
+    Css("bg-danger", "Background", "Danger").
+    Css("bg-info", "Background", "Info").
+    Css("bgt-success", "Background", "Success");
+}            
+<p @Model.HtmlAttributes>@content@Html.Sitecore().Translate(Model.Text)</p>

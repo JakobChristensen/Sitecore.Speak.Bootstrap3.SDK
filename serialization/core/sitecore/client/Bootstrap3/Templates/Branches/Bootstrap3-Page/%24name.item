@@ -1,0 +1,60 @@
+----item----
+version: 1
+id: {305AC29D-87D8-4D44-A2A3-4161A48CEAAB}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/Branches/Bootstrap3-Page/$name
+parent: {7D3BC1CF-D3AA-499F-A7B4-10AC06A4E45F}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {4AA74B74-0741-4639-9E96-4BB49C43FBE2}
+templatekey: Bootstrap3-Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1120
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" ph="Page.Code" uid="{47FF9309-5AD2-4469-8415-CF85906A17C1}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="IsInverse=1&amp;Id=NavBar1&amp;HasInnerContainer=1&amp;Fixed=Top&amp;BrandText=SPEAK+Bootstrap" ph="Page.Body" uid="{989DF6EE-0C2F-4691-AA52-0633C64984D9}" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="LinkField=%2524itemid&amp;Id=Nav1&amp;ItemsDataSource=%7bA463BE78-118D-4FE6-9A22-2540B86C4928%7d" ph="NavBar1.Inner" uid="{17328353-8393-4588-B98D-1F79A5176D68}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container1" ph="Page.Body" uid="{5DCF38EF-EF09-4EA6-870E-07E7290EC804}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row1&amp;Columns=3%2c9" ph="Container1.Content" uid="{6211D0A3-2AF8-4FF3-AB26-C44DDBE945A6}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Bootstrap+Page" ph="Row1.Column2" uid="{C01AD407-4BE6-4626-BBEA-C68A5B98862A}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 52fe7acd-0a27-479d-beac-ae5edfc02497
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T105539
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52fe7acd-0a27-479d-beac-ae5edfc02497
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140108T142112:635247876726976908
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

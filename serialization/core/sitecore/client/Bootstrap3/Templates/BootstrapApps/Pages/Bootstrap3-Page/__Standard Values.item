@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {FA096394-0966-4F7F-BF95-075AD9DFAF67}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Pages/Bootstrap3-Page/__Standard Values
+parent: {4AA74B74-0741-4639-9E96-4BB49C43FBE2}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4AA74B74-0741-4639-9E96-4BB49C43FBE2}
+templatekey: Bootstrap3-Page
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{DE854470-D939-4A18-A4BE-278A4DC74C4D}|{83EAD7E2-991A-4FB4-B1B6-8D58DAD8943B}|{9B70AC53-133C-4F91-829C-E304742CA60B}|{6D4F491C-7610-4B26-B713-43F20F4E7944}
+----version----
+language: en
+version: 1
+revision: 6af3ee72-887b-4f38-a156-d136af8f05b8
+
+----field----
+field: {DEE2F028-FE39-4A3F-BAE6-CBF48DF94887}
+name: NavDisplayName
+key: navdisplayname
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130819T211230
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6af3ee72-887b-4f38-a156-d136af8f05b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T125955:635343731950599161
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

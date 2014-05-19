@@ -1,0 +1,82 @@
+﻿@using System.Web.Mvc
+@using Sitecore
+@using Sitecore.Bootstrap
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3ButtonGroups
+@model Bootstrap3ButtonGroupRenderingModel
+@{
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  if (!items.Any())
+  {
+    return;
+  }
+
+  Model.Class = "btn-group";
+  Model.Class.AppendIf(Model.Size, "Large", "btn-group-lg").
+    AppendIf(Model.Size, "Small", "btn-group-sm").
+    AppendIf(Model.Size, "ExtraSmall", "btn-group-xs").
+    AppendIf(Model.IsVertical, "btn-group-vertical").
+    AppendIf(Model.IsJustified, "btn-group-justified");
+
+  Model.DataBind.IsVisible();
+    
+  var clickFieldName = Model.ClickFieldName;
+  if (string.IsNullOrEmpty(clickFieldName))
+  {
+    clickFieldName = "Click";
+  }
+}                                    
+<div @Model.HtmlAttributes>
+  @{
+    foreach (var item in items) 
+    {
+      if (item.Is(BootstrapApplication.Button))
+      {
+        @RenderButton(Model, item, clickFieldName)
+      }
+      else if (item.Is(BootstrapApplication.Link))
+      {
+        @RenderLink(Model, item, clickFieldName)
+      }
+      else if (item.Is(BootstrapApplication.DropDownMenu))
+      {
+        @RenderDropDownMenu(Model, item, clickFieldName)
+      }
+    }
+  }
+</div>
+@helper RenderButton([NotNull] Bootstrap3ButtonGroupRenderingModel model, [NotNull] Item item, [NotNull] string clickFieldName)
+{
+  <button type="button" class="btn btn-default" @Html.Sitecore().ClickFieldAttribute(item, clickFieldName)>
+    @Html.Sitecore().Icon(item, Model.IconFieldName) @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+  </button>
+}
+@helper RenderLink([NotNull] Bootstrap3ButtonGroupRenderingModel model, [NotNull] Item item, [NotNull] string clickFieldName)
+{
+  <a class="btn btn-default" @Html.Raw(Html.Sitecore().HrefAttribute(item, clickFieldName))>
+    @Html.Sitecore().Icon(item, Model.IconFieldName) @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+  </a>
+}
+@helper RenderDropDownMenu([NotNull] Bootstrap3ButtonGroupRenderingModel model, [NotNull] Item item, [NotNull] string clickFieldName)
+{
+  <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      @Html.Sitecore().Icon(item, Model.IconFieldName) @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+      <span class="caret"></span>
+    </button>
+    @{
+      var menuItemId = item["ItemsDataSource"];
+      if (string.IsNullOrEmpty(menuItemId))
+      {
+        menuItemId = item.ID.ToString();
+      }
+      
+      var items = BootstrapApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+
+      <ul class="dropdown-menu" role="menu">
+        @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+      </ul>
+    }
+  </div>
+}

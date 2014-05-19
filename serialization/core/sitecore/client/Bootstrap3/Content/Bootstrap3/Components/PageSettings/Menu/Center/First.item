@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {451CEFC5-683F-46F1-B970-3BA21630AE88}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu/Center/First
+parent: {8CC6D013-BEB9-40B8-8475-17BC078A3586}
+name: First
+master: {00000000-0000-0000-0000-000000000000}
+template: {C7C86218-8F3C-4FB4-8276-D157FF3D24B4}
+templatekey: Bootstrap3-Link
+
+----version----
+language: en
+version: 1
+revision: 2d62bbd9-09f1-44e4-8c0d-1067121de3f8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T124726
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2d62bbd9-09f1-44e4-8c0d-1067121de3f8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140407T151744:635324806641654603
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

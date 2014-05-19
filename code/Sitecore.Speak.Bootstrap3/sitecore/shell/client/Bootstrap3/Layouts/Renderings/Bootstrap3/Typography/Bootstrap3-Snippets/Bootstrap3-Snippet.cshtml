@@ -1,0 +1,12 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+  var snippet = string.Empty;
+  
+  var renderingItem = this.Model.Rendering.RenderingItem.InnerItem;
+  var componentItem = renderingItem.Children.FirstOrDefault(i => string.Compare(i.Name, "Snippet", StringComparison.InvariantCultureIgnoreCase) == 0);
+  if (componentItem != null)
+  {
+    snippet = componentItem["Snippet"];
+  }
+}
+@Html.Raw(snippet)

@@ -1,0 +1,33 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{A0256A19-2954-4566-B06E-D77A35CAC811}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Anchor AnchorName="Lists" />
+
+    <Bootstrap3-Row ExtraSmall="*" Id="ListsRow" Large="*" Medium="12" Small="*">
+      <Bootstrap3-PageHeader Text="Lists" />
+      <Bootstrap3-Heading3 Text="Unordered" />
+      <Bootstrap3-Paragraph Text="A list of items in which the order does not explicitly matter." />
+      <Bootstrap3-List-Unordered ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" MaxDepth="3" />
+      
+      <Bootstrap3-Heading3 Text="Ordered" />
+      <Bootstrap3-Paragraph Text="A list of items in which the order does explicitly matter." />
+      <Bootstrap3-List-Ordered ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" />
+      
+      <Bootstrap3-Heading3 Text="Unstyled" />
+      <Bootstrap3-Paragraph Text="Remove the default list-style and left padding on list items (immediate children only)." />
+      <Bootstrap3-List-Unstyled ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" />
+      
+      <Bootstrap3-Heading3 Text="Inline" />
+      <Bootstrap3-Paragraph Text="Place all list items on a single line with inline-block and some light padding." />
+      <Bootstrap3-List-Inline ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" />
+
+      <Bootstrap3-Heading3 Text="Description" />
+      <Bootstrap3-Paragraph Text="A list of terms with their associated descriptions." />
+      <Bootstrap3-List-Description ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" DescriptionFieldName="$name" TermFieldName="$name" />
+
+      <Bootstrap3-Heading4 Text="Horizontal description" />
+      <Bootstrap3-Paragraph Text="Make terms and descriptions in &lt;dl> line up side-by-side. Starts off stacked like default &lt;dl>s, but when the navbar expands, so do these." />
+      <Bootstrap3-List-Description ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" DescriptionFieldName="$name" TermFieldName="$name" IsHorizontal="True" />
+
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

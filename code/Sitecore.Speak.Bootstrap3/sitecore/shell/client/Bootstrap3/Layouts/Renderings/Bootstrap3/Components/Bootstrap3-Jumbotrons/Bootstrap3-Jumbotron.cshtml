@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Jumbotrons.Bootstrap3JumbotronRenderingModel
+@{  
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Heading) && string.IsNullOrEmpty(Model.Tagline))
+  {
+    return;
+  }
+
+  Model.Class = "jumbotron";
+  Model.DataBind.IsVisible();
+}              
+<div @Model.HtmlAttributes>
+  <h1>@Html.Sitecore().Translate(Model.Heading)</h1>
+  <p>@Html.Sitecore().Translate(Model.Tagline)</p>
+  @content
+</div>

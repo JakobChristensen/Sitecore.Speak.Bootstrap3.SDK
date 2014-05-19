@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {02A3DD07-5445-4318-812A-C79F35139C6D}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Blocks/Bootstrap3-Text-Teaser/__Standard Values
+parent: {B744CD1D-2CE9-4810-B133-F3ED78FC2D02}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B744CD1D-2CE9-4810-B133-F3ED78FC2D02}
+templatekey: Bootstrap3-Text-Teaser
+
+----field----
+field: {E0A3E1EA-4607-4647-A5AD-3DDAD3FB9BFB}
+name: Alignment
+key: alignment
+content-length: 6
+
+Center
+----field----
+field: {C389140A-F3FB-4BCF-B88B-EFF451C41E8D}
+name: Columns
+key: columns
+content-length: 38
+
+{41FE4664-6564-4B65-B6EC-4710BA722FCD}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2757
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=TextTeaserRow&amp;PredefinedColumns=%7b%40Columns%7d&amp;EnableScript=0" uid="{612B6F7C-82A2-40AF-B53D-F4D126254AD8}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Alignment=%7b%40Alignment%7d&amp;EnableScript=0&amp;Text=%7b%40Heading1%7d" ph="TextTeaserRow.Column1" uid="{9F436E2B-57D0-4CDD-A86E-4859728314C9}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=%7b%40Text1%7d&amp;Alignment=%7b%40Alignment%7d&amp;EnableScript=0" ph="TextTeaserRow.Column1" uid="{C30D7AAB-211C-4412-BF79-0377A912BCBE}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link1%7d&amp;Text=%7b%40LinkText1%7d&amp;EnableScript=0" ph="TextTeaserRow.Column1" uid="{A955CCF7-7A38-41E4-BE50-DF20E7D6CBD3}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Alignment=%7b%40Alignment%7d&amp;EnableScript=0&amp;Text=%7b%40Heading2%7d" ph="TextTeaserRow.Column2" uid="{9F436E2B-57D0-4CDD-A86E-4859728314C9}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=%7b%40Text2%7d&amp;Alignment=%7b%40Alignment%7d&amp;EnableScript=0" ph="TextTeaserRow.Column2" uid="{C30D7AAB-211C-4412-BF79-0377A912BCBE}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link2%7d&amp;Text=%7b%40LinkText2%7d&amp;EnableScript=0" ph="TextTeaserRow.Column2" uid="{A955CCF7-7A38-41E4-BE50-DF20E7D6CBD3}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Alignment=%7b%40Alignment%7d&amp;EnableScript=0&amp;Text=%7b%40Heading3%7d" ph="TextTeaserRow.Column3" uid="{9F436E2B-57D0-4CDD-A86E-4859728314C9}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=%7b%40Text3%7d&amp;Alignment=%7b%40Alignment%7d&amp;EnableScript=0" ph="TextTeaserRow.Column3" uid="{C30D7AAB-211C-4412-BF79-0377A912BCBE}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link3%7d&amp;Text=%7b%40LinkText3%7d&amp;EnableScript=0" ph="TextTeaserRow.Column3" uid="{A955CCF7-7A38-41E4-BE50-DF20E7D6CBD3}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Alignment=%7b%40Alignment%7d&amp;EnableScript=0&amp;Text=%7b%40Heading4%7d" ph="TextTeaserRow.Column4" uid="{9F436E2B-57D0-4CDD-A86E-4859728314C9}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=%7b%40Text4%7d&amp;Alignment=%7b%40Alignment%7d&amp;EnableScript=0" ph="TextTeaserRow.Column4" uid="{C30D7AAB-211C-4412-BF79-0377A912BCBE}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7b%40Link4%7d&amp;Text=%7b%40LinkText4%7d&amp;EnableScript=0" ph="TextTeaserRow.Column4" uid="{A955CCF7-7A38-41E4-BE50-DF20E7D6CBD3}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: ec349ff1-a0ee-4c38-bfe0-30a1be600242
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140427T121632
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec349ff1-a0ee-4c38-bfe0-30a1be600242
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T132232:635342017525913724
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

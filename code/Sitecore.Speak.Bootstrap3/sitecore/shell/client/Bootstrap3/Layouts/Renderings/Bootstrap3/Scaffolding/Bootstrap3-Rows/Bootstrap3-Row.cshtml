@@ -1,0 +1,173 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Scaffolding.Bootstrap3Rows.Bootstrap3RowRenderingModel
+@{
+  Model.Class = "row";
+  Model.DataBind.IsVisible();
+  Model.HasNestedControls = true;
+}
+<div @Model.HtmlAttributes>
+  @{ if (!string.IsNullOrEmpty(Model.PredefinedColumns))
+   {
+     @RenderPredefinedColumns();
+   }
+   else if (!string.IsNullOrEmpty(Model.ExtraSmall))
+   {
+     @RenderRows()
+   }
+   else
+   {
+     @RenderRow()
+   }
+   }
+</div>
+@helper RenderRows()
+{
+  var comma = new[]
+  {
+    ','
+  };
+  
+  var extraSmall = Model.ExtraSmall.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var small = Model.Small.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var medium = Model.Medium.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var large = Model.Large.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+
+  var extraSmallOffset = Model.ExtraSmallOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var smallOffset = Model.SmallOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var mediumOffset = Model.MediumOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var largeOffset = Model.LargeOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+
+  var extraSmallPull = Model.ExtraSmallPull.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var smallPull = Model.SmallPull.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var mediumPull = Model.MediumPull.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var largePull = Model.LargePull.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+
+  var extraSmallPush = Model.ExtraSmallPush.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var smallPush = Model.SmallPush.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var mediumPush = Model.MediumPush.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var largePush = Model.LargePush.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+
+  if (small.Length != extraSmall.Length || medium.Length != extraSmall.Length || large.Length != extraSmall.Length)
+  {
+    throw new InvalidOperationException(string.Format("All columns (ExtraSmall, Small, Medium and Large) must have the same number of elements ({0})", Model.ControlId));
+  }
+  
+  for (var n = 0; n < extraSmall.Length; n++)
+  {
+    var className = string.Empty;
+
+    if (!string.IsNullOrEmpty(extraSmall[n]) && extraSmall[n] != "*")
+    {
+      className += "col-xs-" + extraSmall[n].Trim();
+    }
+
+    if (!string.IsNullOrEmpty(small[n]) && small[n] != "*")
+    {
+      className += " col-sm-" + small[n].Trim();
+    }
+
+    if (!string.IsNullOrEmpty(medium[n]) && medium[n] != "*")
+    {
+      className += " col-md-" + medium[n].Trim();
+    }
+
+    if (!string.IsNullOrEmpty(large[n]) && large[n] != "*")
+    {
+      className += " col-lg-" + large[n].Trim();
+    }
+
+    
+    // offsets
+    if (extraSmallOffset.Length > n && extraSmallOffset[n] != "*")
+    {
+      className += " col-xs-offset-" + extraSmallOffset[n].Trim();
+    }
+
+    if (smallOffset.Length > n && smallOffset[n] != "*")
+    {
+      className += " col-sm-offset-" + smallOffset[n].Trim();
+    }
+
+    if (mediumOffset.Length > n && mediumOffset[n] != "*")
+    {
+      className += " col-md-offset-" + mediumOffset[n].Trim();
+    }
+
+    if (largeOffset.Length > n && largeOffset[n] != "*")
+    {
+      className += " col-lg-offset-" + largeOffset[n].Trim();
+    }
+
+    // pushes
+    if (extraSmallPush.Length > n && extraSmallPush[n] != "*")
+    {
+      className += " col-xs-push-" + extraSmallPush[n].Trim();
+    }
+
+    if (smallPush.Length > n && smallPush[n] != "*")
+    {
+      className += " col-sm-push-" + smallPush[n].Trim();
+    }
+
+    if (mediumPush.Length > n && mediumPush[n] != "*")
+    {
+      className += " col-md-push-" + mediumPush[n].Trim();
+    }
+
+    if (largePush.Length > n && largePush[n] != "*")
+    {
+      className += " col-lg-push-" + largePush[n].Trim();
+    }
+
+    // pulls
+    if (extraSmallPull.Length > n && extraSmallPull[n] != "*")
+    {
+      className += " col-xs-pull-" + extraSmallPull[n].Trim();
+    }
+
+    if (smallPull.Length > n && smallPull[n] != "*")
+    {
+      className += " col-sm-pull-" + smallPull[n].Trim();
+    }
+
+    if (mediumPull.Length > n && mediumPull[n] != "*")
+    {
+      className += " col-md-pull-" + mediumPull[n].Trim();
+    }
+
+    if (largePull.Length > n && largePull[n] != "*")
+    {
+      className += " col-lg-pull-" + largePull[n].Trim();
+    }
+
+    <div class="@className.Trim()">
+      @Html.Sitecore().Placeholder(Model.ControlId + ".Column" + (n + 1))
+    </div>
+  }
+}
+@helper RenderPredefinedColumns()
+{
+  var item = Model.Item.Database.GetItem(Model.PredefinedColumns);
+  if (item == null)
+  {
+    return;
+  }
+
+  var rows = item["CssClass"].Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+  for (var n = 0; n < rows.Length; n++)
+  {
+    var className = rows[n].Trim();
+    if (className != "-")
+    {
+    <div @Html.Sitecore().ClassAttribute(className)>
+      @Html.Sitecore().Placeholder(Model.ControlId + ".Column" + (n + 1))
+    </div>
+    }
+  }
+}
+@helper RenderRow()
+{
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Column1")
+  </div>
+}

@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {F8B4D820-E844-4BE8-9FD4-F2AC6D156296}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Body
+parent: {C5D081B4-5362-4A43-A99B-6D206177D0ED}
+name: Body
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+-450
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2061
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
+    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Body" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=BodyRow&amp;Large=*&amp;Medium=12&amp;Small=*" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Body%20copy" ph="BodyRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Nullam%20quis%20risus%20eget%20urna%20mollis%20ornare%20vel%20eu%20leo.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Nullam%20id%20dolor%20id%20nibh%20ultricies%20vehicula." ph="BodyRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla.%20Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula%2C%20eget%20lacinia%20odio%20sem%20nec%20elit.%20Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla." ph="BodyRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Maecenas%20sed%20diam%20eget%20risus%20varius%20blandit%20sit%20amet%20non%20magna.%20Donec%20id%20elit%20non%20mi%20porta%20gravida%20at%20eget%20metus.%20Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula%2C%20eget%20lacinia%20odio%20sem%20nec%20elit." ph="BodyRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Lead%20body%20copy" ph="BodyRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Make%20a%20paragraph%20stand%20out%20by%20adding%20.lead." ph="BodyRow.Column1" />
+    <r id="{6D35CDDF-7900-4F49-94FB-34AD3C44E38A}" par="Text=Vivamus%20sagittis%20lacus%20vel%20augue%20laoreet%20rutrum%20faucibus%20dolor%20auctor.%20Duis%20mollis%2C%20est%20non%20commodo%20luctus." ph="BodyRow.Column1" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 7404811b-5a84-49be-a084-433f49a099fc
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130819T181257
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7404811b-5a84-49be-a084-433f49a099fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T130916:635343737562448305
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

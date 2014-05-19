@@ -1,0 +1,35 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{9D9A69AF-6559-42F4-90D6-21C7891CC8F8}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Anchor AnchorName="Navs" />
+    <Bootstrap3-Row>
+      <Bootstrap3-PageHeader Text="Nav: tabs, pills, and lists" />
+      <Bootstrap3-Paragraph Text="All nav components here—tabs, pills, and lists—share the same base markup and styles through the .nav class." />
+      <Bootstrap3-Heading3 Text="Basic tabs" />
+      <Bootstrap3-Paragraph Text="Take a regular ul of links and add .nav-tabs:" />
+      <Bootstrap3-Nav Active="Left" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/ButtonGroup" LinkFieldName="#" Type="Tabs" />
+      
+      <Bootstrap3-Heading3 Text="Basic pills" />
+      <Bootstrap3-Paragraph Text="Take that same HTML, but use .nav-pills instead:" />
+      <Bootstrap3-Nav Active="Left" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/ButtonGroup" LinkFieldName="#" Type="Pills" />
+      
+      <Bootstrap3-Heading2 Text="Stackable" />
+      <Bootstrap3-Paragraph Text="As tabs and pills are horizontal by default, just add a second class, .nav-stacked, to make them appear vertically stacked." />
+      <Bootstrap3-Heading3 Text="Stacked pills" />
+      <Bootstrap3-Nav Active="Left" IsStacked="True" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/ButtonGroup" LinkFieldName="#" Type="Pills" />
+      
+      <Bootstrap3-Heading2 Text="Justified" />
+      <Bootstrap3-Paragraph Text="Easily make tabs or pills equal widths of their parent at screens wider than 768px with .nav-justified. On smaller screens, the nav links are stacked." />
+      <Bootstrap3-Nav Active="Left" IsJustified="True" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/ButtonGroup" LinkFieldName="#" Type="Tabs" />
+      <Bootstrap3-Br />
+      <Bootstrap3-Nav Active="Left" IsJustified="True" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/ButtonGroup" LinkFieldName="#" />
+
+      <Bootstrap3-Heading2 Text="Using dropdowns" />
+      <Bootstrap3-Paragraph Text="Add dropdown menus with a little extra HTML and the dropdowns JavaScript plugin." />
+      <Bootstrap3-Heading3 Text="Tabs with dropdowns" />
+      <Bootstrap3-Nav Active="Above" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" LinkFieldName="#" Type="Tabs" />
+
+      <Bootstrap3-Heading3 Text="Pills with dropdowns" />
+      <Bootstrap3-Nav Active="Above" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" LinkFieldName="#" Type="Pills" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

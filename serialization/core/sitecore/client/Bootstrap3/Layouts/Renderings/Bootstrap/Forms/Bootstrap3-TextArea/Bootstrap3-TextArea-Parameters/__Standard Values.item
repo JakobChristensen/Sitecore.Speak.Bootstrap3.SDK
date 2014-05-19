@@ -1,0 +1,69 @@
+----item----
+version: 1
+id: {C29BF243-39DA-4971-B10D-819A0872581E}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Forms/Bootstrap3-TextArea/Bootstrap3-TextArea-Parameters/__Standard Values
+parent: {CB795133-51AF-4245-BC63-9460E1326A17}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB795133-51AF-4245-BC63-9460E1326A17}
+templatekey: Bootstrap3-TextArea-Parameters
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 177
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{92C0CA00-828A-4779-8696-95EE6C46954E}" par="Rows=3" uid="{1FD557AF-D1C7-4CAF-BED0-C9E467FB4EF5}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: aa69657c-120b-4522-99f4-3090c1abbea9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T140243
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aa69657c-120b-4522-99f4-3090c1abbea9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130821T132840:635126885207540570
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

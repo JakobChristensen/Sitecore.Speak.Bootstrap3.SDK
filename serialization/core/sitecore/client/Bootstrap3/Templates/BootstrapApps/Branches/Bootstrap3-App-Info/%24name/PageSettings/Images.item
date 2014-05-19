@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {22C1D489-33C0-4E00-96E5-EEBCB38DE656}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/PageSettings/Images
+parent: {95A82354-7276-4103-B05D-D77D368CFB75}
+name: Images
+master: {00000000-0000-0000-0000-000000000000}
+template: {D275A1DF-8549-4657-A43E-0A1751D17454}
+templatekey: Bootstrap3-Block-Image
+
+----field----
+field: {8F7D558D-7496-4C27-9E10-DFBD39120087}
+name: Image1
+key: image1
+content-length: 159
+
+<image mediapath="" alt="mug" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{D49ABEA0-ECFD-46A1-865B-BE2944C263B7}" />
+----field----
+field: {548AB5CF-0F51-403E-9475-F304986ABCF7}
+name: Image2
+key: image2
+content-length: 165
+
+<image mediapath="" alt="palm_tree" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{CD28B1AB-8E27-488F-B628-20A515230FF8}" />
+----field----
+field: {1AC8BC01-424E-4AA8-B417-B54FC05FFFDA}
+name: Image3
+key: image3
+content-length: 166
+
+<image mediapath="" alt="piggy_bank" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{41EA496A-D4DF-4821-AA04-83AFC129E874}" />
+----field----
+field: {F6865982-30A7-4554-A38F-B01E08C9F604}
+name: Columns
+key: columns
+content-length: 38
+
+{61343B56-69E2-4B8A-9521-EA7FD1928174}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 477760cd-4c88-42c1-bb3f-3d47991db1d6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140425T124106
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+477760cd-4c88-42c1-bb3f-3d47991db1d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140425T124143:635340265030354961
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

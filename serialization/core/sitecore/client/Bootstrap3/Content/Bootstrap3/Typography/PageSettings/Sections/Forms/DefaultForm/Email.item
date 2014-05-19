@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {B328E911-0499-46BB-9C65-BBCA89D7EE53}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Forms/DefaultForm/Email
+parent: {82D2BCF6-CF01-48E9-880B-11DE7DD014BA}
+name: Email
+master: {00000000-0000-0000-0000-000000000000}
+template: {229DF436-8F10-4280-9295-44A64139E0CA}
+templatekey: Bootstrap3-Input-Parameters
+
+----field----
+field: {24A5D73A-0DAE-466B-ABE8-4448CFD9D551}
+name: Type
+key: type
+content-length: 5
+
+Email
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 1bc2364d-7189-494e-abc9-f55f0fadd69a
+
+----field----
+field: {21E8C3C6-88FC-44A0-91C6-05F210862B90}
+name: Label
+key: label
+content-length: 13
+
+Email address
+----field----
+field: {552DAB64-B91E-41B2-9800-BEF4E9DE4DB7}
+name: Watermark
+key: watermark
+content-length: 11
+
+Enter email
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T092030
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bc2364d-7189-494e-abc9-f55f0fadd69a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140114T120413:635252978533712746
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,19 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{9276EE5B-B5B0-4137-A89F-A8BDD46CDAB3}">
+  <Device Name="Internet Explorer">
+    <Bootstrap3-Row ExtraSmall="*" Id="TablesRow" Large="*" Medium="12" Small="*">
+      <Bootstrap3-PageHeader Text="Tables" />
+      <Bootstrap3-Heading2 Text="Default styles" />
+      <Bootstrap3-Paragraph Text="For basic styling—light padding and only horizontal dividers—add the base class .table to any table." />
+      <StaticJsonDataSource Id="StaticJsonDataSource1" JsonDataSource="{6FD56988-5AC6-47B1-B78F-BFBDE9829733}" JsonFieldName="Data" />
+      <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" />
+      <Bootstrap3-Heading2 Text="Striped" />
+      <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" IsStriped="True" />
+      <Bootstrap3-Heading2 Text="Bordered" />
+      <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" IsBordered="True" />
+      <Bootstrap3-Heading2 Text="Hover" />
+      <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Hover="True" />
+      <Bootstrap3-Heading2 Text="Condensed" />
+      <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" IsCondensed="True" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

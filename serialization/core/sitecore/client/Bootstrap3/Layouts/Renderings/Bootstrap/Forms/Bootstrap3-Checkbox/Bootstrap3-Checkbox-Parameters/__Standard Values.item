@@ -1,0 +1,69 @@
+----item----
+version: 1
+id: {76D98687-5AB2-4455-A4F8-6DC1C0A206A4}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Forms/Bootstrap3-Checkbox/Bootstrap3-Checkbox-Parameters/__Standard Values
+parent: {42D85C0E-4ABC-40E9-8096-89963663D2CD}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {42D85C0E-4ABC-40E9-8096-89963663D2CD}
+templatekey: Bootstrap3-Checkbox-Parameters
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 164
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" uid="{8B91778A-DF8F-4BAB-961F-454396D41B65}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 0fb2f0f3-43f1-46cc-bc4b-30db6f9024ff
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T140243
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0fb2f0f3-43f1-46cc-bc4b-30db6f9024ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130821T093619:635126745799696234
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

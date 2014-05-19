@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {6A358B4F-EC0A-4C28-B281-2F0B879DBEDF}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections/Panels
+parent: {77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}
+name: Panels
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1500
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4083
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=PanelListRow" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Panels" ph="PanelListRow.Column1" uid="{2F2D23C2-C2F8-4642-916A-DD614D7146E7}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading21&amp;Text=Basic+example" ph="PanelListRow.Column1" uid="{B313DEC1-ACB9-4D57-990C-6C6B9F66ED04}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=By+default%2c+all+the+.panel+does+is+apply+some+basic+border+and+padding+to+contain+some+content.&amp;Id=Bootstrap3-Paragraph1" ph="PanelListRow.Column1" uid="{8CEB6DE6-8463-40B4-A7F1-85AE71EDB6E4}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Basic+panel+example&amp;Id=Bootstrap3Panel1" ph="PanelListRow.Column1" uid="{5D7D07F7-5C6E-4558-A7A5-945CA11BD560}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3Heading1&amp;Text=Panel+with+heading" ph="PanelListRow.Column1" uid="{B313DEC1-ACB9-4D57-990C-6C6B9F66ED04}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Easily+add+a+heading+container+to+your+panel+with+.panel-heading.+&amp;Id=Bootstrap3Paragraph1" ph="PanelListRow.Column1" uid="{8CEB6DE6-8463-40B4-A7F1-85AE71EDB6E4}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Panel+content&amp;Id=Bootstrap3Panel2&amp;Heading=Panel+heading" ph="PanelListRow.Column1" uid="{5D7D07F7-5C6E-4558-A7A5-945CA11BD560}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3Heading2&amp;Text=Panel+with+footer" ph="PanelListRow.Column1" uid="{B313DEC1-ACB9-4D57-990C-6C6B9F66ED04}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Wrap+buttons+or+secondary+text+in+.panel-footer.+Note+that+panel+footers+do+not+inherit+colors+and+borders+when+using+contextual+variations+as+they+are+not+meant+to+be+in+the+foreground.&amp;Id=Bootstrap3Paragraph2" ph="PanelListRow.Column1" uid="{8CEB6DE6-8463-40B4-A7F1-85AE71EDB6E4}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Panel+content&amp;Id=Bootstrap3Panel3&amp;Footer=Panel+footer" ph="PanelListRow.Column1" uid="{5D7D07F7-5C6E-4558-A7A5-945CA11BD560}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3Heading3&amp;Text=Contextual+alternatives" ph="PanelListRow.Column1" uid="{B313DEC1-ACB9-4D57-990C-6C6B9F66ED04}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Like+other+components%2c+easily+make+a+panel+more+meaningful+to+a+particular+context+by+adding+any+of+the+contextual+state+classes.&amp;Id=Bootstrap3Paragraph3" ph="PanelListRow.Column1" uid="{8CEB6DE6-8463-40B4-A7F1-85AE71EDB6E4}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Default&amp;Id=Bootstrap3Panel4&amp;Heading=Panel+heading&amp;Type=Default" ph="PanelListRow.Column1" uid="{5D7D07F7-5C6E-4558-A7A5-945CA11BD560}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Primary&amp;Id=Bootstrap3Panel5&amp;Heading=Panel+heading&amp;Type=Primary" ph="PanelListRow.Column1" uid="{48D49DF7-C7C8-41A9-B8CD-60657DBDFCB1}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Success&amp;Id=Bootstrap3Panel6&amp;Heading=Panel+heading&amp;Type=Success" ph="PanelListRow.Column1" uid="{48D49DF7-C7C8-41A9-B8CD-60657DBDFCB1}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Info&amp;Id=Bootstrap3Panel7&amp;Heading=Panel+heading&amp;Type=Info" ph="PanelListRow.Column1" uid="{48D49DF7-C7C8-41A9-B8CD-60657DBDFCB1}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Warning&amp;Id=Bootstrap3Panel8&amp;Heading=Panel+heading&amp;Type=Warning" ph="PanelListRow.Column1" uid="{48D49DF7-C7C8-41A9-B8CD-60657DBDFCB1}" />
+    <r id="{7C1C0AD4-3E92-451E-87B7-218AE0EACEF9}" par="Text=Danger&amp;Id=Bootstrap3Panel9&amp;Heading=Panel+heading&amp;Type=Danger" ph="PanelListRow.Column1" uid="{48D49DF7-C7C8-41A9-B8CD-60657DBDFCB1}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 407c908c-aaa4-455d-9def-9b43be04ac0f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+407c908c-aaa4-455d-9def-9b43be04ac0f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140408T142415:635325638551029424
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

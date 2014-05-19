@@ -1,0 +1,93 @@
+﻿@using System.Web.Mvc
+@using Sitecore
+@using Sitecore.Bootstrap
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Navs
+@model Bootstrap3NavRenderingModel
+@{
+  Model.Class = "nav";
+  Model.Class.AppendIf(Model.Type, string.Empty, "nav-pills").
+    AppendIf(Model.Type, "Tabs", "nav-tabs").
+    AppendIf(Model.Type, "Pills", "nav-pills").
+    AppendIf(Model.IsStacked, "nav-stacked").
+    AppendIf(Model.IsJustified, "nav-justified");
+
+  IEnumerable<Item> items = null;
+  if (!string.IsNullOrEmpty(Model.ItemsDataSource))
+  {
+    items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  }
+  else
+  {
+    var app = BootstrapApplication.GetApplicationItem(Model.PageItem);
+    if (app != null)
+    {
+      items = app.GetChildren();
+    }
+  }
+
+  if (items == null || !items.Any())
+  {
+    return;
+  }
+
+  var active = Model.Active;
+  if (string.IsNullOrEmpty(active))
+  {
+    active = Model.PageItem.ID.ToString();
+  }
+}                         
+<ul @Model.HtmlAttributes>
+  @{
+    foreach (var item in items)
+    {
+      var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+      
+      if (item.Is(BootstrapApplication.Button))
+      {
+        @RenderTab(Model, item, isSelected)
+      }
+      else if (item.Is(BootstrapApplication.DropDownMenu))
+      {
+        @RenderDropDownMenu(Model, item)
+      }
+      else if (item.Name != "PageSettings" && !item.Is(BootstrapApplication.Separator))
+      {
+        @RenderTab(Model, item, isSelected)
+      }
+    }
+  }
+</ul>
+@helper RenderTab([NotNull] Bootstrap3NavRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+    <a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>
+      @Html.Sitecore().Icon(item, Model.IconFieldName)
+      @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+    </a>
+  </li>
+}
+@helper RenderDropDownMenu([NotNull] Bootstrap3NavRenderingModel model, [NotNull] Item item)
+{
+  <li>
+    <a class ="dropdown-toggle" data-toggle="dropdown" href="#">
+      @Html.Sitecore().Icon(item, Model.IconFieldName)
+      @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+      <span class="caret"></span>
+    </a>
+    @{
+      var menuItemId = item["ItemsDataSource"];
+      if (string.IsNullOrEmpty(menuItemId))
+      {
+        menuItemId = item.ID.ToString();
+      }
+
+      var items = BootstrapApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+      
+      <ul class="dropdown-menu" role="menu">
+        @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+      </ul>
+    }
+  </li>
+}

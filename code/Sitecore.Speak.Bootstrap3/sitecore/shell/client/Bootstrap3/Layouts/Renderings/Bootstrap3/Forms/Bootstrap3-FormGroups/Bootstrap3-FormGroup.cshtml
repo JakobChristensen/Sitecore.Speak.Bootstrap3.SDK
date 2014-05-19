@@ -1,0 +1,14 @@
+﻿@using Sitecore.Web.UI.Controls.Common.ChildRenderers
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+  var childRenderer = new ChildRenderer
+  {
+    UsePlaceholders = true, 
+    DataSource = Sitecore.Context.Item.ID.ToString()
+  };
+
+  var content = Html.Raw(childRenderer.Render());
+}              
+<div class="form-group">
+  @content
+</div>

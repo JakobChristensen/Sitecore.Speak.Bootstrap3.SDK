@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Abbreviations.Bootstrap3AbbreviationRenderingModel
+@{
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+  
+  Model.Class.AppendIf(Model.Initialism, "initialism");
+
+  Model.DataBind.IsVisible().Text().Css("initialism", "Initialism");
+}            
+<abbr @Model.HtmlAttributes>@content@Html.Sitecore().Translate(Model.Text)</abbr>

@@ -1,0 +1,27 @@
+﻿@using System.Globalization
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3TextAreas.Bootstrap3TextAreaRenderingModel
+@{
+  Model.Class = "form-control";
+  Model.Class.AppendIf(Model.IsUneditable, "disabled").
+    AppendIf(Model.RelativeSize, "Small", "input-sm").
+    AppendIf(Model.RelativeSize, "Large", "input-lg");
+
+  Model.DataBind.IsVisible().IsEnabled().Value().
+    Css("input-small", "RelativeSize", "Small").
+    Css("input-large", "RelativeSize", "Large").
+    Css("uneditable-input", "IsUneditable");
+
+  Model.Attributes[HtmlTextWriterAttribute.Type] = Model.Type;
+  Model.Attributes["placeholder"] = Model.Watermark;
+  Model.Attributes["rows"] = Model.Rows.ToString(CultureInfo.InvariantCulture);
+}              
+<div class="form-group">
+@if (!string.IsNullOrEmpty(Model.Label))
+{
+  var id = Model.ControlId + "input";
+  Model.Attributes[HtmlTextWriterAttribute.Id] = id;
+  <label class="control-label" for="@id">@Html.Sitecore().Translate(Model.Label)</label>
+}
+  <textarea @Model.HtmlAttributes>@Model.Text</textarea>
+</div>

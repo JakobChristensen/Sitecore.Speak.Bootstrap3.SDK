@@ -1,0 +1,22 @@
+﻿ @using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Blockquotes.Bootstrap3BlockquoteRenderingModel
+@{                             
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text) && string.IsNullOrEmpty(Model.Footer))
+  {
+    return;
+  }
+  
+  Model.Class.AppendIf(Model.IsReverse, "blockquote-reverse");
+
+  Model.DataBind.IsVisible().Css("blockquote-reverse", "IsReverse");
+}            
+<blockquote @Model.HtmlAttributes>
+  @content
+  <p @Html.Raw(Model.DataBindAttribute().Text())>@Html.Sitecore().Translate(Model.Text)</p>   
+  @if (!string.IsNullOrEmpty(Model.Footer))
+  {
+  <footer @Html.Raw(@Model.DataBindAttribute().Text("Footer"))>@Html.Sitecore().Translate(Model.Footer)</footer>
+  }
+</blockquote>

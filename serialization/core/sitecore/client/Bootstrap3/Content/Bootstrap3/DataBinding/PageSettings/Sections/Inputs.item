@@ -1,0 +1,61 @@
+----item----
+version: 1
+id: {8E05A526-98AA-4E41-88D2-40075480E4D4}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/DataBinding/PageSettings/Sections/Inputs
+parent: {13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}
+name: Inputs
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1602
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Inputs" uid="{44C2F0E4-27F1-488B-ACF0-58E02FFC654E}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=InputRow&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;Small=*%2c*" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
+    <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=BootstrapInput&amp;IsVisible=%7bBinding+InputIsVisible.isChecked%7d&amp;Text=%7bBinding+InputText.Text%7d&amp;IsEnabled=%7bBinding+InputIsEnabled.isChecked%7d&amp;Watermark=Type+text+here&amp;RelativeSize=%7bBinding+InputRelativeSize.SelectedItem%7d" ph="InputRow.Column1" uid="{C8DDE4D0-4F1E-4839-A4FD-173BE90E5E83}" />
+    <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=InputText&amp;Text=Type+text+here&amp;Label=Text%3a" ph="InputRow.Column2" uid="{5F6826E8-7DA5-4ED9-9A62-30185B92468F}" />
+    <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="ItemsDataSource=%7b3647D664-7244-4E4F-AFEF-6AE3E6CFC5B7%7d&amp;Id=InputRelativeSize&amp;Label=Size%3a&amp;DisplayFieldName=%24itemName&amp;ValueFieldName=%24itemName" ph="InputRow.Column2" uid="{E5697319-C6F2-4C22-961F-6D5073217168}" />
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=InputIsVisible&amp;IsChecked=True&amp;Text=Is+Visible" ph="InputRow.Column2" uid="{06141687-8921-4E93-9B00-748157AEBE05}" />
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=InputIsEnabled&amp;IsChecked=True&amp;Text=Is+Enabled" ph="InputRow.Column2" uid="{8FD37286-5951-470A-8A7E-51B945F20021}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 4dfb55cf-94ff-4de0-89a5-05716b24ad0b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4dfb55cf-94ff-4de0-89a5-05716b24ad0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T152630:635342091905056450
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

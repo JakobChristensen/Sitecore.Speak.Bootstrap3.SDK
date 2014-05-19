@@ -1,0 +1,28 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3ProgressBars.Bootstrap3ProgressBarRenderingModel
+@{
+  Model.Class = "progress";
+  Model.Class.AppendIf(Model.IsStriped, "progress-striped").
+    AppendIf(Model.IsActive, "active");
+    
+  Model.DataBind.IsVisible().Css("progress-striped", "IsStriped").
+    Css("active", "IsActive");
+
+  var barClass = new ClassBuilder("progress-bar").
+    AppendIf(Model.Type, "Info", "progress-bar-info").
+    AppendIf(Model.Type, "Success", "progress-bar-success").
+    AppendIf(Model.Type, "Warning", "progress-bar-warning").
+    AppendIf(Model.Type, "Danger", "progress-bar-danger");
+
+  var barDataBind = new DataBindBuilder().
+    Css("progress-bar-info", "Type", "Info").
+    Css("progress-bar-success", "Type", "Success").
+    Css("progress-bar-warning", "Type", "Warning").
+    Css("progress-bar-danger", "Type", "Danger").
+    Style("width", "Value() + '%'");
+}              
+<div @Model.HtmlAttributes>
+  <div @Html.Sitecore().ClassAttribute(barClass) @Html.Sitecore().Attribute("data-bind", barDataBind)></div>
+</div>

@@ -1,0 +1,71 @@
+----item----
+version: 1
+id: {57FAAC47-D26B-4CBC-BA56-B38B14DD0BB1}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections/ListGroups
+parent: {77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}
+name: ListGroups
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1400
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1873
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
+    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=ListGroups" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Small=*&amp;Medium=12&amp;Large=*&amp;Id=ListGroupsRow" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=List%20groups" ph="ListGroupsRow.Column1" />
+    <r id="{6D35CDDF-7900-4F49-94FB-34AD3C44E38A}" par="Text=List%20groups%20are%20a%20flexible%20and%20powerful%20component%20for%20displaying%20not%20only%20simple%20lists%20of%20elements%2C%20but%20complex%20ones%20with%20custom%20content." ph="ListGroupsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20example" ph="ListGroupsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=The%20most%20basic%20list%20group%20is%20simply%20an%20unordered%20list%20with%20list%20items%2C%20and%20the%20proper%20classes.%20Build%20upon%20it%20with%20the%20options%20that%20follow%2C%20or%20your%20own%20CSS%20as%20needed." ph="ListGroupsRow.Column1" />
+    <r id="{287624B7-E7F9-4EBF-9E22-F120E6B7C456}" par="ItemsDataSource=ButtonGroup&amp;Active=Left" ph="ListGroupsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Linked%20items" ph="ListGroupsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Linkify%20list%20group%20items%20by%20using%20anchor%20tags%20instead%20of%20list%20items%20(that%20also%20means%20a%20parent%20%3C%20div%3E%20instead%20of%20an%20%3C%20ul%3E).%20No%20need%20for%20individual%20parents%20around%20each%20element." ph="ListGroupsRow.Column1" />
+    <r id="{287624B7-E7F9-4EBF-9E22-F120E6B7C456}" par="ItemsDataSource=ButtonGroup&amp;Active=Left&amp;LinkFieldName=%23" ph="ListGroupsRow.Column1" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: fa34ebc8-eef6-49a1-9141-b224d5a4e728
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140408T142402
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa34ebc8-eef6-49a1-9141-b224d5a4e728
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T133457:635343752971942567
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

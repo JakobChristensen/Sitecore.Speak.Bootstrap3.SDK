@@ -1,0 +1,14 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{C03E6EB9-4BBF-4E56-A6E7-A29858EF2538}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Anchor AnchorName="Labels" />
+    <Bootstrap3-Row Id="LabelRow">
+      <Bootstrap3-PageHeader Text="Labels" />
+      <Bootstrap3-Label Text="Default" />
+      <Bootstrap3-Label Text="Success" Type="Success" />
+      <Bootstrap3-Label Text="Warning" Type="Warning" />
+      <Bootstrap3-Label Text="Primary" Type="Primary" />
+      <Bootstrap3-Label Text="Info" Type="Info" />
+      <Bootstrap3-Label Text="Danger" Type="Danger" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

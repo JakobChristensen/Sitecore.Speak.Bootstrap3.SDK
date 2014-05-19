@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Labels.Bootstrap3LabelRenderingModel
+@{                          
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text))
+  {
+    return;
+  }
+  
+  Model.Class = "label";
+
+  Model.Class.AppendIf(Model.Type, string.Empty, "label-default").
+    AppendIf(Model.Type, "Default", "label-default").
+    AppendIf(Model.Type, "Primary", "label-primary").
+    AppendIf(Model.Type, "Success", "label-success").
+    AppendIf(Model.Type, "Info", "label-info").
+    AppendIf(Model.Type, "Warning", "label-warning").
+    AppendIf(Model.Type, "Danger", "label-danger");
+
+  Model.DataBind.IsVisible().Text().
+    Css("label-default", "Type", string.Empty).
+    Css("label-primary", "Type", "Primary").
+    Css("label-success", "Type", "Success").
+    Css("label-info", "Type", "Info").
+    Css("label-warning", "Type", "Warning").
+    Css("label-danger", "Type", "Danger");
+}              
+<span @Model.HtmlAttributes>@content@Html.Sitecore().Translate(Model.Text)</span>

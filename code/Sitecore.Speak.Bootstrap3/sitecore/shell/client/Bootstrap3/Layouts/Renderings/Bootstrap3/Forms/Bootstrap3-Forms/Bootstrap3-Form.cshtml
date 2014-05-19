@@ -1,0 +1,33 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.ChildRenderers
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Forms.Bootstrap3FormRenderingModel
+@{
+  Model.Class.AppendIf(Model.Layout, "Inline", "form-inline").
+    AppendIf(Model.Layout, "Horizontal", "form-horizontal");
+    
+  Model.DataBind.IsVisible();
+  
+  Model.Attributes["action"] = Model.Action;
+
+  IHtmlString content = new HtmlString(string.Empty);
+
+  var formDataSource = Model.FormDataSource;
+  if (formDataSource != null)
+  {
+    var form = Model.Rendering.RenderingItem.Database.GetItem(formDataSource);
+    if (form != null)
+    {
+      var childRenderer = new ChildRenderer
+      {
+        UsePlaceholders = true,
+        DataSource = form.ID.ToString()
+      };
+
+      content = Html.Raw(childRenderer.Render());
+    }
+  }
+}              
+<form @Model.HtmlAttributes role="form">
+  @content
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+</form>

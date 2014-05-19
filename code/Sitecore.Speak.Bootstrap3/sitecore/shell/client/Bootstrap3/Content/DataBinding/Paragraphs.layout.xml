@@ -1,0 +1,14 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{18CE2CF7-5464-4D23-9C32-16D2AFB08509}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Bootstrap3-PageHeader Text="Paragraph" />
+    <Bootstrap3-Row ExtraSmall="*,*" Id="ParagraphRow" Large="*,*" Medium="8,4" Small="*,*">
+      <Bootstrap3-Paragraph Alignment="{Binding ParagraphAlignment.SelectedItem}" Emphasis="{Binding ParagraphEmphasis.SelectedItem}" EnableScript="True" Id="Paragraph" Text="{Binding ParagraphInput1.Text}" 
+                            IsVisible="{Binding ParagraphIsVisible.IsChecked}"/>
+      
+      <Bootstrap3-Input Placeholder="ParagraphRow.Column2" Id="ParagraphInput1" Label="Text" Text="Paragraph" />
+      <Bootstrap3-Select Placeholder="ParagraphRow.Column2" DisplayFieldName="$itemName" Id="ParagraphAlignment" ItemsDataSource="/sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Typography/Bootstrap3-Paragraph/Alignment" Label="Alignment" ValueFieldName="$itemName" />
+      <Bootstrap3-Select Placeholder="ParagraphRow.Column2" DisplayFieldName="$itemName" Id="ParagraphEmphasis" ItemsDataSource="/sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Typography/Bootstrap3-Paragraph/Emphasis" Label="Emphasis" ValueFieldName="$itemName" />
+      <Bootstrap3-Checkbox Placeholder="ParagraphRow.Column2" Id="ParagraphIsVisible" IsChecked="True" Text="Is Visible" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

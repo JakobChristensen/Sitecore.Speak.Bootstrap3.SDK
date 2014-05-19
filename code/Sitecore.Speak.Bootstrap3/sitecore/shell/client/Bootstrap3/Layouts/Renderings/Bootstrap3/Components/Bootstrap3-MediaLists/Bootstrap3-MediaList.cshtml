@@ -1,0 +1,35 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Bootstrap
+@using Sitecore.Data
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3MediaLists.Bootstrap3MediaListRenderingModel
+@{
+  Model.DataBind.IsVisible();
+  
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}              
+<div @Model.HtmlAttributes>
+  @{
+    foreach (var item in items)
+    {
+      var displayName = item.GetField(Model.DisplayFieldName, item.DisplayName);
+      var icon = item.GetField(Model.IconFieldName);
+    <div class="media">
+@if (!string.IsNullOrEmpty(icon))
+{
+  <a class="pull-left" @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>
+    <img class="media-object" src="@icon" alt="@displayName" />
+  </a>
+}
+    <div class="media-body">
+      <h4 class="media-heading">@Html.Sitecore().Translate(displayName)</h4>
+      @item.GetField(Model.TextFieldName)
+    </div>
+  </div>
+    }
+  }
+</div>

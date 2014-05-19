@@ -1,0 +1,58 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Scaffolding.Bootstrap3Containers.Bootstrap3ContainerRenderingModel
+@{
+  var margin = string.Empty;
+  var width = string.Empty;
+  var padding = string.Empty;
+  
+  if (Model.FullWidth)
+  {
+    padding = "padding: 0 15px";
+    margin = "margin: 0 -15px";
+  }
+
+  if (Model.Fluid)
+  {
+    padding = string.Empty;
+    width = "width: 100%";
+    if (!Model.FullWidth)
+    {
+      margin = "margin: 0 auto";
+    }
+  }
+
+  var style = string.Empty;
+
+  if (!string.IsNullOrEmpty(padding))
+  {
+    if (!string.IsNullOrEmpty(style))
+    {
+      style += ";";
+    }
+
+    style += padding;
+  }
+  
+  if (!string.IsNullOrEmpty(margin))
+  {
+    if (!string.IsNullOrEmpty(style))
+    {
+      style += ";";
+    }
+
+    style += margin;
+  }
+
+  if (!string.IsNullOrEmpty(width))
+  {
+    if (!string.IsNullOrEmpty(style))
+    {
+      style += ";";
+    }
+
+    style += width;
+  }
+}
+<div class="container"@Html.Sitecore().Attribute("style", style)>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+</div>

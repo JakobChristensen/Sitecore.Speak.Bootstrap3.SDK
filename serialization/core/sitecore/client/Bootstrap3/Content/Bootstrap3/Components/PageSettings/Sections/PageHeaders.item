@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {DA788E37-2117-4C4C-A4C1-FD6DA7C679D3}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections/PageHeaders
+parent: {77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}
+name: PageHeaders
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1143
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=PageHeaderRow&amp;Columns=9" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Page+headers" ph="PageHeaderRow.Column1" uid="{2F2D23C2-C2F8-4642-916A-DD614D7146E7}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading1&amp;Text=Page+Header" ph="PageHeaderRow.Column1" uid="{8443E29B-1939-4019-8E2B-C28A308A3C36}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=A+simple+shell+for+an+h1+to+appropriately+space+out+and+segment+sections+of+content+on+a+page.+It+can+utilize+the+h1%27s+default+small%2c+element+as+well+most+other+components+(with+additional+styles).&amp;Id=Bootstrap3-Paragraph1" ph="PageHeaderRow.Column1" uid="{A6D52044-DF3C-4A3F-A37F-9E196F6B2320}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader2&amp;Text=Example+page+header&amp;Subtext=Subtext+for+header" ph="PageHeaderRow.Column1" uid="{5BBE64C9-B5EF-4999-993D-F7C64FB8A86D}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 753695fb-1d50-491f-b790-ed675a09855f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+753695fb-1d50-491f-b790-ed675a09855f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140408T142415:635325638550429364
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,90 @@
+----item----
+version: 1
+id: {6841E811-89FF-49C0-A1AF-590E78295195}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Blocks/Bootstrap3-Block-Text/__Standard Values
+parent: {D078AE48-624D-4954-8184-095950520046}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D078AE48-624D-4954-8184-095950520046}
+templatekey: Bootstrap3-Block-Text
+
+----field----
+field: {FD8A299A-7DA5-4688-8B03-1DE703CDC690}
+name: Columns
+key: columns
+content-length: 38
+
+{70D22590-8D5F-49B2-B66A-A3455845BE5C}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2003
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=MultiBlock1&amp;PredefinedColumns=%7b70D22590-8D5F-49B2-B66A-A3455845BE5C%7d&amp;EnableScript=0" uid="{DA42C76B-BAA2-471F-8BDE-E3E199F98F49}" />
+    <r id="{DF1A5162-EA54-462E-A157-76A0277A0D62}" par="SecondaryText=%7bBinding+DefaultValue%3d%7bXPath+%40SecondaryText%7d%7d&amp;EnableScript=0&amp;Text=%7bBinding+DefaultValue%3d%7bXPath+%40Heading%7d%7d" ph="MultiBlock1.Column1" uid="{03FBE518-DE91-4266-A78B-6AD15D6EEEFC}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=MultiBlock2&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;PredefinedColumns=%7b%40Columns%7d&amp;Small=*%2c*" uid="{0895058E-DC02-442A-9267-41A24A3FC21C}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="EnableScript=0" ph="MultiBlock2.Column1" uid="{86213E46-90A6-4FE6-85B2-97886E161D3F}" />
+    <r id="{23E62CD7-CA23-422C-A601-DE10292F78B7}" par="Source=%7bBinding+DefaultValue%3d%7bXPath+%40Image%7d%7d&amp;EnableScript=0&amp;Shape=Rounded" ph="MultiBlock2.Column2" uid="{EEB77644-0DC7-4050-8CA5-950E388C55BA}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7bBinding+DefaultValue%3d%7bXPath+%40Link1%7d%7d&amp;Text=%7bBinding+DefaultValue%3d%7bXPath+%40LinkText1%7d%7d&amp;EnableScript=0" ph="MultiBlock2.Column1" uid="{0A777023-283C-4B40-9E11-F2A3C8CD9EA3}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7bBinding+DefaultValue%3d%7bXPath+%40Link2%7d%7d&amp;Text=%7bBinding+DefaultValue%3d%7bXPath+%40LinkText2%7d%7d&amp;EnableScript=0" ph="MultiBlock2.Column1" uid="{45DC58DC-7375-46E3-A2D5-896FBE8ECA5E}" />
+    <r id="{562D9A9D-4944-4F18-99EC-B890E1DDA608}" par="Type=Link&amp;Href=%7bBinding+DefaultValue%3d%7bXPath+%40Link3%7d%7d&amp;Text=%7bBinding+DefaultValue%3d%7bXPath+%40LinkText3%7d%7d&amp;EnableScript=0" ph="MultiBlock2.Column1" uid="{362F82D4-D426-4D0D-963A-F0D092CA0840}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: d5dda1b9-b6d1-47c7-9ae7-b277ba341025
+
+----field----
+field: {77A5574F-6FF6-424C-AF0F-31837953F414}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140421T081752
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5dda1b9-b6d1-47c7-9ae7-b277ba341025
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140428T160438:635342978780040122
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

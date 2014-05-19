@@ -1,0 +1,66 @@
+﻿@using Sitecore
+@using Sitecore.Configuration
+@using Sitecore.Mvc
+@using Sitecore.SecurityModel
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+  using (new SecurityDisabler())
+  {
+    if (ClientHost.Items.ContextItem != null)
+    {
+      if (!ClientHost.Items.ContextItem.Access.CanRead())
+      {
+        Response.Redirect(SpeakSettings.Login.LoginUrl);
+        return;
+      }
+    }
+    else
+    {
+      Response.Redirect(SpeakSettings.Login.LoginUrl);
+      return;
+    }
+  }
+
+  var theme = string.Empty;
+  var themeName = Model.PageItem["Theme"];
+  if (!string.IsNullOrEmpty(themeName))
+  {
+    var themeItem = Model.PageItem.Database.GetItem(themeName);
+    if (themeItem != null)
+    {
+      theme = themeItem["Url"];
+
+      if (!string.IsNullOrEmpty(theme))
+      {
+        Session["SC_SPEAK_BOOTSTRAP_THEME_URL"] = theme;
+      }
+    }
+  }
+
+  if (string.IsNullOrEmpty(theme))
+  {
+    theme = Session["SC_SPEAK_BOOTSTRAP_THEME_URL"] as string ?? string.Empty;
+  }
+
+  if (string.IsNullOrEmpty(theme))
+  {
+    theme = "/sitecore/shell/client/Bootstrap3/Assets/bootstrap3/css/bootstrap.min.css";
+  }
+}       
+<!DOCTYPE html>
+<html class="fuelux" data-sc-app>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="@theme" rel="stylesheet" />
+  @Html.Sitecore().Placeholder("Page.Stylesheets")
+  @Html.Sitecore().Placeholder("Page.Scripts")
+  @Html.Sitecore().Placeholder("Page.Code")
+</head>
+<body class="sitecore">
+  @Html.Sitecore().Placeholder("Page.Internal.BeforeGrid")
+  @Html.Sitecore().Placeholder("Page.Body")
+  @Html.Sitecore().Placeholder("Page.Internal.AfterGrid")
+</body>
+</html>

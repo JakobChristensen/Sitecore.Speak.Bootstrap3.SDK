@@ -1,0 +1,110 @@
+----item----
+version: 1
+id: {595F1B6E-762E-4DD3-AE10-1ACE27E72AED}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Apps/Bootstrap3-App/__Standard Values
+parent: {3C554A04-6BBE-4A3B-8AEA-AFF59FBD20CF}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3C554A04-6BBE-4A3B-8AEA-AFF59FBD20CF}
+templatekey: Bootstrap3-App
+
+----field----
+field: {9B2447D8-4A61-4724-ABB4-BB85466A869F}
+name: NavIcon
+key: navicon
+content-length: 4
+
+home
+----field----
+field: {B269F472-4C0B-40DA-B7B7-FC849B495860}
+name: Columns
+key: columns
+content-length: 38
+
+{401AD292-838D-4AF5-B3F8-441981EA614C}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1156
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" ph="Page.Code" uid="{B3DAB0D6-A046-4752-A734-8763D202995A}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top" ph="Page.Body" uid="{5D10E193-1925-4627-83BD-F20C14F95A83}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" uid="{82EE5418-F86E-47D1-88D0-7FFE90DCA895}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=PageRow&amp;PredefinedColumns=%7b%40Columns%7d&amp;EnableScript=0" ph="Container.Content" uid="{2E721303-B113-41E6-A5D5-EC24951C281C}" />
+    <r id="{1AA726C0-6030-4E80-BE7D-4204C3B203DB}" par="Id=Body" ph="PageRow.Column1" uid="{62A359DD-7658-4A58-B750-FE363ED668B5}" />
+    <r ds="Navigation" id="{1AA726C0-6030-4E80-BE7D-4204C3B203DB}" par="Id=Navigation" ph="PageRow.Column2" uid="{FE6D349E-243B-4754-9148-C2207224819F}" />
+    <r ds="Details" id="{1AA726C0-6030-4E80-BE7D-4204C3B203DB}" par="Id=Details" ph="PageRow.Column3" uid="{60401C28-2B1B-4BBE-AC9E-EE633FEED7A4}" />
+  </d>
+</r>
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{DE854470-D939-4A18-A4BE-278A4DC74C4D}|{83EAD7E2-991A-4FB4-B1B6-8D58DAD8943B}|{9B70AC53-133C-4F91-829C-E304742CA60B}|{6D4F491C-7610-4B26-B713-43F20F4E7944}
+----version----
+language: en
+version: 1
+revision: 1ab89f25-5bc0-4e89-968e-a4f470a80a70
+
+----field----
+field: {E1B80479-A548-434F-AAB1-B09A5EF85845}
+name: BrandText
+key: brandtext
+content-length: 5
+
+$name
+----field----
+field: {64870103-92ED-4A9F-878C-2D798D93310E}
+name: NavDisplayName
+key: navdisplayname
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140407T181913
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ab89f25-5bc0-4e89-968e-a4f470a80a70
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140425T125146:635340271062999287
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,214 @@
+﻿@using System.Web.Mvc
+@using Sitecore
+@using Sitecore.Bootstrap
+@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Sitecore.Links
+@using Sitecore.Mvc
+@using Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3NavBars
+@model Bootstrap3NavBarRenderingModel
+@{
+  Model.Class = "navbar";
+  Model.Class.Append(Model.IsInverse ? "navbar-inverse" : "navbar-default");
+
+  Model.Class.AppendIf(Model.Fixed, "Top", "navbar-fixed-top").
+    AppendIf(Model.Fixed, "Bottom", "navbar-fixed-bottom").
+    AppendIf(Model.Fixed, "StaticTop", "navbar-static-top");
+
+  Model.DataBind.IsVisible();
+
+  IEnumerable<Item> items = null;
+  Item app = null;
+  if (!string.IsNullOrEmpty(Model.ItemsDataSource))
+  {
+    items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId);
+  }
+  else
+  {
+    app = BootstrapApplication.GetApplicationItem(Model.PageItem);
+    if (app != null)
+    {
+      items = app.GetChildren();
+    }
+  }
+
+  if (items == null)
+  {
+    items = Enumerable.Empty<Item>();
+  }
+
+  var brandText = Model.BrandText;
+  if (string.IsNullOrEmpty(brandText) && app != null)
+  {
+    brandText = app["BrandText"];
+  }
+  
+  var brandLink = Model.BrandLink;
+  if (string.IsNullOrEmpty(brandLink) && app != null)
+  {
+    brandLink = app["BrandLink"];
+  }
+
+  if (string.IsNullOrEmpty(brandLink) && app != null)
+  {
+    brandLink = app.ID.ToString();
+  }
+  
+  if (ID.IsID(brandLink))
+  {
+    var brandItem = Model.Rendering.RenderingItem.Database.GetItem(brandLink);
+    if (brandItem != null)
+    {
+      brandLink = LinkManager.GetItemUrl(brandItem);
+      if (string.IsNullOrEmpty(brandText))
+      {
+        brandText = brandItem.DisplayName;
+      }
+    }
+  }
+  
+  var active = Model.Active;
+
+  var startContainer = Model.HasInnerContainer ? "<div class=\"container\">" : string.Empty;
+  var endContainer = Model.HasInnerContainer ? "</div>" : string.Empty;
+  var collapseId = Model.ControlId + "Collapse";
+}         
+@if (Model.Fixed == "Top")
+{
+<style>body{padding: 60px}</style>
+}
+<nav @(Model.HtmlAttributes) role="navigation">
+  @Html.Raw(startContainer)
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#@collapseId">
+      <span class="sr-only">@ClientHost.Globalization.Translate("Toggle navigation")</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    @if (!string.IsNullOrEmpty(brandText))
+    {
+      <a class="navbar-brand" href="@brandLink">@brandText</a>
+    }
+  </div>
+
+  <div class="collapse navbar-collapse" id="@collapseId">
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Inner")
+    <ul class="nav navbar-nav">
+      @{
+        foreach (var item in items)
+        {
+          bool isSelected;
+          if (!string.IsNullOrEmpty(active))
+          {
+            isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+          }
+          else
+          {
+            isSelected = item.Axes.IsAncestorOf(Model.PageItem);
+          }
+
+          if (item.Is(BootstrapApplication.Separator))
+          {
+            continue;
+          }
+
+          if (item.Name == "PageSettings")
+          {
+            continue;
+          }
+
+          if (item.Is(BootstrapApplication.DropDownMenu))
+          {
+            @RenderDropDownMenu(Model, item, isSelected)
+          }
+          else if (item.Is(BootstrapApplication.Button))
+          {
+            @RenderButton(Model, item, isSelected)
+          }
+          else if (item.Is(BootstrapApplication.Text))
+          {
+            @RenderText(Model, item)
+          }
+          else
+          {
+            @RenderLink(Model, item, isSelected)
+          }
+        }
+      }
+    </ul>
+
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Right")
+  </div>
+  @Html.Raw(endContainer)
+</nav>
+@helper RenderLink([NotNull] Bootstrap3NavBarRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+    <a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>
+      @Html.Sitecore().Icon(item, Model.IconFieldName)
+      @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+    </a>
+  </li>
+}
+@helper RenderText([NotNull] Bootstrap3NavBarRenderingModel model, [NotNull] Item item)
+{
+  <li>
+    <p class="navbar-text">@Html.Sitecore().Translate(item["Text"])</p>
+  </li>
+}
+@helper RenderButton([NotNull] Bootstrap3NavBarRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  string type = "btn-default";
+  switch (item["Type"].ToLowerInvariant())
+  {
+    case "danger":
+      type = "btn-danger";
+      break;
+    case "info":
+      type = "btn-info";
+      break;
+    case "link":
+      type = "btn-link";
+      break;
+    case "primary":
+      type = "btn-primary";
+      break;
+    case "success":
+      type = "btn-success";
+      break;
+    case "warning":
+      type = "btn-warning";
+      break;
+  }
+
+  <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+    <button type="button" class="btn @type navbar-btn" @Html.Sitecore().ClickFieldAttribute(item, Model.ClickFieldName)>
+      @Html.Sitecore().Icon(item, Model.IconFieldName)
+      @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+    </button>
+  </li>
+}
+@helper RenderDropDownMenu([NotNull] Bootstrap3NavBarRenderingModel model, [NotNull] Item item, bool isSelected)
+{
+  <li @Html.Sitecore().AttributeIf(isSelected, "class", "active")>
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      @Html.Sitecore().Icon(item, Model.IconFieldName)
+      @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+      <span class="caret"></span>
+    </a>
+    @{
+      var menuItemId = item["ItemsDataSource"];
+      if (string.IsNullOrEmpty(menuItemId))
+      {
+        menuItemId = item.ID.ToString();
+      }
+
+      var items = BootstrapApplication.GetMenuItems(Model, menuItemId, Model.ControlId);
+
+      <ul class="dropdown-menu" role="menu">
+        @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+      </ul>
+    }
+  </li>
+}

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {34BB0517-1476-48E6-821B-5BAE73729C24}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections/SplitButtonDropdowns
+parent: {77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}
+name: SplitButtonDropdowns
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4415
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=SplitButtonDropdownRow" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Split%20button%20dropdowns" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Building%20on%20the%20button%20group%20styles%20and%20markup%2C%20we%20can%20easily%20create%20a%20split%20button.%20Split%20buttons%20feature%20a%20standard%20action%20on%20the%20left%20and%20a%20dropdown%20toggle%20on%20the%20right%20with%20contextual%20links." ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Default&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Primary&amp;Type=Primary&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Danger&amp;Type=Danger&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Warning&amp;Type=Warning&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Success&amp;Type=Success&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Link&amp;Type=Link&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Sizes" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Utilize%20the%20extra%20button%20classes%20.btn-mini%2C%20.btn-small%2C%20or%20.btn-large%20for%20sizing." ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Size=Large&amp;Text=Large&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Default&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Size=Small&amp;Text=Small&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Size=Mini&amp;Text=Mini&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Dropup%20menus" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Dropdown%20menus%20can%20also%20be%20toggled%20from%20the%20bottom%20up%20by%20adding%20a%20single%20class%20to%20the%20immediate%20parent%20of%20.dropdown-menu.%20It%20will%20flip%20the%20direction%20of%20the%20.caret%20and%20reposition%20the%20menu%20itself%20to%20move%20from%20the%20bottom%20up%20instead%20of%20top%20down." ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="IsDropUp=1&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Dropup&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Disabled" ph="SplitButtonDropdownRow.Column1" />
+    <r id="{C4316C5D-DDCC-441D-BE94-884B8DAE5C6A}" par="IsEnabled=0&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;Text=Disabled&amp;Click=javascript%3Aalert(%27Clicked%27)" ph="SplitButtonDropdownRow.Column1" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 0a461a33-b8f0-40f9-b343-a4550f85b9ee
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0a461a33-b8f0-40f9-b343-a4550f85b9ee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140408T142416:635325638561564458
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

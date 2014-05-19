@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {A25C0335-2693-4512-ADA5-BB1DDD1B4562}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Typography/Bootstrap3-Blockquote/Bootstrap3-Blockquote-Parameters/__Standard Values
+parent: {BD756F00-2F9A-4C23-9982-7E0D0EC49114}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {BD756F00-2F9A-4C23-9982-7E0D0EC49114}
+templatekey: Bootstrap3-Blockquote-Parameters
+
+----version----
+language: en
+version: 1
+revision: e19d85c8-0e48-4a31-a99f-edfc51d19f4e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140404T140543
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e19d85c8-0e48-4a31-a99f-edfc51d19f4e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140404T140543:635322171439858673
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

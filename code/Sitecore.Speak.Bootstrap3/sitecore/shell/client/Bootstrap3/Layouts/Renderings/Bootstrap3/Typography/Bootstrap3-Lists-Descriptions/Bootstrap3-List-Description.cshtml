@@ -1,0 +1,33 @@
+﻿@using Sitecore.Bootstrap
+@using Sitecore.Data
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3ListsDescriptions.Bootstrap3ListDescriptionRenderingModel
+@{
+  Model.Class.AppendIf(Model.IsHorizontal, "dl-horizontal");
+  Model.DataBind.IsVisible();
+  
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}              
+<dl @Model.HtmlAttributes>
+  @{
+    foreach (var item in items)
+    {
+      if (string.Compare(item.Name, "PageSettings", StringComparison.InvariantCultureIgnoreCase) == 0)
+      {
+        continue;
+      }
+
+      var term = item.GetField(Model.TermFieldName, item.DisplayName);
+      var description = item.GetField(Model.DescriptionFieldName, item.DisplayName);
+      <dt>
+        @term
+      </dt>
+      <dd>
+        @description
+      </dd>
+      }
+    }
+</dl>

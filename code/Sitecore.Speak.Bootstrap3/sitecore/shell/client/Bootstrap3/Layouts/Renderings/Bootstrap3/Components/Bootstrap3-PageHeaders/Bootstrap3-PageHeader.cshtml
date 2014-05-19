@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3PageHeaders.Bootstrap3PageHeaderRenderingModel
+@{          
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text) && string.IsNullOrEmpty(Model.Subtext))
+  {
+    return;
+  }
+
+  Model.Class = "page-header";
+  Model.DataBind.IsVisible();
+} 
+<div @Model.HtmlAttributes>
+  <h1>
+    @content
+    <!-- ko text: Text -->
+    @Html.Sitecore().Translate(Model.Text)
+    <!-- /ko -->
+    @if (!string.IsNullOrEmpty(Model.Subtext))
+    {
+    <small @Html.Raw(Model.DataBindAttribute().Text("Subtext"))>@Html.Sitecore().Translate(Model.Subtext)</small>
+    }
+  </h1>
+</div>                                       

@@ -1,0 +1,18 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{57FAAC47-D26B-4CBC-BA56-B38B14DD0BB1}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Anchor AnchorName="ListGroups" />
+    <Bootstrap3-Row ExtraSmall="*" Small="*" Medium="12" Large="*" Id="ListGroupsRow">
+      <Bootstrap3-PageHeader Text="List groups" />
+      <Bootstrap3-Paragraph-Lead Text="List groups are a flexible and powerful component for displaying not only simple lists of elements, but complex ones with custom content." />
+
+      <Bootstrap3-Heading3 Text="Basic example" />
+      <Bootstrap3-Paragraph Text="The most basic list group is simply an unordered list with list items, and the proper classes. Build upon it with the options that follow, or your own CSS as needed." />
+      <Bootstrap3-ListGroup ItemsDataSource="ButtonGroup" Active="Left"/>
+
+      <Bootstrap3-Heading3 Text="Linked items" />
+      <Bootstrap3-Paragraph Text="Linkify list group items by using anchor tags instead of list items (that also means a parent &lt; div> instead of an &lt; ul>). No need for individual parents around each element." />
+      <Bootstrap3-ListGroup ItemsDataSource="ButtonGroup" Active="Left" LinkFieldName="#"/>
+      
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

@@ -1,0 +1,11 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{AB6AB103-3D04-4357-8E81-65B2601D2937}">
+  <Device Name="Internet Explorer">
+    <Bootstrap3-Row Id="ModalRow">
+      <Bootstrap3-PageHeader Text="Modals" />
+      <Bootstrap3-Heading2 Text="Live demo" />
+      <Bootstrap3-Paragraph Text="Toggle a modal via JavaScript by clicking the button below. It will slide down and fade in from the top of the page." />
+      <Bootstrap3-Modal Buttons="OK,Cancel" HasCloseButton="True" Header="Modal header..." Id="Modal" Text="One fine body..." />
+      <Bootstrap3-Button Click="trigger:open:Modal" Size="Large" Text="Launch demo modal" Type="Primary" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

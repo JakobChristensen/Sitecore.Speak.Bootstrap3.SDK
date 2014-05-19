@@ -1,0 +1,14 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{6AD3272C-3C9C-4D6D-B513-2224A032A590}">
+  <Device Name="Internet Explorer" Layout="/sitecore/client/Bootstrap3/Layouts/Layouts/Bootstrap3-Layout">
+    <PageCode Placeholder="Page.Code" />
+
+    <Bootstrap3-NavBar Placeholder="Page.Body" Fixed="Top" HasInnerContainer="True" />
+
+    <Bootstrap3-Container Placeholder="Page.Body" Id="Bootstrap3-Container">
+      <Bootstrap3-Row Id="ComponentsRow" ExtraSmall="*" Large="*" Medium="12" Small="*">
+        <ChildRenderer Placeholder="ComponentsRow.Column1" After="&lt;/section&gt;" Before="&lt;section&gt;" UsePlaceholders="True"
+          DataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections" />
+      </Bootstrap3-Row>
+    </Bootstrap3-Container>
+  </Device>
+</Layout>

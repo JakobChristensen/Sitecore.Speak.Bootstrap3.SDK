@@ -1,0 +1,56 @@
+﻿@using System.Globalization
+@using System.Xml.Linq
+@using Sitecore.Data.Items
+@using Sitecore.Extensions.XElementExtensions
+@using Sitecore.Resources.Media
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Images.Bootstrap3ImageRenderingModel
+@{
+  var source = Model.Source;
+  if (string.IsNullOrEmpty(source))
+  {
+    return;
+  }
+
+  // source is bound to an image field
+  if (source.StartsWith("<image"))
+  {
+    var doc = XDocument.Parse(source);
+    var root = doc.Root;
+
+    source = root.GetAttributeValue("mediaid");
+  }
+
+  var mediaItem = this.Model.Rendering.RenderingItem.Database.GetItem(source);
+  if (mediaItem == null)
+  {
+    return;
+  }
+
+  var options = new MediaUrlOptions(this.Model.Rendering.RenderingItem.Database);
+  if (Model.Width > 0)
+  {
+    Model.Attributes["width"] = Model.Width.ToString(CultureInfo.InvariantCulture);
+    options.Width = Model.Width;
+  }
+  else
+  {
+    Model.Attributes[HtmlTextWriterAttribute.Style] = "max-width:100%";
+    Model.Class.Append("center-block");
+  }
+
+  if (Model.Height > 0)
+  {
+    Model.Attributes["height"] = Model.Height.ToString(CultureInfo.InvariantCulture);
+    options.Height = Model.Height;
+  }
+
+  Model.Class.AppendIf(Model.Shape, "circle", "img-circle").
+    AppendIf(Model.Shape, "thumbnail", "img-thumbnail").
+    AppendIf(Model.Shape, "rounded", "img-rounded");
+
+  Model.DataBind.IsVisible();
+
+  Model.Attributes["src"] = MediaManager.GetMediaUrl(new MediaItem(mediaItem), options);
+  Model.Attributes["alt"] = Model.Alt;
+}              
+<img @Model.HtmlAttributes />

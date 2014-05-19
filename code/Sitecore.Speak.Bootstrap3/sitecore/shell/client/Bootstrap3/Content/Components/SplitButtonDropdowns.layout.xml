@@ -1,0 +1,28 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{34BB0517-1476-48E6-821B-5BAE73729C24}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Bootstrap3-Row Id="SplitButtonDropdownRow">
+      <Bootstrap3-PageHeader Text="Split button dropdowns" />
+      <Bootstrap3-Paragraph Text="Building on the button group styles and markup, we can easily create a split button. Split buttons feature a standard action on the left and a dropdown toggle on the right with contextual links." />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Default" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Primary" Type="Primary" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Danger" Type="Danger" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Warning" Type="Warning" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Success" Type="Success" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Link" Type="Link" Click="javascript:alert('Clicked')" />
+      
+      <Bootstrap3-Heading3 Text="Sizes" />
+      <Bootstrap3-Paragraph Text="Utilize the extra button classes .btn-mini, .btn-small, or .btn-large for sizing." />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Size="Large" Text="Large" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Default" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Size="Small" Text="Small" Click="javascript:alert('Clicked')" />
+      <Bootstrap3-SplitButton ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Size="Mini" Text="Mini" Click="javascript:alert('Clicked')" />
+      
+      <Bootstrap3-Heading3 Text="Dropup menus" />
+      <Bootstrap3-Paragraph Text="Dropdown menus can also be toggled from the bottom up by adding a single class to the immediate parent of .dropdown-menu. It will flip the direction of the .caret and reposition the menu itself to move from the bottom up instead of top down." />
+      <Bootstrap3-SplitButton IsDropUp="True" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Dropup" Click="javascript:alert('Clicked')" />
+
+      <Bootstrap3-Heading3 Text="Disabled" />
+      <Bootstrap3-SplitButton IsEnabled="False" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Menu" Text="Disabled" Click="javascript:alert('Clicked')" />
+    </Bootstrap3-Row>
+  </Device>
+</Layout>

@@ -1,0 +1,56 @@
+﻿@using Sitecore.Bootstrap
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Breadcrumbs.Bootstrap3BreadcrumbRenderingModel
+@{
+  Model.Class = "breadcrumb";
+  Model.DataBind.IsVisible();
+
+  var app = BootstrapApplication.GetApplicationItem(Model.PageItem);
+  if (app == null)
+  {
+    return;
+  }
+  
+  var items = new List<Item>();
+  var pageItem = Model.PageItem;
+  while (pageItem != null)
+  {
+    items.Insert(0, pageItem);
+    
+    if (pageItem.ID == app.ID)
+    {
+      break;
+    }
+    
+    pageItem = pageItem.Parent;
+  }
+
+  var active = Model.Active;
+  if (string.IsNullOrEmpty(active))
+  {
+    active = Model.PageItem.ID.ToString();
+  }
+}      
+<ol @Model.HtmlAttributes>
+  @foreach (var item in items)
+  {
+    var isSelected = string.Compare(item.Name, active, StringComparison.InvariantCultureIgnoreCase) == 0 || string.Compare(item.ID.ToString(), active, StringComparison.InvariantCultureIgnoreCase) == 0;
+    if (isSelected)
+    {
+      <li class="active">
+        @Html.Sitecore().Icon(item, Model.IconFieldName)
+        @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+      </li>
+    }
+    else
+    {
+      <li>
+        <a @Html.Sitecore().HrefAttribute(item, Model.LinkFieldName)>
+          @Html.Sitecore().Icon(item, Model.IconFieldName)
+          @Html.Sitecore().DisplayName(item, Model.DisplayFieldName, item.DisplayName)
+        </a>
+      </li>
+    }
+  }
+</ol>

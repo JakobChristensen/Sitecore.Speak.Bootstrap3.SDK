@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {C1505015-6E71-46B1-9129-778A105DD970}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/Page2/DetailsPage1
+parent: {8BEB4F6F-C060-4176-BE9A-E75D0A0F9339}
+name: DetailsPage1
+master: {DE854470-D939-4A18-A4BE-278A4DC74C4D}
+template: {715687B5-4E4B-4929-BB42-47E710FDF3BD}
+templatekey: Bootstrap3-Page-Blocks
+
+----field----
+field: {05BBCDC6-F5A8-458D-BEE4-2CD66252278D}
+name: NavIcon
+key: navicon
+content-length: 7
+
+picture
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{DE854470-D939-4A18-A4BE-278A4DC74C4D}
+----version----
+language: en
+version: 1
+revision: 5dfa38ba-2dc1-4d62-b5f4-50b6cf9f307b
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 13
+
+Image Gallery
+----field----
+field: {DEE2F028-FE39-4A3F-BAE6-CBF48DF94887}
+name: NavDisplayName
+key: navdisplayname
+content-length: 13
+
+Image Gallery
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140425T123138
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5dfa38ba-2dc1-4d62-b5f4-50b6cf9f307b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T143557:635343789570867366
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,56 @@
+﻿@using System.Text
+@using Sitecore.Mvc
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Tags.Bootstrap3TagRenderingModel
+@{
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!this.Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(this.Model.Text))
+  {
+    return;
+  }
+
+  var startTag = string.Empty;
+  var endTag = string.Empty;
+  var renderingItem = Model.Rendering.RenderingItem.InnerItem;
+  
+  var componentItem = renderingItem.Children.FirstOrDefault(i => string.Compare(i.Name, "Tag", StringComparison.InvariantCultureIgnoreCase) == 0);
+  if (componentItem != null)
+  {
+    var tag = componentItem["Tag"];
+
+    var sb = new StringBuilder("<");
+    sb.Append(tag);
+    
+    var classes = new List<string>();
+    if (!string.IsNullOrEmpty(componentItem["Class"]))
+    {
+      classes.Add(componentItem["Class"]);
+    }
+    
+    if (classes.Count > 0)
+    {
+      sb.Append(" class=\"");
+      sb.Append(HttpUtility.HtmlAttributeEncode(string.Join(" ", classes)));
+      sb.Append("\"");
+    }
+
+    if (!string.IsNullOrEmpty(Model.Tooltip))
+    {
+      sb.Append(" title=\"");
+      sb.Append(HttpUtility.HtmlAttributeEncode(Model.Tooltip));
+      sb.Append("\"");
+    }
+
+    if (!string.IsNullOrEmpty(Model.AccessKey))
+    {
+      sb.Append(" accesskey=\"");
+      sb.Append(HttpUtility.HtmlAttributeEncode(Model.AccessKey));
+      sb.Append("\"");
+    }
+
+    sb.Append(">");
+        
+    startTag = sb.ToString();
+    endTag = "</" + tag + ">";
+  }
+}               
+@Html.Raw(startTag)@content@(Html.Sitecore().Translate(Model.Text))@Html.Raw(endTag)

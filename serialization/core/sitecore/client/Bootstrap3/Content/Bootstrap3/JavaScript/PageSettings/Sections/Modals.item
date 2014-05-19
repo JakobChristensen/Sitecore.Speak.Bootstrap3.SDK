@@ -1,0 +1,60 @@
+----item----
+version: 1
+id: {AB6AB103-3D04-4357-8E81-65B2601D2937}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/JavaScript/PageSettings/Sections/Modals
+parent: {4E429BD0-7C34-46A3-88E6-875E452A937B}
+name: Modals
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 956
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ModalRow" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Modals" ph="ModalRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Live%20demo" ph="ModalRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Toggle%20a%20modal%20via%20JavaScript%20by%20clicking%20the%20button%20below.%20It%20will%20slide%20down%20and%20fade%20in%20from%20the%20top%20of%20the%20page." ph="ModalRow.Column1" />
+    <r id="{8F2B0F51-DF8D-4D08-BE7F-6D92392CEB78}" par="Buttons=OK%2CCancel&amp;HasCloseButton=1&amp;Header=Modal%20header...&amp;Id=Modal&amp;Text=One%20fine%20body..." ph="ModalRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Click=trigger%3Aopen%3AModal&amp;Size=Large&amp;Text=Launch%20demo%20modal&amp;Type=Primary" ph="ModalRow.Column1" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 569d37c3-175f-49ef-9f8f-b14b9e41d63b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+569d37c3-175f-49ef-9f8f-b14b9e41d63b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140408T124957:635325581973179856
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

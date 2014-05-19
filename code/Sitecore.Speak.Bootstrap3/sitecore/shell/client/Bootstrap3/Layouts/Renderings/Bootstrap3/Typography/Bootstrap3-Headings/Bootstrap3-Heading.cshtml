@@ -1,0 +1,80 @@
+﻿@using System.Linq
+@using System.Text
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Typography.Bootstrap3Headings.Bootstrap3Heading1RenderingModel
+@{
+  var content = Html.Sitecore().Placeholder(Model.ControlId + ".Content");
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(content.ToString()) && string.IsNullOrEmpty(Model.Text) && string.IsNullOrEmpty(Model.SecondaryText))
+  {
+    return;
+  }
+
+  var startTag = string.Empty;
+  var endTag = string.Empty;
+
+  var renderingItem = Model.Rendering.RenderingItem.InnerItem;
+
+  var componentItem = renderingItem.Children.FirstOrDefault(i => string.Compare(i.Name, "Tag", StringComparison.InvariantCultureIgnoreCase) == 0);
+  if (componentItem != null)
+  {
+    Model.Class.AppendIf(Model.Alignment, "Left", "text-left").
+      AppendIf(Model.Alignment, "Center", "text-center").
+      AppendIf(Model.Alignment, "Right", "text-right").
+      AppendIf(Model.Alignment, "Justify", "text-justify");
+   
+    Model.DataBind.IsVisible().IsVisible().
+      Css("text-left", "Alignment", "Left").
+      Css("text-center", "Alignment", "Center").
+      Css("text-right", "Alignment", "Right").
+      Css("text-justify", "Alignment", "Justify");
+    
+    var tag = componentItem["Tag"];
+
+    var sb = new StringBuilder("<");          
+    sb.Append(tag);
+
+    if (!string.IsNullOrEmpty(Model.Tooltip))
+    {                                         
+      sb.Append(" title=\"");   
+      sb.Append(HttpUtility.HtmlAttributeEncode(Model.Tooltip));
+      sb.Append("\"");
+    }                                  
+
+    if (!string.IsNullOrEmpty(Model.AccessKey))
+    {
+      sb.Append(" accesskey=\"");
+      sb.Append(HttpUtility.HtmlAttributeEncode(Model.AccessKey));
+      sb.Append("\"");
+    }
+
+    var htmlAttributes = Model.HtmlAttributes.ToString();
+    if (!string.IsNullOrEmpty(htmlAttributes))
+    {
+      sb.Append(' ');
+      sb.Append(htmlAttributes);
+    }
+
+    sb.Append(">");
+
+    startTag = sb.ToString();
+    endTag = "</" + tag + ">";
+  }
+}                                 
+@Html.Raw(startTag)
+@content   
+@if (Model.IsScriptEnabled)
+{
+  <!-- ko text: Text -->
+  @Html.Sitecore().Translate(Model.Text)
+  <!-- /ko -->
+}
+else
+{
+  @Html.Sitecore().Translate(Model.Text)
+}
+@if (!string.IsNullOrEmpty(Model.SecondaryText))
+{
+<small @Html.Raw(Model.DataBindAttribute().Text("SecondaryText"))>@Html.Sitecore().Translate(Model.SecondaryText)</small>
+}
+@Html.Raw(endTag)

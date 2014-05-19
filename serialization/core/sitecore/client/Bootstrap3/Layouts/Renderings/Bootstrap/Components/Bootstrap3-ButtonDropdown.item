@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {E76A3E24-AD00-46C5-8116-BA0BD08D5955}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Components/Bootstrap3-ButtonDropdown
+parent: {EB5CC824-2590-4C05-8C9C-A70A43875898}
+name: Bootstrap3-ButtonDropdown
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 134
+
+/sitecore/shell/client/Bootstrap3/Layouts/Renderings/Bootstrap3/Components/Bootstrap3-ButtonDropdowns/Bootstrap3-ButtonDropdown.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 164
+
+Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3ButtonDropdowns.Bootstrap3ButtonDropdownRenderingModel,Sitecore.Speak.Bootstrap3
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{F953B69F-5BAB-406E-876B-65D28DA9A58E}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 12
+
+PageSettings
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 38
+
+{F953B69F-5BAB-406E-876B-65D28DA9A58E}
+----version----
+language: en
+version: 1
+revision: 5742f632-de98-4460-af8d-d4f23d9b562b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T093415
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5742f632-de98-4460-af8d-d4f23d9b562b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140206T102126:635272788862685451
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

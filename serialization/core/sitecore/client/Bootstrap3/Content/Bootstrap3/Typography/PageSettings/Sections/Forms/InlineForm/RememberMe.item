@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E2FE4947-12A3-4B4B-BD2F-AEC31751171E}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Typography/PageSettings/Sections/Forms/InlineForm/RememberMe
+parent: {CF0D495D-4140-4199-90F9-91D98A1D2D01}
+name: RememberMe
+master: {00000000-0000-0000-0000-000000000000}
+template: {42D85C0E-4ABC-40E9-8096-89963663D2CD}
+templatekey: Bootstrap3-Checkbox-Parameters
+
+----field----
+field: {BC508BB9-EE5E-492C-9510-BE3997687D13}
+name: IsChecked
+key: ischecked
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: b1090554-bb67-4795-a732-5631ab6d283e
+
+----field----
+field: {966A644E-18DC-4B96-9319-C5C1B4056AA8}
+name: Text
+key: text
+content-length: 11
+
+Remember Me
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130821T103409
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b1090554-bb67-4795-a732-5631ab6d283e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140109T141052:635248734527859264
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

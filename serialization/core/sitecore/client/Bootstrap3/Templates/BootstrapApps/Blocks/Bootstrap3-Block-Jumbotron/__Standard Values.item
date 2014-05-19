@@ -1,0 +1,69 @@
+----item----
+version: 1
+id: {9A9F82BE-ADE5-41D7-95C8-04B63AF308F4}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Blocks/Bootstrap3-Block-Jumbotron/__Standard Values
+parent: {DD54C534-971F-45B2-BF0D-3608C26AAED5}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DD54C534-971F-45B2-BF0D-3608C26AAED5}
+templatekey: Bootstrap3-Block-Jumbotron
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 189
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{4CCD77D2-F560-47B1-A476-60E87A654356}" par="EnableScript=0" uid="{698E10B3-77B9-4E4A-AAA7-0B9E71F97763}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 041cf971-60fd-4c9d-b28b-4a5f382d4a83
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140427T115327
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+041cf971-60fd-4c9d-b28b-4a5f382d4a83
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T115352:635341964324133710
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

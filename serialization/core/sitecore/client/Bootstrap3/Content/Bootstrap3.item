@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {A463BE78-118D-4FE6-9A22-2540B86C4928}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3
+parent: {A344C7BA-05C1-46B4-AF76-5C81614766FF}
+name: Bootstrap3
+master: {00000000-0000-0000-0000-000000000000}
+template: {3C554A04-6BBE-4A3B-8AEA-AFF59FBD20CF}
+templatekey: Bootstrap3-App
+
+----field----
+field: {217A2623-9D5C-47CF-BBE0-CDFF6E92B83C}
+name: BrandLink
+key: brandlink
+content-length: 27
+
+/sitecore/client/Bootstrap3
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+Applications/16x16/nav_up_right_blue.png
+----version----
+language: en
+version: 1
+revision: 822191ac-ec81-4d38-a6e0-dcdebc9c859b
+
+----field----
+field: {E1B80479-A548-434F-AAB1-B09A5EF85845}
+name: BrandText
+key: brandtext
+content-length: 11
+
+Bootstrap 3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T080325
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+822191ac-ec81-4d38-a6e0-dcdebc9c859b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140407T184247:635324929677987478
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

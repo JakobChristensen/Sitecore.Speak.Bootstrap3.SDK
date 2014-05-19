@@ -1,0 +1,68 @@
+----item----
+version: 1
+id: {18CE2CF7-5464-4D23-9C32-16D2AFB08509}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/DataBinding/PageSettings/Sections/Paragraphs
+parent: {13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}
+name: Paragraphs
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1477
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Paragraph" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*%2C*&amp;Id=ParagraphRow&amp;Large=*%2C*&amp;Medium=8%2C4&amp;Small=*%2C*" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=%7BBinding%20ParagraphAlignment.SelectedItem%7D&amp;Emphasis=%7BBinding%20ParagraphEmphasis.SelectedItem%7D&amp;EnableScript=1&amp;Id=Paragraph&amp;Text=%7BBinding%20ParagraphInput1.Text%7D&amp;IsVisible=%7BBinding%20ParagraphIsVisible.IsChecked%7D" ph="ParagraphRow.Column1" />
+    <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=ParagraphInput1&amp;Label=Text&amp;Text=Paragraph" ph="ParagraphRow.Column2" />
+    <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="DisplayFieldName=%24itemName&amp;Id=ParagraphAlignment&amp;ItemsDataSource=%7BB04698F7-5C3A-4B40-9D39-91B9E341254A%7D&amp;Label=Alignment&amp;ValueFieldName=%24itemName" ph="ParagraphRow.Column2" />
+    <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="DisplayFieldName=%24itemName&amp;Id=ParagraphEmphasis&amp;ItemsDataSource=%7BF6C3DA09-27C6-4D3A-A4BD-F0204F464F55%7D&amp;Label=Emphasis&amp;ValueFieldName=%24itemName" ph="ParagraphRow.Column2" />
+    <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=ParagraphIsVisible&amp;IsChecked=1&amp;Text=Is%20Visible" ph="ParagraphRow.Column2" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: aff2609e-feee-4fdc-9269-b23706406d42
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aff2609e-feee-4fdc-9269-b23706406d42
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T152558:635342091589758301
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

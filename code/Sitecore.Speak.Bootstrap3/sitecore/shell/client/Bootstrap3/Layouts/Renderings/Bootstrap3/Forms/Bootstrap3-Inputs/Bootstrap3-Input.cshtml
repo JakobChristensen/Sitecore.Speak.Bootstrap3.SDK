@@ -1,0 +1,60 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Inputs.Bootstrap3InputRenderingModel
+@{
+  Model.Class = "form-control";
+  Model.Class.AppendIf(Model.RelativeSize, "Small", "input-sm").
+    AppendIf(Model.RelativeSize, "Large", "input-lg");
+    
+  Model.DataBind.IsVisible().IsEnabled().Value().
+    Css("input-sm", "RelativeSize", "Small").
+    Css("input-lg", "RelativeSize", "Large");
+
+  var type = Model.Type;
+  if (string.IsNullOrEmpty(type))
+  {
+    type = "text";
+  }
+    
+  Model.Attributes[HtmlTextWriterAttribute.Type] = type;
+  Model.Attributes[HtmlTextWriterAttribute.Value] = Model.Text;
+  Model.Attributes["placeholder"] = Model.Watermark;
+
+  var leftAddOnOutput = Html.Sitecore().Placeholder(Model.ControlId + ".LeftAddOn");
+  var leftAddOn = leftAddOnOutput == null ? string.Empty : leftAddOnOutput.ToString();
+  
+  var rightAddOnOutput = Html.Sitecore().Placeholder(Model.ControlId + ".RightAddOn");
+  var rightAddOn = rightAddOnOutput == null ? string.Empty : rightAddOnOutput.ToString();
+
+  var inputGroupClass = new ClassBuilder("input-group").
+    AppendIf(Model.RelativeSize, "Small", "input-group-sm").
+    AppendIf(Model.RelativeSize, "Large", "input-group-lg");
+  
+}                                                   
+<div class="form-group">
+@if (!string.IsNullOrEmpty(Model.Label))
+{
+  var id = Model.ControlId + "input";
+  Model.Attributes[HtmlTextWriterAttribute.Id] = id;
+
+  <label class="control-label" for="@id">@Html.Sitecore().Translate(Model.Label)</label>
+}
+@if (string.IsNullOrEmpty(leftAddOn) && string.IsNullOrEmpty(rightAddOn))
+{
+  <input @Model.HtmlAttributes />
+}
+else 
+{
+  <div @Html.Sitecore().ClassAttribute(inputGroupClass)>
+    @if (!string.IsNullOrEmpty(leftAddOn))
+    {
+    <span class="input-group-addon">@Html.Raw(leftAddOn)</span>
+    }
+    <input @Model.HtmlAttributes />
+    @if (!string.IsNullOrEmpty(rightAddOn))
+    {
+    <span class="input-group-addon">@Html.Raw(rightAddOn)</span>
+    }
+  </div>
+}
+</div>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <Site Server="Sitecore.Speak.7.2" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Scaffolding\Scaffolding.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{E355A183-5F30-41C0-A18C-6116A15BA224}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Abbreviations.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{103D5F27-FB31-4C04-8EE1-E7CA50BDDEBE}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Blockquotes.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3B59BA64-B119-4E61-B7D9-ABAE7A658B26}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Body.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{F8B4D820-E844-4BE8-9FD4-F2AC6D156296}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Buttons.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{F71F205F-676D-4F0E-BEFC-A075A862B70E}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Code.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{4F9687C0-BD99-4635-8A91-19AC0580D947}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Emphasis.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{6EBEE645-1335-468F-8F10-00585E13FB99}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Forms.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{3660A9CF-559C-4399-8721-055216C66CF7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Headings.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{C03AA4AB-7DBF-4865-97C8-B37B12009881}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Lists.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{A0256A19-2954-4566-B06E-D77A35CAC811}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Tables.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9276EE5B-B5B0-4137-A89F-A8BDD46CDAB3}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Typography.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{A17360AE-E1A5-400E-A4FE-93192258F265}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\JavaScript\JavaScript.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{18F00D5F-963C-4D17-BD47-16EBBA2AA2D0}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\JavaScript\Modals.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{AB6AB103-3D04-4357-8E81-65B2601D2937}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\JavaScript\Tabs.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{7FF00A97-4BA7-451C-9C91-FDC69C889C87}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\JavaScript\Carousels.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{FF693A55-1AF0-49F3-9354-1C3E35CB98A2}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\DataBinding\DataBinding.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{F2BF681A-9967-4904-B81C-331C4D93DEB7}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\DataBinding\Paragraphs.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{18CE2CF7-5464-4D23-9C32-16D2AFB08509}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\Components.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{6AD3272C-3C9C-4D6D-B513-2224A032A590}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\ButtonGroups.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{1D5D4B8C-1349-4799-8451-AD8CCF2EB96D}</Item>
+      <Item DatabaseName="core">{0D068481-7E83-4C7E-9D39-5CA5CAA272B5}</Item>
+      <Item DatabaseName="core">{EEE528D0-BF8E-46BA-9885-FAB0AF1E4884}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\ButtonDropdownMenus.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9BFEFFF5-B11C-4E3A-B399-98D3BE8E910F}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\SplitButtonDropdowns.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{34BB0517-1476-48E6-821B-5BAE73729C24}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\Navs.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{9D9A69AF-6559-42F4-90D6-21C7891CC8F8}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\NavBars.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{8B77750C-0715-4E0D-93FF-2FA579971A60}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\Breadcrumbs.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{95A91ACC-787B-4A14-B332-7920BE6BF887}</Item>
+    </File>
+    <File Include="sitecore\shell\client\Bootstrap3\Content\Components\Labels.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{C03E6EB9-4BBF-4E56-A6E7-A29858EF2538}</Item>
+    </File>
+  </ItemGroup>
+</Project>

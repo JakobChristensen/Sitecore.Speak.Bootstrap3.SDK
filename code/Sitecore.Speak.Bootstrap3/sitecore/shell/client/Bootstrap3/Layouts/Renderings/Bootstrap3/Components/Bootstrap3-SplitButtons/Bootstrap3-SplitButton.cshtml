@@ -1,0 +1,47 @@
+﻿@using System.Web.Mvc
+@using Sitecore.Bootstrap
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3SplitButtons.Bootstrap3SplitButtonRenderingModel
+@{
+  if (!Model.IsScriptEnabled && string.IsNullOrEmpty(this.Model.Text))
+  {
+    return;
+  }
+  
+  Model.Class = "btn-group";
+  Model.Class.AppendIf(Model.IsDropUp, "dropup");
+  
+  Model.DataBind.IsVisible();
+
+  var buttonClass = new ClassBuilder("btn").
+    AppendIf(Model.Type, string.Empty, "btn-default").
+    AppendIf(Model.Type, "Default", "btn-default").
+    AppendIf(Model.Type, "Primary", "btn-primary").
+    AppendIf(Model.Type, "Info", "btn-info").
+    AppendIf(Model.Type, "Success", "btn-success").
+    AppendIf(Model.Type, "Warning", "btn-warning").
+    AppendIf(Model.Type, "Danger", "btn-danger").
+    AppendIf(Model.Type, "Inverse", "btn-inverse").
+    AppendIf(Model.Type, "Link", "btn-link").
+    AppendIf(Model.Size, "Large", "btn-lg").
+    AppendIf(Model.Size, "Small", "btn-sm").
+    AppendIf(Model.Size, "Mini", "btn-xs").
+    AppendIf(!Model.IsEnabled, "disabled");
+
+  var dropDownClass = new ClassBuilder(buttonClass).Append("dropdown-toggle");
+  var items = BootstrapApplication.GetMenuItems(Model, Model.ItemsDataSource, Model.ControlId).ToList();
+  if (!items.Any())
+  {
+    return;
+  }
+}              
+<div @Model.HtmlAttributes @Html.Sitecore().ClickAttribute(Model.Click)>
+  <button @Html.Sitecore().ClassAttribute(buttonClass) @Html.Raw(Model.DataBindAttribute().Click())>@Html.Sitecore().Translate(Model.Text)</button>
+  <button @Html.Sitecore().ClassAttribute(dropDownClass) data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    @Html.Sitecore().Menu(items, Model.DisplayFieldName, Model.IconFieldName, Model.ClickFieldName)
+  </ul>
+</div>

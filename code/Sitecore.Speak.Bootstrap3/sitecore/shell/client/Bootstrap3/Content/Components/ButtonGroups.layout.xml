@@ -1,0 +1,36 @@
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{EEE528D0-BF8E-46BA-9885-FAB0AF1E4884}">
+  <Device Name="Internet Explorer" Layout="/sitecore">
+    <Bootstrap3-Row ExtraSmall="*" Small="*" Medium="12" Large="*" Id="ButtonGroupsRow">
+      <Bootstrap3-PageHeader Text="Button groups" />
+      <Bootstrap3-Paragraph Text="Wrap a series of buttons with .btn in .btn-group." />
+      <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup"/>
+      
+      <Bootstrap3-Heading3 Text="Multiple button groups" />
+      <Bootstrap3-Paragraph Text="Combine sets of div class=&quot;btn-group&quot; into a div class=&quot;btn-toolbar&quot; for more complex components." />
+      <Bootstrap3-Toolbar Id="Toolbar1">
+        <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" />
+        <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" />
+        <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" />
+      </Bootstrap3-Toolbar>
+
+      <Bootstrap3-Heading3 Text="Sizing" />
+      <Bootstrap3-Paragraph Text="Instead of applying button sizing classes to every button in a group, just add .btn-group-* to the .btn-group." />
+      <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" Size="Large" />
+      <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" />
+      <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" Size="Small" />
+      <Bootstrap3-ButtonGroup ItemsDataSource="ButtonGroup" Size="ExtraSmall" />
+
+      <Bootstrap3-Heading3 Text="Nesting" />
+      <Bootstrap3-Paragraph Text="Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons." />
+      <Bootstrap3-ButtonGroup ItemsDataSource="Menu" />
+
+      <Bootstrap3-Heading3 Text="Vertical button groups" />
+      <Bootstrap3-Paragraph Text="Make a set of buttons appear vertically stacked rather than horizontally." />
+      <Bootstrap3-ButtonGroup IsVertical="True" ItemsDataSource="ButtonGroup" />
+
+      <Bootstrap3-Heading3 Text="Justified button groups" />
+      <Bootstrap3-Paragraph Text="Make a group of buttons stretch at equal sizes to span the entire width of its parent. Also works with button dropdowns within the button group." />
+      <Bootstrap3-ButtonGroup IsJustified="True" ItemsDataSource="ButtonGroup" />
+    </Bootstrap3-Row>         
+  </Device>
+</Layout>

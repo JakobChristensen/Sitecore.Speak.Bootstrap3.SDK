@@ -1,0 +1,42 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Components.Bootstrap3Panels.Bootstrap3PanelRenderingModel
+@{
+  var footerContent = Html.Sitecore().Placeholder(Model.ControlId + ".Footer");
+  
+  Model.Class = "panel";
+  Model.Class.AppendIf(Model.Type, string.Empty, "panel-default").
+    AppendIf(Model.Type, "Default", "panel-default").
+    AppendIf(Model.Type, "Primary", "panel-primary").
+    AppendIf(Model.Type, "Info", "panel-info").
+    AppendIf(Model.Type, "Warning", "panel-warning").
+    AppendIf(Model.Type, "Danger", "panel-danger").
+    AppendIf(Model.Type, "Success", "panel-success");
+    
+  Model.DataBind.IsVisible().
+    Css("panel-primary", "Type", "Primary").
+    Css("panel-info", "Type", "Info").
+    Css("panel-success", "Type", "Success").
+    Css("panel-warning", "Type", "Warning").
+    Css("panel-danger", "Type", "Danger");
+}      
+<div @Model.HtmlAttributes>
+  @if (!string.IsNullOrEmpty(Model.Heading))
+  {
+  <div class="panel-heading" @Html.Raw(Model.DataBindAttribute().Text("Heading"))>@Html.Sitecore().Translate(Model.Heading)</div>
+  }
+  <div class="panel-body">
+    <span @Html.Raw(Model.DataBindAttribute().Text())>@Html.Sitecore().Translate(Model.Text)</span>
+    @Html.Sitecore().Placeholder(Model.ControlId + ".Content")
+  </div>
+  @Html.Sitecore().Placeholder(Model.ControlId + ".TableOrList")
+  @if (!string.IsNullOrEmpty(Model.Footer) || !string.IsNullOrEmpty(footerContent.ToString()))
+  {
+    <div class="panel-footer">
+      <!-- ko text: Footer -->
+      @Html.Sitecore().Translate(Model.Footer)
+      <!-- /ko -->
+      @footerContent
+    </div>
+  }
+</div>

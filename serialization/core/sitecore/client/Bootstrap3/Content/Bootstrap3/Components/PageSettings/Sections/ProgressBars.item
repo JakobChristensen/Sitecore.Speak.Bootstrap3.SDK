@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {E17F30BE-878B-4CA0-A261-D80336278411}
+database: core
+path: /sitecore/client/Bootstrap3/Content/Bootstrap3/Components/PageSettings/Sections/ProgressBars
+parent: {77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}
+name: ProgressBars
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3117
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ProgressBarRow&amp;Columns=9" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Progress+bars&amp;Subtext=For+loading%2c+redirecting%2c+or+action+status" ph="ProgressBarRow.Column1" uid="{2F2D23C2-C2F8-4642-916A-DD614D7146E7}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading21&amp;Text=Basic" ph="ProgressBarRow.Column1" uid="{B313DEC1-ACB9-4D57-990C-6C6B9F66ED04}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Default+progress+bar+with+a+vertical+gradient.&amp;Id=Bootstrap3-Paragraph1" ph="ProgressBarRow.Column1" uid="{8CEB6DE6-8463-40B4-A7F1-85AE71EDB6E4}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar1&amp;Value=40" ph="ProgressBarRow.Column1" uid="{D3B96475-8B45-4051-B2FA-9544D0C52C88}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Id=Bootstrap3-Heading31&amp;Text=Striped" ph="ProgressBarRow.Column1" uid="{CB781B21-2E45-4F97-8411-58FC80C215AF}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar2&amp;IsStriped=True&amp;Value=40" ph="ProgressBarRow.Column1" uid="{D3B96475-8B45-4051-B2FA-9544D0C52C88}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Id=Bootstrap3-Heading32&amp;Text=Animated" ph="ProgressBarRow.Column1" uid="{682758B4-4F58-4233-8EB2-5F567049EFEA}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar3&amp;IsActive=True&amp;IsStriped=True&amp;Value=40" ph="ProgressBarRow.Column1" uid="{D3B96475-8B45-4051-B2FA-9544D0C52C88}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading22&amp;Text=Options" ph="ProgressBarRow.Column1" uid="{B60975BC-1D6D-4C2D-92F2-919A414F7BC0}" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Id=Bootstrap3-Heading33&amp;Text=Additional+colors" ph="ProgressBarRow.Column1" uid="{42BAADF8-9BD2-4DB9-A2D9-C562E730C8FE}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Progress+bars+use+some+of+the+same+button+and+alert+classes+for+consistent+styles.&amp;Id=Bootstrap3-Paragraph2" ph="ProgressBarRow.Column1" uid="{EC83FE8F-E044-4C96-93D0-2611AF7A060E}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar4&amp;Type=Info&amp;Value=20" ph="ProgressBarRow.Column1" uid="{45C20264-8C90-4032-AA1A-E873195A2957}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar5&amp;Type=Success&amp;Value=40" ph="ProgressBarRow.Column1" uid="{ECB639D2-7CA9-403D-AB8A-F70D27382F2E}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar7&amp;Type=Warning&amp;Value=60" ph="ProgressBarRow.Column1" uid="{F599DD11-3E44-4A67-A593-965D453FC7AB}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar6&amp;Type=Danger&amp;Value=80" ph="ProgressBarRow.Column1" uid="{EED27E3A-DE8B-4E97-B96F-31F5E39FF6F8}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: da159dc7-91bd-4596-9951-55b8d00ac43c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130818T204034
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+da159dc7-91bd-4596-9951-55b8d00ac43c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140408T142415:635325638550859407
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

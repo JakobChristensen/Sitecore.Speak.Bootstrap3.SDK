@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {9DA30A04-339D-4877-8D3B-0BC67CA5E2B6}
+database: core
+path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/Page2/DetailsPage1/PageSettings/Gallery1
+parent: {EF50E98E-34F4-4930-BD45-A3C7C7376E40}
+name: Gallery1
+master: {00000000-0000-0000-0000-000000000000}
+template: {2CBD232B-D15F-47EB-BF52-7A70F9493497}
+templatekey: Bootstrap3-Block-ImageGallery
+
+----version----
+language: en
+version: 1
+revision: 106ff409-17e9-4bbe-b67b-b28dd214aa5f
+
+----field----
+field: {2FBD67E1-680A-4BA7-A1C4-B3442C656573}
+name: ItemsDataSource
+key: itemsdatasource
+content-length: 38
+
+{EB5CC824-2590-4C05-8C9C-A70A43875898}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140427T124911
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+106ff409-17e9-4bbe-b67b-b28dd214aa5f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140427T124955:635341997956144337
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

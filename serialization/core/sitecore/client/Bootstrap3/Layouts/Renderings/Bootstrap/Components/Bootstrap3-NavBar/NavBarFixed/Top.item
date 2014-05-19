@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {0F382F82-8D6C-4C9F-8219-51B445197371}
+database: core
+path: /sitecore/client/Bootstrap3/Layouts/Renderings/Bootstrap/Components/Bootstrap3-NavBar/NavBarFixed/Top
+parent: {7ED5263C-1A12-46F8-A866-7AB75E23D97D}
+name: Top
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: fdaa1ec7-2d06-41cd-8aba-d5d517eae552
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130816T104753
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fdaa1ec7-2d06-41cd-8aba-d5d517eae552
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130816T104754:635122468748852161
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
