@@ -1,4 +1,4 @@
-Sitecore Speak Bootstrap 3 SDK
+Sitecore SPEAK Bootstrap 3 SDK
 =============================
 
 *PLEASE NOTICE THIS COMPONENT LIBRARY REQUIRES SITECORE SPEAK 1.2.*
