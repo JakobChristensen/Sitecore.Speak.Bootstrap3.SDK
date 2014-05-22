@@ -3,7 +3,7 @@ Sitecore SPEAK Bootstrap 3 SDK
 
 *PLEASE NOTICE THIS COMPONENT LIBRARY REQUIRES SITECORE SPEAK 1.2.*
 
-This component library for Sitecore SPEAK contains 65 SPEAK components that wrap [Bootstrap 3](https://http://getbootstrap.com/).
+This component library for Sitecore SPEAK contains 65 SPEAK components that wrap [Bootstrap 3](http://getbootstrap.com/).
 
 Feel free to fork the library and implement any missing features. 
 
