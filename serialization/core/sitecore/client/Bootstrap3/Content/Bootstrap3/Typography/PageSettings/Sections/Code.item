@@ -20,28 +20,27 @@ content-length: 1
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1551
+content-length: 1560
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Code" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Large=*&amp;Medium=9&amp;Small=*" />
-    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Code" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Inline" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Wrap%20inline%20snippets%20of%20code%20with%20code." ph=".Column1" />
-    <r id="{9ACD8522-5EB3-480C-BD23-DB19CBBEAF69}" par="Text=For%20example%2C%20section%20should%20be%20wrapped%20as%20inline." ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=User%20Input" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Use%20the%20%3Ckbd%3E%20to%20indicate%20input%20that%20is%20typically%20entered%20via%20keyboard." ph=".Column1" />
-    <r id="{EF6CD1BE-1315-4C5A-B6A2-0D66DD99CC6F}" par="Text=Shift%2BCtrl%2BAlt%2BDelete" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Basic%20block" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Use%20pre%20for%20multiple%20lines%20of%20code.%20Be%20sure%20to%20escape%20any%20angle%20brackets%20in%20the%20code%20for%20proper%20rendering." ph=".Column1" />
-    <r id="{A6971D3D-6E69-4C85-841D-E1BC2E2F48CB}" par="Text=Sample%20text%20here..." ph=".Column1" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=CodeRow&amp;ExtraSmall=*&amp;Large=*&amp;Medium=12&amp;Small=*" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Code" ph="CodeRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Inline" ph="CodeRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Wrap%20inline%20snippets%20of%20code%20with%20code." ph="CodeRow.Column1" />
+    <r id="{9ACD8522-5EB3-480C-BD23-DB19CBBEAF69}" par="Text=For%20example%2C%20section%20should%20be%20wrapped%20as%20inline." ph="CodeRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=User%20Input" ph="CodeRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Use%20the%20%3Ckbd%3E%20to%20indicate%20input%20that%20is%20typically%20entered%20via%20keyboard." ph="CodeRow.Column1" />
+    <r id="{EF6CD1BE-1315-4C5A-B6A2-0D66DD99CC6F}" par="Text=Shift%2BCtrl%2BAlt%2BDelete" ph="CodeRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Basic%20block" ph="CodeRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Use%20pre%20for%20multiple%20lines%20of%20code.%20Be%20sure%20to%20escape%20any%20angle%20brackets%20in%20the%20code%20for%20proper%20rendering." ph="CodeRow.Column1" />
+    <r id="{A6971D3D-6E69-4C85-841D-E1BC2E2F48CB}" par="Text=Sample%20text%20here..." ph="CodeRow.Column1" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: b42231df-9db5-4d6b-9edf-fea623c40af4
+revision: 1817898d-9668-4aee-9be4-a8f1530e6f34
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b42231df-9db5-4d6b-9edf-fea623c40af4
+1817898d-9668-4aee-9be4-a8f1530e6f34
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140407T085215:635324575354169329
+20140522T142452:635363654926923789
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

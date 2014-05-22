@@ -20,13 +20,21 @@ People/16x16/icecream.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 5
+content-length: 749
 
-<r />
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1&amp;ItemsDataSource=%7BA463BE78-118D-4FE6-9A22-2540B86C4928%7D&amp;BrandText=Bootstrap%203" ph="Page.Body" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=Row&amp;Large=*&amp;Medium=12&amp;Small=*" ph="Container.Content" />
+    <r id="{4CCD77D2-F560-47B1-A476-60E87A654356}" par="Heading=Sitecore%20SPEAK%20Bootstrap%203%20SDK" ph="Row.Column1" />
+  </d>
+</r>
 ----version----
 language: en
 version: 1
-revision: 795b5369-fe59-449d-9c3d-30851f635f9f
+revision: 7183980f-1213-446c-a379-4f4897e80120
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-795b5369-fe59-449d-9c3d-30851f635f9f
+7183980f-1213-446c-a379-4f4897e80120
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140512T141951:635355011913826581
+20140522T143553:635363661533966545
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

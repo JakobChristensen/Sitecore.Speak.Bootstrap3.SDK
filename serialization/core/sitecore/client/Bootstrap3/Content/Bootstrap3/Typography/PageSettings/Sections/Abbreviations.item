@@ -20,11 +20,10 @@ content-length: 4
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1595
+content-length: 1509
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Abbreviations" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=AbbreviationRow&amp;Large=*&amp;Medium=12&amp;Small=*" />
     <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading1&amp;Text=Abbreviations" ph="AbbreviationRow.Column1" />
     <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Id=Bootstrap3-Paragraph1&amp;Text=Stylized%20implementation%20of%20HTML%27s%20%3Cabbr%3E%20element%20for%20abbreviations%20and%20acronyms%20to%20show%20the%20expanded%20version%20on%20hover.%20Abbreviations%20with%20a%20title%20attribute%20have%20a%20light%20dotted%20bottom%20border%20and%20a%20help%20cursor%20on%20hover%2C%20providing%20additional%20context%20on%20hover." ph="AbbreviationRow.Column1" />
@@ -36,7 +35,7 @@ content-length: 1595
 ----version----
 language: en
 version: 1
-revision: cfcaa5f0-2ab4-4111-bf75-ea14d7efbf3d
+revision: 5cf30d6d-c494-4f9b-9a57-70c2036f816d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -51,14 +50,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cfcaa5f0-2ab4-4111-bf75-ea14d7efbf3d
+5cf30d6d-c494-4f9b-9a57-70c2036f816d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140407T085128:635324574881868698
+20140522T142408:635363654481374381
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

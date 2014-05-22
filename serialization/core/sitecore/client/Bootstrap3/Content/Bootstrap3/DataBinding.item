@@ -27,23 +27,21 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1088
+content-length: 729
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
     <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{F46C2434-5D4A-44E0-B770-7DFAF366FC7F}" par="Style=section%20%7B%20padding-top%3A30px%20%7D" ph="Page.Stylesheets" />
     <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1" ph="Page.Body" />
     <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container1" ph="Page.Body" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*%2C*&amp;Id=Row1&amp;Large=*%2C*&amp;Medium=3%2C9&amp;Small=*%2C*" ph="Container1.Content" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Id=Bootstrap3-Nav1&amp;IsStacked=1&amp;ItemsDataSource=%7B13EDDF41-28E7-4873-B67E-DA0B3B62C2D0%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph="Row1.Column1" />
-    <r id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" ds="{13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}" par="After=%3C%2Fsection%3E&amp;Before=%3Csection%3E&amp;UsePlaceholders=1" ph="Row1.Column2" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=Row1&amp;Large=*&amp;Medium=12&amp;Small=*" ph="Container1.Content" />
+    <r id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" ds="{13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}" par="After=%3C%2Fsection%3E&amp;Before=%3Csection%3E&amp;UsePlaceholders=1" ph="Row1.Column1" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 39481ba4-ded0-4e0b-873f-120f460012ea
+revision: e8aae635-c40d-4041-8772-c42b313610d1
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -65,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-39481ba4-ded0-4e0b-873f-120f460012ea
+e8aae635-c40d-4041-8772-c42b313610d1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140407T184735:635324932554613152
+20140522T142921:635363657614451554
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

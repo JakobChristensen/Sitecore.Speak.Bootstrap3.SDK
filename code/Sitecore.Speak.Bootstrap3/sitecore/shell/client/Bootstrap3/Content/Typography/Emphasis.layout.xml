@@ -1,8 +1,7 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{6EBEE645-1335-468F-8F10-00585E13FB99}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{6EBEE645-1335-468F-8F10-00585E13FB99}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Emphasis" />
 
-    <Bootstrap3-Row ExtraSmall="*" Large="*" Medium="12" Small="*">
+    <Bootstrap3-Row Id="EmphasisRow" ExtraSmall="*" Large="*" Medium="12" Small="*">
       <Bootstrap3-Heading2 Text="Emphasis" />
       <Bootstrap3-Paragraph Text="Make use of HTML's default emphasis tags with lightweight styles." />
       <Bootstrap3-Heading3 Text="Small" />

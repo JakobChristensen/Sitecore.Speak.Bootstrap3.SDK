@@ -1,7 +1,5 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{A0256A19-2954-4566-B06E-D77A35CAC811}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{A0256A19-2954-4566-B06E-D77A35CAC811}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Lists" />
-
     <Bootstrap3-Row ExtraSmall="*" Id="ListsRow" Large="*" Medium="12" Small="*">
       <Bootstrap3-PageHeader Text="Lists" />
       <Bootstrap3-Heading3 Text="Unordered" />

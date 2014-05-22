@@ -20,41 +20,40 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 3809
+content-length: 3903
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Navs" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="" />
-    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Nav%3A%20tabs%2C%20pills%2C%20and%20lists" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=All%20nav%20components%20here%E2%80%94tabs%2C%20pills%2C%20and%20lists%E2%80%94share%20the%20same%20base%20markup%20and%20styles%20through%20the%20.nav%20class." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20tabs" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Take%20a%20regular%20ul%20of%20links%20and%20add%20.nav-tabs%3A" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20pills" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Take%20that%20same%20HTML%2C%20but%20use%20.nav-pills%20instead%3A" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Stackable" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=As%20tabs%20and%20pills%20are%20horizontal%20by%20default%2C%20just%20add%20a%20second%20class%2C%20.nav-stacked%2C%20to%20make%20them%20appear%20vertically%20stacked." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Stacked%20pills" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsStacked=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Justified" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Easily%20make%20tabs%20or%20pills%20equal%20widths%20of%20their%20parent%20at%20screens%20wider%20than%20768px%20with%20.nav-justified.%20On%20smaller%20screens%2C%20the%20nav%20links%20are%20stacked." ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsJustified=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph=".Column1" />
-    <r id="{5F3E0F76-42B0-4169-990A-315A9389685B}" par="" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsJustified=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Using%20dropdowns" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Add%20dropdown%20menus%20with%20a%20little%20extra%20HTML%20and%20the%20dropdowns%20JavaScript%20plugin." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Tabs%20with%20dropdowns" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Above&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Pills%20with%20dropdowns" ph=".Column1" />
-    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Above&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph=".Column1" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=NavsRow" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Nav%3A%20tabs%2C%20pills%2C%20and%20lists" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=All%20nav%20components%20here%E2%80%94tabs%2C%20pills%2C%20and%20lists%E2%80%94share%20the%20same%20base%20markup%20and%20styles%20through%20the%20.nav%20class." ph="NavsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20tabs" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Take%20a%20regular%20ul%20of%20links%20and%20add%20.nav-tabs%3A" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph="NavsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20pills" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Take%20that%20same%20HTML%2C%20but%20use%20.nav-pills%20instead%3A" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph="NavsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Stackable" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=As%20tabs%20and%20pills%20are%20horizontal%20by%20default%2C%20just%20add%20a%20second%20class%2C%20.nav-stacked%2C%20to%20make%20them%20appear%20vertically%20stacked." ph="NavsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Stacked%20pills" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsStacked=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph="NavsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Justified" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Easily%20make%20tabs%20or%20pills%20equal%20widths%20of%20their%20parent%20at%20screens%20wider%20than%20768px%20with%20.nav-justified.%20On%20smaller%20screens%2C%20the%20nav%20links%20are%20stacked." ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsJustified=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph="NavsRow.Column1" />
+    <r id="{5F3E0F76-42B0-4169-990A-315A9389685B}" par="" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Left&amp;IsJustified=1&amp;ItemsDataSource=%7B0D068481-7E83-4C7E-9D39-5CA5CAA272B5%7D&amp;LinkFieldName=%23" ph="NavsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Using%20dropdowns" ph="NavsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Add%20dropdown%20menus%20with%20a%20little%20extra%20HTML%20and%20the%20dropdowns%20JavaScript%20plugin." ph="NavsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Tabs%20with%20dropdowns" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Above&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;LinkFieldName=%23&amp;Type=Tabs" ph="NavsRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Pills%20with%20dropdowns" ph="NavsRow.Column1" />
+    <r id="{FE37A6F2-69E0-4AD4-A423-69F165F8D3A9}" par="Active=Above&amp;ItemsDataSource=%7B0ADDBA12-55DE-46FB-9230-9AAF3CD2123F%7D&amp;LinkFieldName=%23&amp;Type=Pills" ph="NavsRow.Column1" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 69efda49-334a-4cac-9e7a-97e22f25b197
+revision: bd69ca84-c6f3-4b39-8057-cb73891e2e14
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -69,14 +68,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-69efda49-334a-4cac-9e7a-97e22f25b197
+bd69ca84-c6f3-4b39-8057-cb73891e2e14
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140408T142417:635325638572261316
+20140522T142254:635363653746435840
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

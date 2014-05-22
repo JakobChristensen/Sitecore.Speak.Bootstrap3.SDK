@@ -1,7 +1,6 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{F71F205F-676D-4F0E-BEFC-A075A862B70E}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{F71F205F-676D-4F0E-BEFC-A075A862B70E}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Buttons" />
-    <Bootstrap3-Row ExtraSmall="*" Large="*" Medium="12" Small="*">
+    <Bootstrap3-Row Id="ButtonsRow" ExtraSmall="*" Large="*" Medium="12" Small="*">
       <Bootstrap3-PageHeader Text="Buttons" />
       <Bootstrap3-Heading2 />
       <Bootstrap3-Paragraph Text="Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only a and button elements for the best rendering." />

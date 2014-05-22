@@ -20,41 +20,40 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 3150
+content-length: 3311
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Buttons" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Large=*&amp;Medium=9&amp;Small=*" />
-    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Buttons" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Button%20styles%20can%20be%20applied%20to%20anything%20with%20the%20.btn%20class%20applied.%20However%2C%20typically%20you%27ll%20want%20to%20apply%20these%20to%20only%20a%20and%20button%20elements%20for%20the%20best%20rendering." ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Click=javascript%3Aalert(%27123%27)&amp;Text=Default&amp;Type=Default" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Primary&amp;Type=Primary" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Info&amp;Type=Info" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Success&amp;Type=Success" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Warning&amp;Type=Warning" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Danger&amp;Type=Danger" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Link&amp;Type=Link" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Buttons%20sizes" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Fancy%20larger%20or%20smaller%20buttons%3F%20Add%20.btn-lg%2C%20.btn-sm%2C%20or%20.btn-xs%20for%20additional%20sizes." ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Large&amp;Text=Large" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Default&amp;Text=Default" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Small&amp;Text=Small" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Mini&amp;Text=Extra%20Small" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Create%20block%20level%20buttons%E2%80%94those%20that%20span%20the%20full%20width%20of%20a%20parent%E2%80%94%20by%20adding%20.btn-block." ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsBlock=1&amp;Text=Primary&amp;Type=Primary" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsBlock=1&amp;Text=Button" ph=".Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Disabled%20state" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Add%20the%20disabled%20attribute%20to%20button%20buttons." ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsEnabled=False&amp;Text=Primary&amp;Type=Primary" ph=".Column1" />
-    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsEnabled=False&amp;Text=Button" ph=".Column1" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ButtonsRow&amp;ExtraSmall=*&amp;Large=*&amp;Medium=12&amp;Small=*" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Buttons" ph="ButtonsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="" ph="ButtonsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Button%20styles%20can%20be%20applied%20to%20anything%20with%20the%20.btn%20class%20applied.%20However%2C%20typically%20you%27ll%20want%20to%20apply%20these%20to%20only%20a%20and%20button%20elements%20for%20the%20best%20rendering." ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Click=javascript%3Aalert(%27123%27)&amp;Text=Default&amp;Type=Default" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Primary&amp;Type=Primary" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Info&amp;Type=Info" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Success&amp;Type=Success" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Warning&amp;Type=Warning" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Danger&amp;Type=Danger" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Text=Link&amp;Type=Link" ph="ButtonsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Buttons%20sizes" ph="ButtonsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Fancy%20larger%20or%20smaller%20buttons%3F%20Add%20.btn-lg%2C%20.btn-sm%2C%20or%20.btn-xs%20for%20additional%20sizes." ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Large&amp;Text=Large" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Default&amp;Text=Default" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Small&amp;Text=Small" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="Size=Mini&amp;Text=Extra%20Small" ph="ButtonsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Create%20block%20level%20buttons%E2%80%94those%20that%20span%20the%20full%20width%20of%20a%20parent%E2%80%94%20by%20adding%20.btn-block." ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsBlock=1&amp;Text=Primary&amp;Type=Primary" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsBlock=1&amp;Text=Button" ph="ButtonsRow.Column1" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Disabled%20state" ph="ButtonsRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Add%20the%20disabled%20attribute%20to%20button%20buttons." ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsEnabled=0&amp;Text=Primary&amp;Type=Primary" ph="ButtonsRow.Column1" />
+    <r id="{57DDF236-BAA2-4422-A4C1-75D27AED1184}" par="IsEnabled=0&amp;Text=Button" ph="ButtonsRow.Column1" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: db12e456-29f4-40a9-9dd0-16d4a8ba80c1
+revision: 4e6f725d-1ec5-433b-88c5-610c206a32a8
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -69,14 +68,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-db12e456-29f4-40a9-9dd0-16d4a8ba80c1
+4e6f725d-1ec5-433b-88c5-610c206a32a8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140407T114044:635324676446282779
+20140522T142436:635363654763282160
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

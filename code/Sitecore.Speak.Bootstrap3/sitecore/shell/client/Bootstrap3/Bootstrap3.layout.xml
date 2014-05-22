@@ -1,20 +1,11 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{A8A77E48-F45A-43AB-AF48-4795809AD841}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{A8A77E48-F45A-43AB-AF48-4795809AD841}">
   <Device Name="Internet Explorer" Layout="/sitecore/client/Bootstrap3/Layouts/Layouts/Bootstrap3-Layout">
     <PageCode Placeholder="Page.Code" />
+    <Bootstrap3-NavBar Placeholder="Page.Body" Fixed="Top" HasInnerContainer="True" ItemsDataSource="/sitecore/client/Bootstrap3/Content/Bootstrap3" BrandText="Bootstrap 3"/>
     <Bootstrap3-Container Placeholder="Page.Body" Id="Container">
-      <Bootstrap3-Row ExtraSmall="-,-" Id="Row" Large="-,-" Medium="4,8" Small="-,-">
-        <StaticJsonDataSource Id="StaticJsonDataSource1" JsonDataSource="{6FD56988-5AC6-47B1-B78F-BFBDE9829733}" JsonFieldName="Data" />
-        <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Id="Bootstrap3Table1" />
-        <Bootstrap3-Heading2 Id="Bootstrap3Heading1" Text="Striped" />
-        <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Id="Bootstrap3Table2" IsStriped="True" />
-        <Bootstrap3-Heading2 Id="Bootstrap3Heading2" Text="Bordered" />
-        <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Id="Bootstrap3Table3" IsBordered="True" />
-        <Bootstrap3-Heading2 Id="Bootstrap3Heading3" Text="Hover" />
-        <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Hover="True" Id="Bootstrap3Table4" />
-        <Bootstrap3-Heading2 Id="Bootstrap3Heading4" Text="Condensed" />
-        <Bootstrap3-Table Data="{Binding StaticJsonDataSource1.Data}" Id="Bootstrap3Table5" IsCondensed="True" />
-        <Bootstrap3-Button Id="Bootstrap3Button1" Text="Button OK" />
-      </Bootstrap3-Row>
+      <Bootstrap3-Row ExtraSmall="*" Id="Row" Large="*" Medium="12" Small="*">
+        <Bootstrap3-Jumbotron Heading="Sitecore SPEAK Bootstrap 3 SDK" />
+      </Bootstrap3-Row>                                                                             
     </Bootstrap3-Container>
   </Device>
 </Layout>

@@ -1,7 +1,6 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{9D9A69AF-6559-42F4-90D6-21C7891CC8F8}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{9D9A69AF-6559-42F4-90D6-21C7891CC8F8}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Navs" />
-    <Bootstrap3-Row>
+    <Bootstrap3-Row Id="NavsRow">
       <Bootstrap3-PageHeader Text="Nav: tabs, pills, and lists" />
       <Bootstrap3-Paragraph Text="All nav components here—tabs, pills, and lists—share the same base markup and styles through the .nav class." />
       <Bootstrap3-Heading3 Text="Basic tabs" />

@@ -1,8 +1,6 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{4F9687C0-BD99-4635-8A91-19AC0580D947}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{4F9687C0-BD99-4635-8A91-19AC0580D947}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Code" />
-
-    <Bootstrap3-Row ExtraSmall="*" Large="*" Medium="12" Small="*">
+    <Bootstrap3-Row Id="CodeRow" ExtraSmall="*" Large="*" Medium="12" Small="*">
       <Bootstrap3-PageHeader Text="Code" />
       
       <Bootstrap3-Heading2 Text="Inline" />

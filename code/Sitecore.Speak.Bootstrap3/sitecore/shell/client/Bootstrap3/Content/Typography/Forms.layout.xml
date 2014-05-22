@@ -1,6 +1,5 @@
 ﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{3660A9CF-559C-4399-8721-055216C66CF7}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Forms" />
 
     <Bootstrap3-Row ExtraSmall="*" Large="*" Medium="12" Small="*" Id="FormsRow">
       <Bootstrap3-PageHeader Text="Forms" />

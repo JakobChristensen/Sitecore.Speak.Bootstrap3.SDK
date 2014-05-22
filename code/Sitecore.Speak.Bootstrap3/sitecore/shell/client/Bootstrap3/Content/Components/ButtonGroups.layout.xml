@@ -1,4 +1,4 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{EEE528D0-BF8E-46BA-9885-FAB0AF1E4884}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{EEE528D0-BF8E-46BA-9885-FAB0AF1E4884}">
   <Device Name="Internet Explorer" Layout="/sitecore">
     <Bootstrap3-Row ExtraSmall="*" Small="*" Medium="12" Large="*" Id="ButtonGroupsRow">
       <Bootstrap3-PageHeader Text="Button groups" />

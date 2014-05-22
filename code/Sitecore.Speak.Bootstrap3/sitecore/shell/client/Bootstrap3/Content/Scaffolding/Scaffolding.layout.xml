@@ -1,7 +1,6 @@
 ﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{E355A183-5F30-41C0-A18C-6116A15BA224}">
   <Device Name="Internet Explorer" Layout="/sitecore/client/Bootstrap3/Layouts/Layouts/Bootstrap3-Layout">
     <PageCode Placeholder="Page.Code" />
-    <InlineStyle Placeholder="Page.Stylesheets" Style="section { padding-top:30px }" />
     <Bootstrap3-NavBar Placeholder="Page.Body" Fixed="Top" HasInnerContainer="True" />
     
     <Bootstrap3-Container Placeholder="Page.Body" Id="Container">

@@ -1,7 +1,5 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{3B59BA64-B119-4E61-B7D9-ABAE7A658B26}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{3B59BA64-B119-4E61-B7D9-ABAE7A658B26}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Blockquotes" />
-    
     <Bootstrap3-Row Id="BlockquoteRow" ExtraSmall="*" Large="*" Medium="12" Small="*">
       <Bootstrap3-Heading2 Text="Blockquotes" />
       <Bootstrap3-Paragraph Text="For quoting blocks of content from another source within your document." />

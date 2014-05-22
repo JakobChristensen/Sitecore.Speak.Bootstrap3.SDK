@@ -1,6 +1,5 @@
 ﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{C03AA4AB-7DBF-4865-97C8-B37B12009881}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Headings" />
     <Bootstrap3-Row ExtraSmall="*" Id="HeadingsRow" Large="*" Medium="12" Small="*">
       <Bootstrap3-Heading2 Text="Headings" />
       <Bootstrap3-Paragraph Text="All HTML headings, H1 through H6 are available." />

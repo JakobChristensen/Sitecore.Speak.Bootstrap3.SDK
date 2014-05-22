@@ -1,7 +1,5 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{103D5F27-FB31-4C04-8EE1-E7CA50BDDEBE}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{103D5F27-FB31-4C04-8EE1-E7CA50BDDEBE}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Abbreviations" />
-    
     <Bootstrap3-Row ExtraSmall="*" Id="AbbreviationRow" Large="*" Medium="12" Small="*">
       <Bootstrap3-Heading2 Id="Bootstrap3-Heading1" Text="Abbreviations" />
 

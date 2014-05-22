@@ -20,11 +20,10 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1459
+content-length: 1379
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Navbars" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=NavBarsRow" />
     <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Navbar" ph="NavBarsRow.Column1" />
     <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Basic%20navbar" ph="NavBarsRow.Column1" />
@@ -37,7 +36,7 @@ content-length: 1459
 ----version----
 language: en
 version: 1
-revision: 10f0e378-7340-4789-ad01-b5cff3f30ca7
+revision: 0e3ac1fe-65c6-4633-9104-2d35d52840d3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -52,14 +51,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-10f0e378-7340-4789-ad01-b5cff3f30ca7
+0e3ac1fe-65c6-4633-9104-2d35d52840d3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140408T142419:635325638592762402
+20140522T142226:635363653466987693
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

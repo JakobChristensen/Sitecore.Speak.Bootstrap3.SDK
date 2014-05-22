@@ -20,48 +20,47 @@ content-length: 4
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 4804
+content-length: 5072
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Emphasis" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Large=*&amp;Medium=12&amp;Small=*" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Emphasis" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Make%20use%20of%20HTML%27s%20default%20emphasis%20tags%20with%20lightweight%20styles." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Small" ph=".Column1" />
-    <r id="{1BCAFFEA-A078-4F94-A876-B1C573A79780}" par="Text=This%20line%20of%20text%20is%20meant%20to%20be%20treated%20as%20fine%20print." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Bold" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=For%20emphasizing%20a%20snippet%20of%20text%20with%20a%20heavier%20font-weight." ph=".Column1" />
-    <r id="{F31185D1-4D82-42F6-A4D7-40C7C22D8C61}" par="Text=The%20following%20snippet%20of%20text%20is%20rendered%20as%20bold%20text." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Italics" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=For%20emphasizing%20a%20snippet%20of%20text%20with%20italics." ph=".Column1" />
-    <r id="{A31FF717-B7A8-4268-B081-F184054A979B}" par="Text=The%20following%20snippet%20of%20text%20is%20rendered%20as%20italicized%20text." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Alignment%20classes" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Easily%20realign%20text%20to%20components%20with%20text%20alignment%20classes." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Left&amp;Text=Left%20aligned%20text." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Center&amp;Text=Center%20aligned%20text." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Right&amp;Text=Right%20aligned%20text." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Justify&amp;Text=Justified%20text." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Emphasis%20classes" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Convey%20meaning%20through%20color%20with%20a%20handful%20of%20emphasis%20utility%20classes." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Muted&amp;Text=Fusce%20dapibus%2C%20tellus%20ac%20cursus%20commodo%2C%20tortor%20mauris%20nibh." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Warning&amp;Text=Etiam%20porta%20sem%20malesuada%20magna%20mollis%20euismod." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Danger&amp;Text=Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Info&amp;Text=Aenean%20eu%20leo%20quam.%20Pellentesque%20ornare%20sem%20lacinia%20quam%20venenatis." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Success&amp;Text=Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula." ph=".Column1" />
-    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Contextual%20background" ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Similar%20to%20the%20contextual%20text%20color%20classes%2C%20easily%20set%20the%20background%20of%20an%20element%20to%20any%20contextual%20class.%20Anchor%20components%20will%20darken%20on%20hover%2C%20just%20like%20the%20text%20classes." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Primary&amp;Text=Fusce%20dapibus%2C%20tellus%20ac%20cursus%20commodo%2C%20tortor%20mauris%20nibh." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Warning&amp;Text=Etiam%20porta%20sem%20malesuada%20magna%20mollis%20euismod." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Danger&amp;Text=Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Info&amp;Text=Aenean%20eu%20leo%20quam.%20Pellentesque%20ornare%20sem%20lacinia%20quam%20venenatis." ph=".Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Success&amp;Text=Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula." ph=".Column1" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=EmphasisRow&amp;ExtraSmall=*&amp;Large=*&amp;Medium=12&amp;Small=*" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Emphasis" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Make%20use%20of%20HTML%27s%20default%20emphasis%20tags%20with%20lightweight%20styles." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Small" ph="EmphasisRow.Column1" />
+    <r id="{1BCAFFEA-A078-4F94-A876-B1C573A79780}" par="Text=This%20line%20of%20text%20is%20meant%20to%20be%20treated%20as%20fine%20print." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Bold" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=For%20emphasizing%20a%20snippet%20of%20text%20with%20a%20heavier%20font-weight." ph="EmphasisRow.Column1" />
+    <r id="{F31185D1-4D82-42F6-A4D7-40C7C22D8C61}" par="Text=The%20following%20snippet%20of%20text%20is%20rendered%20as%20bold%20text." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Italics" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=For%20emphasizing%20a%20snippet%20of%20text%20with%20italics." ph="EmphasisRow.Column1" />
+    <r id="{A31FF717-B7A8-4268-B081-F184054A979B}" par="Text=The%20following%20snippet%20of%20text%20is%20rendered%20as%20italicized%20text." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Alignment%20classes" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Easily%20realign%20text%20to%20components%20with%20text%20alignment%20classes." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Left&amp;Text=Left%20aligned%20text." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Center&amp;Text=Center%20aligned%20text." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Right&amp;Text=Right%20aligned%20text." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Alignment=Justify&amp;Text=Justified%20text." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Emphasis%20classes" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Convey%20meaning%20through%20color%20with%20a%20handful%20of%20emphasis%20utility%20classes." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Muted&amp;Text=Fusce%20dapibus%2C%20tellus%20ac%20cursus%20commodo%2C%20tortor%20mauris%20nibh." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Warning&amp;Text=Etiam%20porta%20sem%20malesuada%20magna%20mollis%20euismod." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Danger&amp;Text=Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Info&amp;Text=Aenean%20eu%20leo%20quam.%20Pellentesque%20ornare%20sem%20lacinia%20quam%20venenatis." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Emphasis=Success&amp;Text=Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula." ph="EmphasisRow.Column1" />
+    <r id="{A4B01F49-C6BF-4FAE-ACDE-3B2B6CE26EAD}" par="Text=Contextual%20background" ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Similar%20to%20the%20contextual%20text%20color%20classes%2C%20easily%20set%20the%20background%20of%20an%20element%20to%20any%20contextual%20class.%20Anchor%20components%20will%20darken%20on%20hover%2C%20just%20like%20the%20text%20classes." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Primary&amp;Text=Fusce%20dapibus%2C%20tellus%20ac%20cursus%20commodo%2C%20tortor%20mauris%20nibh." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Warning&amp;Text=Etiam%20porta%20sem%20malesuada%20magna%20mollis%20euismod." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Danger&amp;Text=Donec%20ullamcorper%20nulla%20non%20metus%20auctor%20fringilla." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Info&amp;Text=Aenean%20eu%20leo%20quam.%20Pellentesque%20ornare%20sem%20lacinia%20quam%20venenatis." ph="EmphasisRow.Column1" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Background=Success&amp;Text=Duis%20mollis%2C%20est%20non%20commodo%20luctus%2C%20nisi%20erat%20porttitor%20ligula." ph="EmphasisRow.Column1" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: b10bcd9b-4a8e-4c20-a45c-81bbca50e204
+revision: 5a535b45-644b-4366-8c59-8d41b59fd600
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -76,14 +75,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b10bcd9b-4a8e-4c20-a45c-81bbca50e204
+5a535b45-644b-4366-8c59-8d41b59fd600
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140407T121133:635324694930103916
+20140522T142513:635363655131488306
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

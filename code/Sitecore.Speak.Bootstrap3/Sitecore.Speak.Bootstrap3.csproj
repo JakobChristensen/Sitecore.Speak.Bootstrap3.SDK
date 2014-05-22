@@ -203,7 +203,6 @@
     </Content>
     <Content Include="sitecore\shell\client\Bootstrap3\Content\Typography\Headings.layout.xml" />
     <Content Include="sitecore\shell\client\Bootstrap3\Content\Typography\Lists.layout.xml" />
-    <Content Include="sitecore\shell\client\Bootstrap3\Content\Typography\Tables.layout.xml" />
     <Content Include="sitecore\shell\client\Bootstrap3\Content\Typography\Typography.layout.xml">
       <SubType>Designer</SubType>
     </Content>

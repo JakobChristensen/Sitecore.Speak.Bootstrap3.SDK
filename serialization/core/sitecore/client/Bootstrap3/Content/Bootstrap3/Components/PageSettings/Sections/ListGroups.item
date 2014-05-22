@@ -20,11 +20,10 @@ content-length: 4
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1873
+content-length: 1790
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=ListGroups" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Small=*&amp;Medium=12&amp;Large=*&amp;Id=ListGroupsRow" />
     <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=List%20groups" ph="ListGroupsRow.Column1" />
     <r id="{6D35CDDF-7900-4F49-94FB-34AD3C44E38A}" par="Text=List%20groups%20are%20a%20flexible%20and%20powerful%20component%20for%20displaying%20not%20only%20simple%20lists%20of%20elements%2C%20but%20complex%20ones%20with%20custom%20content." ph="ListGroupsRow.Column1" />
@@ -39,7 +38,7 @@ content-length: 1873
 ----version----
 language: en
 version: 1
-revision: fa34ebc8-eef6-49a1-9141-b224d5a4e728
+revision: 0a79b7a5-19a4-48c5-aa42-c7a73c39664f
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -54,14 +53,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fa34ebc8-eef6-49a1-9141-b224d5a4e728
+0a79b7a5-19a4-48c5-aa42-c7a73c39664f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140429T133457:635343752971942567
+20140522T142211:635363653311146564
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

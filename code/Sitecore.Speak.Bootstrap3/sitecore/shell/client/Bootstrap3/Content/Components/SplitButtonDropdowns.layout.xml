@@ -1,4 +1,4 @@
-﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/Sitecore72/core" ItemId="{34BB0517-1476-48E6-821B-5BAE73729C24}">
+﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{34BB0517-1476-48E6-821B-5BAE73729C24}">
   <Device Name="Internet Explorer" Layout="/sitecore">
     <Bootstrap3-Row Id="SplitButtonDropdownRow">
       <Bootstrap3-PageHeader Text="Split button dropdowns" />

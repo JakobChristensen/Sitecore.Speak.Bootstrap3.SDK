@@ -20,11 +20,10 @@ content-length: 4
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 2061
+content-length: 1984
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{11111111-1111-1111-1111-111111111111}">
-    <r id="{1E8AC2FD-2BF9-463A-ACEA-1E0BA43FD2E6}" par="AnchorName=Body" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=BodyRow&amp;Large=*&amp;Medium=12&amp;Small=*" />
     <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Text=Body%20copy" ph="BodyRow.Column1" />
     <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Nullam%20quis%20risus%20eget%20urna%20mollis%20ornare%20vel%20eu%20leo.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Nullam%20id%20dolor%20id%20nibh%20ultricies%20vehicula." ph="BodyRow.Column1" />
@@ -38,7 +37,7 @@ content-length: 2061
 ----version----
 language: en
 version: 1
-revision: 7404811b-5a84-49be-a084-433f49a099fc
+revision: e874218a-c49a-4b77-a4c3-b4724d991a0b
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -53,14 +52,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7404811b-5a84-49be-a084-433f49a099fc
+e874218a-c49a-4b77-a4c3-b4724d991a0b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20140429T130916:635343737562448305
+20140522T142419:635363654592091280
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,6 +1,5 @@
 ﻿<Layout xmlns="http://www.sitecore.net/Sitecore-Speak-Intellisense/SitecoreSpeak72/core" ItemId="{F8B4D820-E844-4BE8-9FD4-F2AC6D156296}">
   <Device Name="Internet Explorer" Layout="/sitecore">
-    <Anchor AnchorName="Body" />
     <Bootstrap3-Row ExtraSmall="*" Id="BodyRow" Large="*" Medium="12" Small="*">
       <Bootstrap3-Heading2 Text="Body copy" />
       <Bootstrap3-Paragraph Text="Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula." />

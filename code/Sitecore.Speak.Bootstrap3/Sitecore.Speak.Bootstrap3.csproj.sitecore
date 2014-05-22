@@ -34,9 +34,6 @@
     <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Lists.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{A0256A19-2954-4566-B06E-D77A35CAC811}</Item>
     </File>
-    <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Tables.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
-      <Item DatabaseName="core">{9276EE5B-B5B0-4137-A89F-A8BDD46CDAB3}</Item>
-    </File>
     <File Include="sitecore\shell\client\Bootstrap3\Content\Typography\Typography.layout.xml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="core">{A17360AE-E1A5-400E-A4FE-93192258F265}</Item>
     </File>
