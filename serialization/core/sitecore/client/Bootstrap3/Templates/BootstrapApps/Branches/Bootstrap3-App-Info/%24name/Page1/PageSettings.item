@@ -5,7 +5,7 @@ database: core
 path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/Page1/PageSettings
 parent: {4891943E-3F99-4296-A8AC-A28902077DE5}
 name: PageSettings
-master: {9B70AC53-133C-4F91-829C-E304742CA60B}
+master: {00000000-0000-0000-0000-000000000000}
 template: {E35EAA2D-EDEA-431C-A9E6-488272B53782}
 templatekey: PageSettings
 

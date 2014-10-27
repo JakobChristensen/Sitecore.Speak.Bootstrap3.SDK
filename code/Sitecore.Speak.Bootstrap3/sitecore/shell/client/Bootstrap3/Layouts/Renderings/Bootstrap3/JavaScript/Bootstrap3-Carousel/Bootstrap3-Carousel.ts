@@ -20,4 +20,4 @@ class Bootstrap3Carousel extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(Bootstrap3Carousel);
+Sitecore.Speak.component(Bootstrap3Carousel);

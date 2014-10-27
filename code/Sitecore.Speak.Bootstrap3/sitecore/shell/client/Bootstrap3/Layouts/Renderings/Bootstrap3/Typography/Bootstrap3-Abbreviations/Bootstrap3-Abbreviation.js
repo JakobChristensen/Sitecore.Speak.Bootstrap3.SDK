@@ -7,4 +7,4 @@
     return Bootstrap3Abbreviation;
 })();
 
-Sitecore.component(Bootstrap3Abbreviation, "Bootstrap3-Abbreviation");
+Sitecore.Speak.component(Bootstrap3Abbreviation, "Bootstrap3-Abbreviation");

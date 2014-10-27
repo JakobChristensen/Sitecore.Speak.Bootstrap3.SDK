@@ -14,4 +14,4 @@
   }
 }
 
-Sitecore.component(["jquery", "bootstrap"], Bootstrap3ButtonGroup, "Bootstrap3-ButtonGroup");
+Sitecore.Speak.component(["jquery", "bootstrap"], Bootstrap3ButtonGroup, "Bootstrap3-ButtonGroup");

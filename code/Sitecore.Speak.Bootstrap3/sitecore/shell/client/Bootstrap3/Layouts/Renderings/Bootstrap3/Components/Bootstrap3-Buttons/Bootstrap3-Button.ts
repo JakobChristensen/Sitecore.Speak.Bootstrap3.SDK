@@ -18,9 +18,9 @@ class Bootstrap3Button extends Speak.ControlBase {
   click() {
     var click = $(this.el).data("sc-click");
     if (click) {
-      Sitecore.Events.handleEvent(click, this);
+      Sitecore.Speak.Events.handleEvent(click, this);
     }
   }              
 }
 
-Sitecore.component(Bootstrap3Button, "Bootstrap3-Button");
+Sitecore.Speak.component(Bootstrap3Button, "Bootstrap3-Button");

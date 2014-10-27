@@ -49,4 +49,4 @@ class Bootstrap3Modal extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(["bootstrap"], Bootstrap3Modal, "Bootstrap3-Modal");
+Sitecore.Speak.component(["bootstrap"], Bootstrap3Modal, "Bootstrap3-Modal");

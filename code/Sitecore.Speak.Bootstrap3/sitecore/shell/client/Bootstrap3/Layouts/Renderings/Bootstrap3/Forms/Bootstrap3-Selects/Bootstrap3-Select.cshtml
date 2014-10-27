@@ -1,5 +1,4 @@
-﻿@using System.Web.Mvc
-@using Sitecore.Bootstrap
+﻿@using Sitecore.Bootstrap
 @using Sitecore.Data
 @using Sitecore.Mvc
 @model Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3Selects.Bootstrap3SelectRenderingModel
@@ -12,10 +11,11 @@
     Options().
     OptionsText("'DisplayName'").
     OptionsValue("'Value'").
-    Value("SelectedItem").
     Css("input-sm", "RelativeSize", "Small").
-    Css("input-lg", "RelativeSize", "Large");
+    Css("input-lg", "RelativeSize", "Large").
+    Value("SelectedItem");
 
+  Model.Attributes[HtmlTextWriterAttribute.Name] = Model.Name;
   if (Model.IsMultiple)
   {
     Model.Attributes[HtmlTextWriterAttribute.Multiple] = "multiple";

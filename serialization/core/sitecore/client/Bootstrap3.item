@@ -20,21 +20,21 @@ People/16x16/icecream.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 749
+content-length: 1023
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1&amp;ItemsDataSource=%7BA463BE78-118D-4FE6-9A22-2540B86C4928%7D&amp;BrandText=Bootstrap%203" ph="Page.Body" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=Row&amp;Large=*&amp;Medium=12&amp;Small=*" ph="Container.Content" />
-    <r id="{4CCD77D2-F560-47B1-A476-60E87A654356}" par="Heading=Sitecore%20SPEAK%20Bootstrap%203%20SDK" ph="Row.Column1" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{FA130D9B-0633-4451-ADE5-70714A5A26AC}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top&amp;BrandText=Bootstrap+3&amp;ItemsDataSource=%7bA463BE78-118D-4FE6-9A22-2540B86C4928%7d" ph="Page.Body" uid="{57914057-301C-4790-BA1C-5D0EA000AC35}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" uid="{04061D25-8B9B-4BB3-91F5-135FD792A14B}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row&amp;Large=*&amp;ExtraSmall=*&amp;Medium=12&amp;Small=*" ph="Container.Content" uid="{8911097D-F47D-4A9C-BCDC-12F5BFE0CDEA}" />
+    <r id="{4CCD77D2-F560-47B1-A476-60E87A654356}" par="Heading=Sitecore+SPEAK+Bootstrap+3+SDK" ph="Row.Column1" uid="{9116B69C-7703-4C23-AAA2-F77E6EE4666F}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 7183980f-1213-446c-a379-4f4897e80120
+revision: 1e6e99da-6434-4fb5-bd4e-8fba98afb39e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7183980f-1213-446c-a379-4f4897e80120
+1e6e99da-6434-4fb5-bd4e-8fba98afb39e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140522T143553:635363661533966545
+20141027T105120:635500038800461215Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -12,7 +12,7 @@
     Css("input-large", "RelativeSize", "Large").
     Css("uneditable-input", "IsUneditable");
 
-  Model.Attributes[HtmlTextWriterAttribute.Type] = Model.Type;
+  Model.Attributes[HtmlTextWriterAttribute.Name] = Model.Name;
   Model.Attributes["placeholder"] = Model.Watermark;
   Model.Attributes["rows"] = Model.Rows.ToString(CultureInfo.InvariantCulture);
 }              

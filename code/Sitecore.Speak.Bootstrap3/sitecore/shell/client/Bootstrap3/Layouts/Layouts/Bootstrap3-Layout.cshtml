@@ -1,26 +1,6 @@
-﻿@using Sitecore
-@using Sitecore.Configuration
-@using Sitecore.Mvc
-@using Sitecore.SecurityModel
+﻿@using Sitecore.Mvc
 @model Sitecore.Mvc.Presentation.RenderingModel
 @{
-  using (new SecurityDisabler())
-  {
-    if (ClientHost.Items.ContextItem != null)
-    {
-      if (!ClientHost.Items.ContextItem.Access.CanRead())
-      {
-        Response.Redirect(SpeakSettings.Login.LoginUrl);
-        return;
-      }
-    }
-    else
-    {
-      Response.Redirect(SpeakSettings.Login.LoginUrl);
-      return;
-    }
-  }
-
   var theme = string.Empty;
   var themeName = Model.PageItem["Theme"];
   if (!string.IsNullOrEmpty(themeName))

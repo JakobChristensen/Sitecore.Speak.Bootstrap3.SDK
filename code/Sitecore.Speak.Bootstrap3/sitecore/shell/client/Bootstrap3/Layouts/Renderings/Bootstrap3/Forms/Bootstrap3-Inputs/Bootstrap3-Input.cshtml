@@ -16,6 +16,7 @@
     type = "text";
   }
     
+  Model.Attributes[HtmlTextWriterAttribute.Name] = Model.Name;
   Model.Attributes[HtmlTextWriterAttribute.Type] = type;
   Model.Attributes[HtmlTextWriterAttribute.Value] = Model.Text;
   Model.Attributes["placeholder"] = Model.Watermark;

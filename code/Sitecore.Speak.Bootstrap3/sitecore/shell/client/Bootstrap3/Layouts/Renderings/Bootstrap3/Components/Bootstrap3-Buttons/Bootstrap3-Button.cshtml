@@ -22,7 +22,7 @@
     AppendIf(!Model.IsEnabled, "disabled").
     AppendIf(Model.IsBlock, "btn-block");
     
-  Model.DataBind.IsVisible().IsEnabled().Text().Click().
+  Model.DataBind.IsVisible().IsEnabled().Text().
     Css("btn-lg", "Size", "Large").
     Css("btn-sm", "Size", "Small").
     Css("btn-xs", "Size", "Mini").
@@ -33,6 +33,11 @@
     Css("btn-danger", "Type", "Danger").
     Css("btn-link", "Type", "Link").
     Css("btn-block", "IsBlock");
+
+  if (string.Compare(Model.ButtonType, "Submit", StringComparison.InvariantCultureIgnoreCase) != 0 && string.Compare(Model.ButtonType, "Reset", StringComparison.InvariantCultureIgnoreCase) != 0)
+  {
+    Model.DataBind.Click();
+  }
 
   Model.Attributes[HtmlTextWriterAttribute.Type] = Model.ButtonType;
 }                               

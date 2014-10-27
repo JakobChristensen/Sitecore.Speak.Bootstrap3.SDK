@@ -1,21 +1,16 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="BootstrapApplication.cs" company="Sitecore A/S">
-//   Copyright (C) Sitecore A/S
+//   Copyright (C) by Sitecore A/S
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 namespace Sitecore.Bootstrap
 {
   using System;
   using System.Collections.Generic;
-  using System.IO;
   using System.Linq;
-  using System.Web;
-  using System.Web.Mvc;
-
   using Sitecore.Data;
   using Sitecore.Data.Items;
   using Sitecore.Diagnostics;
-  using Sitecore.Mvc.Helpers;
   using Sitecore.Mvc.Presentation;
 
   /// <summary>The bootstrap application.</summary>
@@ -88,9 +83,7 @@ namespace Sitecore.Bootstrap
       return null;
     }
 
-    /// <summary>
-    /// Gets the menu items.
-    /// </summary>
+    /// <summary>Gets the menu items.</summary>
     /// <param name="model">The model.</param>
     /// <param name="itemsDataSource">The items data source.</param>
     /// <param name="defaultMenuName">Default name of the menu.</param>
@@ -131,9 +124,11 @@ namespace Sitecore.Bootstrap
       return item != null ? item.GetChildren() : Enumerable.Empty<Item>();
     }
 
-    /// <summary>
-    /// Gets the menu items.
-    /// </summary>
+    #endregion
+
+    #region Methods
+
+    /// <summary>Gets the menu items.</summary>
     /// <param name="model">The model.</param>
     /// <param name="itemsDataSource">The items data source.</param>
     /// <param name="app">The application.</param>

@@ -7,6 +7,7 @@
     
   Model.DataBind.IsVisible();
   
+  Model.Attributes["method"] = "post";
   Model.Attributes["action"] = Model.Action;
 
   IHtmlString content = new HtmlString(string.Empty);

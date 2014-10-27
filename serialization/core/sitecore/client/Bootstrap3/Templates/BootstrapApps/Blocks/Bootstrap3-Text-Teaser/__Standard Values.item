@@ -10,20 +10,6 @@ template: {B744CD1D-2CE9-4810-B133-F3ED78FC2D02}
 templatekey: Bootstrap3-Text-Teaser
 
 ----field----
-field: {E0A3E1EA-4607-4647-A5AD-3DDAD3FB9BFB}
-name: Alignment
-key: alignment
-content-length: 6
-
-Center
-----field----
-field: {C389140A-F3FB-4BCF-B88B-EFF451C41E8D}
-name: Columns
-key: columns
-content-length: 38
-
-{41FE4664-6564-4B65-B6EC-4710BA722FCD}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings

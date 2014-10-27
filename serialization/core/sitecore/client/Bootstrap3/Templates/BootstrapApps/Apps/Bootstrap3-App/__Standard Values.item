@@ -10,20 +10,6 @@ template: {3C554A04-6BBE-4A3B-8AEA-AFF59FBD20CF}
 templatekey: Bootstrap3-App
 
 ----field----
-field: {9B2447D8-4A61-4724-ABB4-BB85466A869F}
-name: NavIcon
-key: navicon
-content-length: 4
-
-home
-----field----
-field: {B269F472-4C0B-40DA-B7B7-FC849B495860}
-name: Columns
-key: columns
-content-length: 38
-
-{401AD292-838D-4AF5-B3F8-441981EA614C}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
@@ -52,20 +38,6 @@ language: en
 version: 1
 revision: 1ab89f25-5bc0-4e89-968e-a4f470a80a70
 
-----field----
-field: {E1B80479-A548-434F-AAB1-B09A5EF85845}
-name: BrandText
-key: brandtext
-content-length: 5
-
-$name
-----field----
-field: {64870103-92ED-4A9F-878C-2D798D93310E}
-name: NavDisplayName
-key: navdisplayname
-content-length: 5
-
-$name
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

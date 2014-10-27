@@ -8,4 +8,4 @@
     return Bootstrap3Alert;
 })();
 
-Sitecore.component(["jquery", "bootstrap"], Bootstrap3Alert, "Bootstrap3-Alert");
+Sitecore.Speak.component(["jquery", "bootstrap"], Bootstrap3Alert, "Bootstrap3-Alert");

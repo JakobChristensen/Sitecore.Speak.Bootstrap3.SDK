@@ -6,8 +6,15 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+
+#pragma warning disable 1591
+
 namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.Bootstrap3TextAreas
 {
+  #region Designer generated code
+
+  [System.Diagnostics.DebuggerStepThroughAttribute()]
+  [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
   public partial class Bootstrap3TextAreaRenderingModel : Sitecore.Mvc.Presentation.SpeakRenderingModel
   {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
@@ -20,7 +27,7 @@ namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.B
     public string Id { get { return this.GetString("Id"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
-    public string IsEnabled { get { return this.GetString("IsEnabled"); } }
+    public bool IsEnabled { get { return this.GetBool("IsEnabled", true); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public bool IsUneditable { get { return this.GetBool("IsUneditable"); } }
@@ -30,6 +37,9 @@ namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.B
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public string Label { get { return this.GetString("Label"); } }
+
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
+    public string Name { get { return this.GetString("Name"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public string RelativeSize { get { return this.GetString("RelativeSize"); } }
@@ -44,9 +54,10 @@ namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.B
     public string Tooltip { get { return this.GetString("Tooltip"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
-    public string Type { get { return this.GetString("Type"); } }
-
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public string Watermark { get { return this.GetString("Watermark"); } }
   }
+
+  #endregion
 }
+
+#pragma warning restore 1591

@@ -36,6 +36,9 @@ namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.B
     public string Label { get { return this.GetString("Label"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
+    public string Name { get { return this.GetString("Name"); } }
+
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public string RelativeSize { get { return this.GetString("RelativeSize"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]

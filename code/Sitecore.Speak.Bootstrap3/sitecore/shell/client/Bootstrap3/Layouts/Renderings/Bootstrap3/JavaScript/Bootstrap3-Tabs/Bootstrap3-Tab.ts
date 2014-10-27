@@ -13,4 +13,4 @@ class Bootstrap3Tab extends Speak.ControlBase {
   }
 }
 
-Sitecore.component(Bootstrap3Tab);
+Sitecore.Speak.component(Bootstrap3Tab);

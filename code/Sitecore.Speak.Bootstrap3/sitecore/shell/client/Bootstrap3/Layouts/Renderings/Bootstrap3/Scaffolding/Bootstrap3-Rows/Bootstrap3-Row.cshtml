@@ -3,7 +3,6 @@
 @{
   Model.Class = "row";
   Model.DataBind.IsVisible();
-  Model.HasNestedControls = true;
 }
 <div @Model.HtmlAttributes>
   @{ if (!string.IsNullOrEmpty(Model.PredefinedColumns))
@@ -26,11 +25,31 @@
   {
     ','
   };
+
+  var extraSmallValue = Model.ExtraSmall;
+  var smallValue = Model.Small;
+  var mediumValue = Model.Medium;
+  var largeValue = Model.Large;
+
+  if (string.IsNullOrEmpty(extraSmallValue))
+  {
+    extraSmallValue = mediumValue;
+  }
   
-  var extraSmall = Model.ExtraSmall.Split(comma, StringSplitOptions.RemoveEmptyEntries);
-  var small = Model.Small.Split(comma, StringSplitOptions.RemoveEmptyEntries);
-  var medium = Model.Medium.Split(comma, StringSplitOptions.RemoveEmptyEntries);
-  var large = Model.Large.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  if (string.IsNullOrEmpty(smallValue))
+  {
+    smallValue = mediumValue;
+  }
+  
+  if (string.IsNullOrEmpty(largeValue))
+  {
+    largeValue = mediumValue;
+  }
+  
+  var extraSmall = extraSmallValue .Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var small = smallValue.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var medium = mediumValue.Split(comma, StringSplitOptions.RemoveEmptyEntries);
+  var large = largeValue.Split(comma, StringSplitOptions.RemoveEmptyEntries);
 
   var extraSmallOffset = Model.ExtraSmallOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);
   var smallOffset = Model.SmallOffset.Split(comma, StringSplitOptions.RemoveEmptyEntries);

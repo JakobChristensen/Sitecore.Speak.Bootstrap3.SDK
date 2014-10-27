@@ -19,7 +19,7 @@ content-length: 1304
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
     <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Labels" uid="{2F2D23C2-C2F8-4642-916A-DD614D7146E7}" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=LabelRow&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;Small=*%2c*" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
-    <r id="{BAD027FC-5A8F-4071-8B34-0A4D89588142}" par="Id=Label&amp;IsVisible=%7bBinding+LabelIsVisible.isChecked%7d&amp;Text=%7bBinding+LabelTextBox.Text%7d&amp;Type=%7bBinding+LabelType.SelectedItem%7d" ph="LabelRow.Column1" uid="{5898131D-1FAB-43CE-9010-F46372F55307}" />
+    <r id="{BAD027FC-5A8F-4071-8B34-0A4D89588142}" par="Id=Label&amp;IsVisible=%7bBinding+LabelIsVisible.IsChecked%7d&amp;Text=%7bBinding+LabelTextBox.Text%7d&amp;Type=%7bBinding+LabelType.SelectedItem%7d" ph="LabelRow.Column1" uid="{5898131D-1FAB-43CE-9010-F46372F55307}" />
     <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=LabelTextBox&amp;Text=Label+text&amp;Label=Text%3a" ph="LabelRow.Column2" uid="{40C3AF8B-9CCD-4317-A165-64430E5E4358}" />
     <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="ItemsDataSource=%7b39EE4E42-163B-47B0-80D3-70E6E52BB0E1%7d&amp;Id=LabelType&amp;Label=Type%3a&amp;DisplayFieldName=%24itemName&amp;ValueFieldName=%24itemName" ph="LabelRow.Column2" uid="{E5697319-C6F2-4C22-961F-6D5073217168}" />
     <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=LabelIsVisible&amp;IsChecked=True&amp;Text=Is+Visible" ph="LabelRow.Column2" uid="{06141687-8921-4E93-9B00-748157AEBE05}" />
@@ -28,7 +28,7 @@ content-length: 1304
 ----version----
 language: en
 version: 1
-revision: 9924e8b0-4069-423e-99da-56d99bc34603
+revision: 0af05130-1e04-495a-a3af-28fb22093321
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -43,14 +43,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9924e8b0-4069-423e-99da-56d99bc34603
+0af05130-1e04-495a-a3af-28fb22093321
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140427T152637:635342091975695341
+20141027T112423:635500058639491985Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

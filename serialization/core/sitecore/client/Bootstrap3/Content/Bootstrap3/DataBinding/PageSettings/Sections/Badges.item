@@ -26,7 +26,7 @@ content-length: 963
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
     <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Badges" uid="{2F2D23C2-C2F8-4642-916A-DD614D7146E7}" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=BadgeRow&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;Small=*%2c*" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
-    <r id="{CDE75D82-99A3-49FF-87C6-58801D36A78D}" par="Text=%7bBinding+BadgeTextBox.Text%7d&amp;Id=Badge&amp;IsVisible=%7bBinding+BadgeIsVisible.isChecked%7d" ph="BadgeRow.Column1" uid="{2F9F460D-C8FA-47FF-A7AA-06919007DE2C}" />
+    <r id="{CDE75D82-99A3-49FF-87C6-58801D36A78D}" par="Text=%7bBinding+BadgeTextBox.Text%7d&amp;Id=Badge&amp;IsVisible=%7bBinding+BadgeIsVisible.IsChecked%7d" ph="BadgeRow.Column1" uid="{2F9F460D-C8FA-47FF-A7AA-06919007DE2C}" />
     <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=BadgeTextBox&amp;Text=3&amp;Label=Text%3a" ph="BadgeRow.Column2" uid="{35690265-A615-4CB0-80FB-3AEC088349FC}" />
     <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=BadgeIsVisible&amp;IsChecked=True&amp;Text=Is+Visible" ph="BadgeRow.Column2" uid="{06141687-8921-4E93-9B00-748157AEBE05}" />
   </d>
@@ -34,7 +34,7 @@ content-length: 963
 ----version----
 language: en
 version: 1
-revision: 8bc5c793-9914-4808-9890-17d8bae6a9a2
+revision: f08b0a5f-c865-438d-9f41-011ce257a5ac
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8bc5c793-9914-4808-9890-17d8bae6a9a2
+f08b0a5f-c865-438d-9f41-011ce257a5ac
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140427T152644:635342092041528538
+20141027T112606:635500059662679813Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

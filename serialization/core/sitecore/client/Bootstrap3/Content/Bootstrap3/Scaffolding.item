@@ -20,49 +20,49 @@ Applications/16x16/window_sidebar.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 4377
+content-length: 5835
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1" ph="Page.Body" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row" ph="Container.Content" />
-    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Default%20grid%20system" ph="Row.Column1" />
-    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading21&amp;Text=Grid%20system" ph="Row.Column1" />
-    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Id=Bootstrap3-Paragraph1&amp;Text=Bootstrap%20includes%20a%20responsive%2C%20mobile%20first%20fluid%20grid%20system%20that%20appropriately%20scales%20up%20to%2012%20columns%20as%20the%20device%20or%20viewport%20size%20increases.%20It%20includes%20predefined%20classes%20for%20easy%20layout%20options%2C%20as%20well%20as%20powerful%20mixins%20for%20generating%20more%20semantic%20layouts." ph="Row.Column1" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter9" ph="Row.Column1" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1&amp;Id=Row9&amp;Large=1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1&amp;Medium=1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1&amp;Small=1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1%2C1" ph="Containter9.Content" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Id=Bootstrap3-Well&amp;Text=1" ph="Row9.Column1" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column2" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column3" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter234" ph="Row.Column1" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=3%2C4%2C5&amp;Id=Row234&amp;Large=3%2C4%2C5&amp;Medium=3%2C4%2C5&amp;Small=3%2C4%2C5" ph="Containter234.Content" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=3" ph="Row234.Column1" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=4" ph="Row234.Column2" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=5" ph="Row234.Column3" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter45" ph="Row.Column1" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=6%2C6&amp;Id=Row45&amp;Large=6%2C6&amp;Medium=6%2C6&amp;Small=6%2C6" ph="Containter45.Content" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=6" ph="Row45.Column1" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=6" ph="Row45.Column2" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=ContainterFull" ph="Row.Column2" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=RowFull&amp;Large=*&amp;Medium=12&amp;Small=*" ph="ContainterFull.Content" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=12" ph="RowFull.Column1" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column4" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column5" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column6" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column7" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column8" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column9" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column10" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column11" />
-    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Alignment=Center&amp;Text=1" ph="Row9.Column12" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{CAE2D736-F35B-4D03-8F8E-0AEACDC7DAEF}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top" ph="Page.Body" uid="{61B4A196-8CC5-4D93-AF98-35B41D4BB928}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container" ph="Page.Body" uid="{C5F73CD2-2036-4520-A419-76152EA31C94}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row" ph="Container.Content" uid="{6AF149C0-FDA2-48A7-882C-CC455838FF3C}" />
+    <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Id=Bootstrap3-PageHeader1&amp;Text=Default+grid+system" ph="Row.Column1" uid="{2242D4B4-AE78-4E7F-9C15-BA88E4F74643}" />
+    <r id="{999A4B35-A6E4-42ED-95CB-88BD8A3DEE08}" par="Id=Bootstrap3-Heading21&amp;Text=Grid+system" ph="Row.Column1" uid="{F307DB35-69A9-4CD5-8447-702FAD722B3E}" />
+    <r id="{AAC4C147-02E4-4628-9864-C4AAD848AE18}" par="Text=Bootstrap+includes+a+responsive%2c+mobile+first+fluid+grid+system+that+appropriately+scales+up+to+12+columns+as+the+device+or+viewport+size+increases.+It+includes+predefined+classes+for+easy+layout+options%2c+as+well+as+powerful+mixins+for+generating+more+semantic+layouts.&amp;Id=Bootstrap3-Paragraph1" ph="Row.Column1" uid="{B76EA743-C9FA-406B-9037-9DD615E60DDC}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter9" ph="Row.Column1" uid="{2C453534-AC92-4338-87FA-4073B845295B}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row9&amp;Large=1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1&amp;ExtraSmall=1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1&amp;Medium=1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1&amp;Small=1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1%2c1" ph="Containter9.Content" uid="{7D4CC320-C651-4E68-A9FB-585FCE010CEB}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Id=Bootstrap3-Well&amp;Text=1&amp;Alignment=Center" ph="Row9.Column1" uid="{451E1DA0-F966-496B-A05D-EFBFBF8D80EA}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column2" uid="{C4A1366A-3131-45A9-98E0-3137DB2CCAA5}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column3" uid="{61BBA4C4-2573-42BA-9100-473206DCE5A1}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter234" ph="Row.Column1" uid="{EE61C31A-AF13-4D38-897B-F6B04A26CAC3}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row234&amp;Large=3%2c4%2c5&amp;ExtraSmall=3%2c4%2c5&amp;Medium=3%2c4%2c5&amp;Small=3%2c4%2c5" ph="Containter234.Content" uid="{6A9FBF7E-2D9C-4BAD-8D72-2849D7178432}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=3&amp;Alignment=Center" ph="Row234.Column1" uid="{9B35BBA8-E32C-4128-A233-992EF20CFC37}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=4&amp;Alignment=Center" ph="Row234.Column2" uid="{F3773820-3BD3-45DB-8276-8B28DCC035AF}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=5&amp;Alignment=Center" ph="Row234.Column3" uid="{A717AF39-EBA7-47EC-A135-CC99180A2F9D}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Containter45" ph="Row.Column1" uid="{7B30978D-26E5-4F56-8D64-886419190FFB}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row45&amp;Large=6%2c6&amp;ExtraSmall=6%2c6&amp;Medium=6%2c6&amp;Small=6%2c6" ph="Containter45.Content" uid="{FFFC0621-D719-4ADC-8FFA-E3FC2547B975}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=6&amp;Alignment=Center" ph="Row45.Column1" uid="{9B3D0497-7FBC-4D50-93A4-6C97B0275165}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=6&amp;Alignment=Center" ph="Row45.Column2" uid="{051FEBCC-1523-4A30-AADB-F07FECDE80F4}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=ContainterFull" ph="Row.Column2" uid="{5E00897F-1F88-4B8B-8655-E7692F056BD7}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=RowFull&amp;Large=*&amp;ExtraSmall=*&amp;Medium=12&amp;Small=*" ph="ContainterFull.Content" uid="{CECA7EB1-D326-4235-B20B-91885DD25A2E}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=12&amp;Alignment=Center" ph="RowFull.Column1" uid="{2667A33B-7F31-4D3A-B813-A83ADD86EA0B}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column4" uid="{0169458B-7EAF-4C68-A11A-19C33B6F9914}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column5" uid="{5A29CA85-99E3-4F26-A350-C6ECA7458AA7}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column6" uid="{60540433-704B-48AA-95A2-3C46A7A91E9C}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column7" uid="{3DD372E4-B0D4-4FC3-9614-346E1E5EA94C}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column8" uid="{EDCFB0FE-BF21-46BB-9681-7E03331F52FE}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column9" uid="{C0D47C08-5D8F-4E3F-91E8-69B16DD041CD}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column10" uid="{6FE749A7-1C23-4F8F-AC44-CC00D23A4EC1}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column11" uid="{2EA8FE3C-8FF1-44D0-80F5-3419E217BEC0}" />
+    <r id="{8E2BB768-1332-4A79-B877-27E5C7CF69D9}" par="Text=1&amp;Alignment=Center" ph="Row9.Column12" uid="{17B21738-D01C-49A9-ABC4-1378CED79E27}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 760b088c-b9bf-4398-b4a9-b6498598c0c5
+revision: eccc44c2-f73b-4659-976e-219437ebde5d
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -84,14 +84,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-760b088c-b9bf-4398-b4a9-b6498598c0c5
+eccc44c2-f73b-4659-976e-219437ebde5d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140522T142354:635363654342314267
+20141027T105146:635500039067623609Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

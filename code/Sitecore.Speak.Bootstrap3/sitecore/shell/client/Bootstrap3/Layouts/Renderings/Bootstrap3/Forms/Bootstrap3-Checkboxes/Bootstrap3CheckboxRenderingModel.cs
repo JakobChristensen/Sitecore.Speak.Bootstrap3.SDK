@@ -39,6 +39,9 @@ namespace Sitecore.Shell.Client.Bootstrap3.Layouts.Renderings.Bootstrap3.Forms.B
     public bool IsVisible { get { return this.GetBool("IsVisible", true); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
+    public string Name { get { return this.GetString("Name"); } }
+
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]
     public string Text { get { return this.GetString("Text"); } }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("SitecoreRocks", "1.0.0.0")]

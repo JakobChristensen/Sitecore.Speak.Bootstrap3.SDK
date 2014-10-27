@@ -1,4 +1,6 @@
-﻿class Bootstrap3Select {
+﻿import Speak = require("sitecore/shell/client/Speak/Assets/lib/core/1.2/SitecoreSpeak");
+
+class Bootstrap3Select extends Speak.ControlBase {
 
   // #region Public Properties
 
@@ -11,14 +13,36 @@
   public SelectedItem: string;
   public Text: string;
   public Tooltip: string;
+  private initialValue: string;
 
-  // #endregion
+  // #endregion            
 
   initialize(initial: ComponentOptions, app: Application, el: Element, sitecore: SitecoreSpeak) {
-    _.each($(el).children(), (e: Element) => {
-      this.Items.push({ DisplayName: $(e).text().trim(), Value: $(e).attr("value").trim() });
-    });
+    var children = $(el).children();
+    if (children.length > 0) {
+      _.each($(el).children(), (e: Element) => {
+        this.Items.push({ DisplayName: $(e).text().trim(), Value: $(e).attr("value").trim() });
+      });                           
+    }
+
+    this.on("change:SelectedItem", (newValue) => this.setSelectedItem(newValue));
+
+    // this is a hack to prevent Items bindings from overwriting the the SelectedItem binding
+    setTimeout(() => {
+      if (this.initialValue != null) {
+        this.SelectedItem = this.initialValue;
+      }
+    }, 1);
+  }
+
+  initialized() {
+  }
+
+  setSelectedItem(newValue: any) {
+    if (this.initialValue == null) {
+      this.initialValue = newValue;
+    }
   }
 }
 
-Sitecore.component(["jquery", "underscore"], Bootstrap3Select, "Bootstrap3-Select");
+Sitecore.Speak.component(["jquery", "underscore"], Bootstrap3Select, "Bootstrap3-Select");

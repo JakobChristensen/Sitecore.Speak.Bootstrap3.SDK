@@ -9,4 +9,4 @@
   }
 }
 
-Sitecore.component(["jquery", "bootstrap"], Bootstrap3Nav, "Bootstrap3-Nav");
+Sitecore.Speak.component(["jquery", "bootstrap"], Bootstrap3Nav, "Bootstrap3-Nav");

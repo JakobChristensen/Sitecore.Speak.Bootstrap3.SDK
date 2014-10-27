@@ -10,20 +10,6 @@ template: {D275A1DF-8549-4657-A43E-0A1751D17454}
 templatekey: Bootstrap3-Block-Image
 
 ----field----
-field: {91FF080F-E9E8-4B6F-A792-98CD3F5612C9}
-name: Shape
-key: shape
-content-length: 9
-
-Thumbnail
-----field----
-field: {F6865982-30A7-4554-A38F-B01E08C9F604}
-name: Columns
-key: columns
-content-length: 38
-
-{9758A2AE-70D9-4832-A1F6-984E230F7240}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings

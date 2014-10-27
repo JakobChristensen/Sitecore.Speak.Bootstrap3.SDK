@@ -20,12 +20,6 @@
     source = root.GetAttributeValue("mediaid");
   }
 
-  var mediaItem = this.Model.Rendering.RenderingItem.Database.GetItem(source);
-  if (mediaItem == null)
-  {
-    return;
-  }
-
   var options = new MediaUrlOptions(this.Model.Rendering.RenderingItem.Database);
   if (Model.Width > 0)
   {
@@ -50,7 +44,15 @@
 
   Model.DataBind.IsVisible();
 
-  Model.Attributes["src"] = MediaManager.GetMediaUrl(new MediaItem(mediaItem), options);
+  var src = Model.Source;
+  
+  var mediaItem = this.Model.Rendering.RenderingItem.Database.GetItem(source);
+  if (mediaItem != null)
+  {
+    src = MediaManager.GetMediaUrl(new MediaItem(mediaItem), options);
+  }
+
+  Model.Attributes["src"] = src;
   Model.Attributes["alt"] = Model.Alt;
 }              
 <img @Model.HtmlAttributes />

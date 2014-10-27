@@ -27,21 +27,21 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 729
+content-length: 1013
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1" ph="Page.Body" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container1" ph="Page.Body" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="ExtraSmall=*&amp;Id=Row1&amp;Large=*&amp;Medium=12&amp;Small=*" ph="Container1.Content" />
-    <r id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" ds="{13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}" par="After=%3C%2Fsection%3E&amp;Before=%3Csection%3E&amp;UsePlaceholders=1" ph="Row1.Column1" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{F6C65C27-1E8B-4B62-ACD7-7BE92548CC05}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top" ph="Page.Body" uid="{DCA0131D-697B-4B97-8F55-208DA1F2F872}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Container1" ph="Page.Body" uid="{C701EA56-685E-4840-AB56-B1F33DD755F4}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=Row1&amp;Large=*&amp;ExtraSmall=*&amp;Medium=12&amp;Small=*" ph="Container1.Content" uid="{D38A64F8-78C4-4DDF-8BF7-E64CFA8A5A25}" />
+    <r ds="{13EDDF41-28E7-4873-B67E-DA0B3B62C2D0}" id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" par="After=%3c%2fsection%3e&amp;Before=%3csection%3e&amp;UsePlaceholders=1" ph="Row1.Column1" uid="{EE0DB8D8-AFA2-4A24-B182-AC1381FA53F8}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: e8aae635-c40d-4041-8772-c42b313610d1
+revision: 5623a91e-d306-49e3-a958-61cd72c94dc7
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -63,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e8aae635-c40d-4041-8772-c42b313610d1
+5623a91e-d306-49e3-a958-61cd72c94dc7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140522T142921:635363657614451554
+20141027T105600:635500041607251296Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

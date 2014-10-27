@@ -8,4 +8,4 @@
     return Bootstrap3ButtonDropdown;
 })();
 
-Sitecore.component(["jquery", "bootstrap"], Bootstrap3ButtonDropdown, "Bootstrap3-ButtonDropdown");
+Sitecore.Speak.component(["jquery", "bootstrap"], Bootstrap3ButtonDropdown, "Bootstrap3-ButtonDropdown");

@@ -21,5 +21,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return Bootstrap3Carousel;
     })(Speak.ControlBase);
 
-    Sitecore.component(Bootstrap3Carousel);
+    Sitecore.Speak.component(Bootstrap3Carousel);
 });

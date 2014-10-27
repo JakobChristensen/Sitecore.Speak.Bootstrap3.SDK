@@ -5,7 +5,7 @@ database: core
 path: /sitecore/client/Bootstrap3/Templates/BootstrapApps/Branches/Bootstrap3-App-Info/$name/Page2/PageSettings/Navigation
 parent: {A19AB0C3-A864-4CC7-B4EF-603F9AA12250}
 name: Navigation
-master: {9B70AC53-133C-4F91-829C-E304742CA60B}
+master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
 

@@ -18,11 +18,11 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         Bootstrap3SplitButton.prototype.click = function () {
             var click = $(this.el).data("sc-click");
             if (click) {
-                Sitecore.Events.handleEvent(click, this);
+                Sitecore.Speak.Events.handleEvent(click, this);
             }
         };
         return Bootstrap3SplitButton;
     })(Speak.ControlBase);
 
-    Sitecore.component(Bootstrap3SplitButton, "Bootstrap3-SplitButton");
+    Sitecore.Speak.component(Bootstrap3SplitButton, "Bootstrap3-SplitButton");
 });

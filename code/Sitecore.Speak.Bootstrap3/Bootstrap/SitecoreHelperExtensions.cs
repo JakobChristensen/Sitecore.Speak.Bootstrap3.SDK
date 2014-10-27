@@ -1,10 +1,7 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="HtmlHelperExtensions.cs" company="">
-//   
+// <copyright file="SitecoreHelperExtensions.cs" company="Sitecore A/S">
+//   Copyright (C) by Sitecore A/S
 // </copyright>
-// <summary>
-//   Defines the HtmlHelperExtensions class.
-// </summary>
 // --------------------------------------------------------------------------------------------------------------------
 namespace Sitecore.Bootstrap
 {
@@ -13,8 +10,6 @@ namespace Sitecore.Bootstrap
   using System.IO;
   using System.Web;
   using System.Web.Mvc;
-
-  using Sitecore;
   using Sitecore.Configuration;
   using Sitecore.Data;
   using Sitecore.Data.Items;
@@ -168,9 +163,7 @@ namespace Sitecore.Bootstrap
       return new HtmlString("href=\"" + HttpUtility.HtmlAttributeEncode(click) + "\"");
     }
 
-    /// <summary>
-    /// Icons the specified HTML helper.
-    /// </summary>
+    /// <summary>Icons the specified HTML helper.</summary>
     /// <param name="htmlHelper">The HTML helper.</param>
     /// <param name="item">The item.</param>
     /// <param name="iconFieldName">Name of the icon field.</param>
@@ -252,6 +245,7 @@ namespace Sitecore.Bootstrap
           result.WriteLine("</li>");
         }
         */
+
         result.WriteLine("<li role=\"presentation\">");
         result.WriteLine("  <a tabindex=\"-1\" {0}>{1} {2}</a>", href, icon, displayName);
         result.WriteLine("</li>");
@@ -264,16 +258,19 @@ namespace Sitecore.Bootstrap
 
     #region Methods
 
-    /// <summary>Gets the icon.</summary>
+    /// <summary>
+    /// Gets the icon.
+    /// </summary>
     /// <param name="item">The item.</param>
     /// <param name="fieldName">Name of the field.</param>
-    /// <param name="additionalClassName"></param>
+    /// <param name="additionalClassName">Name of the additional class.</param>
     /// <returns>Returns the string.</returns>
     [NotNull]
-    private static string GetIconTag([NotNull] Item item, [NotNull] string fieldName, string additionalClassName)
+    private static string GetIconTag([NotNull] Item item, [NotNull] string fieldName, [NotNull] string additionalClassName)
     {
       Debug.ArgumentNotNull(item, "item");
       Debug.ArgumentNotNull(fieldName, "fieldName");
+      Debug.ArgumentNotNull(additionalClassName, "additionalClassName");
 
       if (string.IsNullOrEmpty(fieldName))
       {

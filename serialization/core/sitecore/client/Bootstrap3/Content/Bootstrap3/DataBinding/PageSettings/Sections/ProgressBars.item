@@ -26,7 +26,7 @@ content-length: 1855
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
     <r id="{7E178D66-073C-4605-82AA-B7C3CE8B005A}" par="Text=Progress+bars" uid="{44C2F0E4-27F1-488B-ACF0-58E02FFC654E}" />
     <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ProgressBarRow&amp;Large=*%2c*&amp;ExtraSmall=*%2c*&amp;Medium=8%2c4&amp;Small=*%2c*" uid="{4ECDF9C4-45D1-40D1-9A47-6DBC1375CE1B}" />
-    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar1&amp;IsActive=%7bBinding+ProgressBarIsActive.isChecked%7d&amp;IsVisible=%7bBinding+ProgressBarIsVisible.isChecked%7d&amp;IsStriped=%7bBinding+ProgressBarIsStriped.isChecked%7d&amp;Type=%7bBinding+ProgressBarType.SelectedItem%7d&amp;Value=%7bBinding+ProgressBarValue.Text%7d" ph="ProgressBarRow.Column1" uid="{8FAB0504-A7DF-478E-8B86-B47F7D553F90}" />
+    <r id="{1BB5A6B4-FBBF-4823-A931-12641674E2C5}" par="Id=Bootstrap3-ProgressBar1&amp;IsActive=%7bBinding+ProgressBarIsActive.IsChecked%7d&amp;IsVisible=%7bBinding+ProgressBarIsVisible.IsChecked%7d&amp;IsStriped=%7bBinding+ProgressBarIsStriped.IsChecked%7d&amp;Type=%7bBinding+ProgressBarType.SelectedItem%7d&amp;Value=%7bBinding+ProgressBarValue.Text%7d" ph="ProgressBarRow.Column1" uid="{8FAB0504-A7DF-478E-8B86-B47F7D553F90}" />
     <r id="{3E59E78E-6FA5-4355-B3C4-49577C4D1E0D}" par="Id=ProgressBarValue&amp;Text=40&amp;Label=Value%3a" ph="ProgressBarRow.Column2" uid="{A9C205ED-C203-479D-9E6F-038A20FCE9F9}" />
     <r id="{B0FACC2D-64F5-4B02-8ACD-120630F9E3EB}" par="ItemsDataSource=%7bE492341C-1EBD-4D06-88C6-E4D237AFB1B6%7d&amp;Id=ProgressBarType&amp;Label=Type%3a&amp;DisplayFieldName=%24itemName&amp;ValueFieldName=%24itemName" ph="ProgressBarRow.Column2" uid="{E5697319-C6F2-4C22-961F-6D5073217168}" />
     <r id="{0FB74AD1-9D78-4CFB-89DA-DED2D33C1940}" par="Id=ProgressBarIsStriped&amp;Text=Is+Striped" ph="ProgressBarRow.Column2" uid="{06141687-8921-4E93-9B00-748157AEBE05}" />
@@ -37,7 +37,7 @@ content-length: 1855
 ----version----
 language: en
 version: 1
-revision: fd491602-c23a-4cd8-bd89-ddc800813e14
+revision: 1b345900-1085-4231-bcf4-1c9611d4be7d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -52,14 +52,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fd491602-c23a-4cd8-bd89-ddc800813e14
+1b345900-1085-4231-bcf4-1c9611d4be7d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140427T152709:635342092292177668
+20141027T112902:635500061426745812Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

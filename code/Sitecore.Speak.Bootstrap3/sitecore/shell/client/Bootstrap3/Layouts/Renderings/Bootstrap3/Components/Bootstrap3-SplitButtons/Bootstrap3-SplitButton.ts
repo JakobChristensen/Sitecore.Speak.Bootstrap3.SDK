@@ -14,9 +14,9 @@ class Bootstrap3SplitButton extends Speak.ControlBase {
   click() {
     var click = $(this.el).data("sc-click");
     if (click) {
-      Sitecore.Events.handleEvent(click, this);
+      Sitecore.Speak.Events.handleEvent(click, this);
     }
   }              
 }
 
-Sitecore.component(Bootstrap3SplitButton, "Bootstrap3-SplitButton");
+Sitecore.Speak.component(Bootstrap3SplitButton, "Bootstrap3-SplitButton");

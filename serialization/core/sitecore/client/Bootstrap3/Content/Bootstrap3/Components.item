@@ -27,21 +27,21 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 767
+content-length: 1051
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{99C9A84D-AA93-4B2C-ADE1-D349B804590D}">
-    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="" ph="Page.Code" />
-    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="Fixed=Top&amp;HasInnerContainer=1" ph="Page.Body" />
-    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Bootstrap3-Container" ph="Page.Body" />
-    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ComponentsRow&amp;ExtraSmall=*&amp;Large=*&amp;Medium=12&amp;Small=*" ph="Bootstrap3-Container.Content" />
-    <r id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" ds="{77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}" par="After=%3C%2Fsection%3E&amp;Before=%3Csection%3E&amp;UsePlaceholders=1" ph="ComponentsRow.Column1" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d" ph="Page.Code" uid="{C5BD6BCE-74D5-48DE-A2FE-F33A38882811}" />
+    <r id="{700DA48B-CB23-4459-8569-9E8241A2DCA6}" par="HasInnerContainer=1&amp;Fixed=Top" ph="Page.Body" uid="{6C1B1074-C3D9-489A-9FAA-08E748DA027B}" />
+    <r id="{E6FC07D8-2303-4D10-8380-573CCBC82B89}" par="Id=Bootstrap3-Container" ph="Page.Body" uid="{FCD9335E-D2D5-4312-824A-8499DB4128A4}" />
+    <r id="{09459429-2686-4C46-8E0E-E7055C6FF833}" par="Id=ComponentsRow&amp;Large=*&amp;ExtraSmall=*&amp;Medium=12&amp;Small=*" ph="Bootstrap3-Container.Content" uid="{7A641B98-ADF0-4393-A32F-F2FF3169F061}" />
+    <r ds="{77EF9B0A-4A82-4F51-B7A3-9E9DF173E271}" id="{D569AC90-6D70-4714-B31A-1F959BF4BD08}" par="After=%3c%2fsection%3e&amp;Before=%3csection%3e&amp;UsePlaceholders=1" ph="ComponentsRow.Column1" uid="{A3C521C4-3190-465D-A729-8705FF7083B5}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 1fcc239d-06a5-405e-aff7-c8142026f751
+revision: 7ca1ce72-be9d-4744-9f39-eac6a5e5f207
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -63,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1fcc239d-06a5-405e-aff7-c8142026f751
+7ca1ce72-be9d-4744-9f39-eac6a5e5f207
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20140429T132559:635343747593905516
+20141027T105539:635500041396940633Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -10,13 +10,6 @@ template: {715687B5-4E4B-4929-BB42-47E710FDF3BD}
 templatekey: Bootstrap3-Page-Blocks
 
 ----field----
-field: {D640DBC3-8633-43E3-9652-29E56A26D630}
-name: Columns
-key: columns
-content-length: 38
-
-{401AD292-838D-4AF5-B3F8-441981EA614C}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings

@@ -18,5 +18,5 @@ define(["require", "exports", "sitecore/shell/client/Speak/Assets/lib/core/1.2/S
         return Bootstrap3Tab;
     })(Speak.ControlBase);
 
-    Sitecore.component(Bootstrap3Tab);
+    Sitecore.Speak.component(Bootstrap3Tab);
 });

@@ -10,13 +10,6 @@ template: {D078AE48-624D-4954-8184-095950520046}
 templatekey: Bootstrap3-Block-Text
 
 ----field----
-field: {FD8A299A-7DA5-4688-8B03-1DE703CDC690}
-name: Columns
-key: columns
-content-length: 38
-
-{70D22590-8D5F-49B2-B66A-A3455845BE5C}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
@@ -39,13 +32,6 @@ language: en
 version: 1
 revision: d5dda1b9-b6d1-47c7-9ae7-b277ba341025
 
-----field----
-field: {77A5574F-6FF6-424C-AF0F-31837953F414}
-name: Heading
-key: heading
-content-length: 5
-
-$name
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

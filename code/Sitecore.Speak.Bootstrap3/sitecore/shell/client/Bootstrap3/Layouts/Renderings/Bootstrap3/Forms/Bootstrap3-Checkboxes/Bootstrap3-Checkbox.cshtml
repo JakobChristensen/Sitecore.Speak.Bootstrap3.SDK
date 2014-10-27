@@ -4,6 +4,7 @@
 @{
   Model.Class = Model.IsInline ? "checkbox-inline" : "checkbox";
   Model.DataBind.IsVisible();
+  Model.Attributes[HtmlTextWriterAttribute.Name] = Model.Name;
 }
 @if (Model.IsInline)
 {

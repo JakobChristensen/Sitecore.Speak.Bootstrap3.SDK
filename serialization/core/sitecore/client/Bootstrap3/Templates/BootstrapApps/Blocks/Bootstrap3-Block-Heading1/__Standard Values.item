@@ -26,13 +26,6 @@ version: 1
 revision: 92412bab-297e-482c-a7d4-b86ca2a8d987
 
 ----field----
-field: {875BC563-A045-4EF9-81F5-783D65EEAEFB}
-name: Heading
-key: heading
-content-length: 5
-
-$name
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
